@@ -3,15 +3,16 @@
 import * as React from "react";
 import Link from "next/link";
 import { Menu } from "lucide-react";
+import { ModeToggle } from "../ModeToggler/modeToggler";
 
 export default function Navbar() {
   const [state, setState] = React.useState(false);
 
   const menus = [
-    { title: "Home", path: "/your-path" },
-    { title: "Blog", path: "/your-path" },
-    { title: "About Us", path: "/your-path" },
-    { title: "Contact Us", path: "/your-path" },
+    { title: "Home", path: "/" },
+    { title: "Plugins", path: "/hub/plugins" },
+    { title: "Keys Rig", path: "/hub/keysrig" },
+    { title: "Contact Us", path: "/hub/your-path" },
   ];
 
   return (
@@ -19,7 +20,7 @@ export default function Navbar() {
       <div className="items-center px-4 max-w-screen-xl mx-auto md:flex md:px-8">
         <div className="flex items-center justify-between py-3 md:py-5 md:block">
           <Link href="/">
-            <h1 className="text-3xl font-bold text-purple-600">Logo</h1>
+            <h1 className="text-3xl font-bold text-purple-600">Keys Rig</h1>
           </Link>
           <div className="md:hidden">
             <button
