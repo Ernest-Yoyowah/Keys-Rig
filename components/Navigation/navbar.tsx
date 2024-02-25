@@ -4,6 +4,7 @@ import * as React from "react";
 import Link from "next/link";
 import { Menu } from "lucide-react";
 import { ModeToggle } from "../ModeToggler/modeToggler";
+import Image from "next/image";
 
 export default function Navbar() {
   const [state, setState] = React.useState(false);
@@ -19,8 +20,17 @@ export default function Navbar() {
     <nav className="bg-white w-full border-b md:border-0">
       <div className="items-center px-4 max-w-screen-xl mx-auto md:flex md:px-8">
         <div className="flex items-center justify-between py-3 md:py-5 md:block">
-          <Link href="/">
-            <h1 className="text-3xl font-bold text-purple-600">Keys Rig</h1>
+          <Link href="/" className="flex">
+            <Image
+              src="/icon.png"
+              width={70}
+              height={70}
+              className=""
+              alt="Screenshots of the dashboard project showing desktop version"
+            />
+            <h1 className="text-3xl font-bold text-purple-600 mt-3.5">
+              Keyz Rig
+            </h1>
           </Link>
           <div className="md:hidden">
             <button
