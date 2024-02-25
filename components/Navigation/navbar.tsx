@@ -33,7 +33,7 @@ export default function Navbar() {
           </Link>
           <div className="md:hidden">
             <button
-              className="text-gray-700 outline-none p-2 rounded-md focus:border-gray-400 focus:border"
+              className="text-gray-700 outline-none p-2  rounded-md focus:border-gray-400 focus:border"
               onClick={() => setState(!state)}
             >
               <Menu />
@@ -45,7 +45,7 @@ export default function Navbar() {
             state ? "block" : "hidden"
           }`}
         >
-          <ul className="justify-center items-center space-y-8 md:flex md:space-x-6 md:space-y-0">
+          <ul className="justify-center font-bold items-center space-y-8 md:flex md:space-x-6 md:space-y-0">
             {menus.map((item, idx) => (
               <li key={idx} className="text-gray-600 hover:text-indigo-600">
                 <Link href={item.path}>{item.title}</Link>
