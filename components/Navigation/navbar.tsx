@@ -3,7 +3,6 @@
 import * as React from "react";
 import Link from "next/link";
 import { Menu } from "lucide-react";
-import { ModeToggle } from "../ModeToggler/modeToggler";
 import Image from "next/image";
 
 export default function Navbar() {
