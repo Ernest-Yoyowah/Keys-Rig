@@ -27,13 +27,11 @@ export default function Navbar() {
               className="p-0 m-0"
               alt="Screenshots of the dashboard project showing desktop version"
             />
-            <h1 className="text-2xl font-bold text-black-600 mt-3.5">
-              Keyz Rig
-            </h1>
+            <h1 className="text-2xl font-bold text-slate-800 mt-0">Keyz Rig</h1>
           </Link>
           <div className="md:hidden">
             <button
-              className="text-black-700 outline-none p-2  rounded-md focus:border-black-400 focus:border"
+              className="text-slate-800 outline-none p-2  rounded-md focus:border-black-400 focus:border"
               onClick={() => setState(!state)}
             >
               <Menu />
@@ -47,7 +45,7 @@ export default function Navbar() {
         >
           <ul className="justify-center font-semibold items-center space-y-8 md:flex md:space-x-6 md:space-y-0">
             {menus.map((item, idx) => (
-              <li key={idx} className="text-gray-600 hover:text-indigo-600">
+              <li key={idx} className="text-gray-600 hover:text-sky-600">
                 <Link href={item.path}>{item.title}</Link>
               </li>
             ))}
