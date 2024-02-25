@@ -27,7 +27,7 @@ export default function Navbar() {
               className="p-0 m-0"
               alt="Screenshots of the dashboard project showing desktop version"
             />
-            <h1 className="text-2xl font-bold text-purple-600 mt-3.5">
+            <h1 className="text-2xl font-bold text-black-600 mt-3.5">
               Keyz Rig
             </h1>
           </Link>
