@@ -5,9 +5,11 @@ import Link from "next/link";
 import { Menu } from "lucide-react";
 import Image from "next/image";
 import { usePathname } from "next/navigation";
+import clsx from "clsx";
 
 export default function Navbar() {
   const [state, setState] = React.useState(false);
+  const pathname = usePathname();
 
   const menus = [
     { title: "Home", path: "/" },
