@@ -21,7 +21,7 @@ export default function Navbar() {
         <div className="flex items-center justify-between py-3 md:py-5 md:block">
           <Link href="/" className="flex">
             <Image
-              src="/icon.png"
+              src="/logo.jpg"
               width={60}
               height={5}
               className="p-0 m-0"
