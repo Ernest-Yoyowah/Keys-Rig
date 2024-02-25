@@ -22,7 +22,7 @@ export default function Navbar() {
           <Link href="/" className="flex">
             <Image
               src="/icon.png"
-              width={70}
+              width={60}
               height={70}
               className=""
               alt="Screenshots of the dashboard project showing desktop version"
