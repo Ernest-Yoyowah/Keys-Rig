@@ -15,7 +15,7 @@ export default function Navbar() {
     { title: "Home", path: "/" },
     { title: "Plugins", path: "/hub/plugins" },
     { title: "Keys Rig", path: "/hub/keysrig" },
-    { title: "Contact Us", path: "/hub/your-path" },
+    { title: "Contact Us", path: "/hub/plugins" },
   ];
 
   return (
@@ -49,7 +49,17 @@ export default function Navbar() {
           <ul className="justify-center font-semibold items-center space-y-8 md:flex md:space-x-6 md:space-y-0">
             {menus.map((item, idx) => (
               <li key={idx} className="text-gray-600 hover:text-sky-700">
-                <Link href={item.path}>{item.title}</Link>
+                <Link
+                  href={item.path}
+                  className={clsx(
+                    "flex h-[48px] grow items-center justify-center gap-2 rounded-md bg-gray-50 p-3 text-sm font-medium hover:bg-sky-100 hover:text-blue-600 md:flex-none md:justify-start md:p-0 md:px-3",
+                    {
+                      "bg-sky-100 text-blue-600": pathname === item.path,
+                    }
+                  )}
+                >
+                  {item.title}
+                </Link>
               </li>
             ))}
           </ul>
