@@ -7,6 +7,7 @@ const AppBgImg = () => {
     <Image
       src={bgImage}
       placeholder="blur"
+      layout="responsive"
       width={1200}
       height={300}
       style={{
