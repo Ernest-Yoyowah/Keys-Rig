@@ -27,7 +27,6 @@ export default function Navbar() {
               src="/logo.jpg"
               width={60}
               height={5}
-              className="p-0 m-0"
               alt="Screenshots of the dashboard project showing desktop version"
             />
             <h1 className="text-1xl font-bold text-slate-800 mt-1">Keyz Rig</h1>
