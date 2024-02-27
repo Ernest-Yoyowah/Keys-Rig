@@ -6,7 +6,6 @@ const AppBgImg = () => {
   return (
     <Image
       src={bgImage}
-      placeholder="blur"
       width={1200}
       height={300}
       style={{
