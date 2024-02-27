@@ -9,7 +9,7 @@ const AppBgImg = () => {
       placeholder="blur"
       layout="responsive"
       width={1200}
-      height={500}
+      height={300}
       style={{
         objectFit: "cover",
         zIndex: -1,
