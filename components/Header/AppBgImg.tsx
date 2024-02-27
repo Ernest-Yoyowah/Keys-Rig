@@ -1,9 +1,21 @@
 import React from "react";
 import Image from "next/image";
-import header_bg from "@/public/header_bg.jpg";
+import bgImage from "@/public/header_bg.jpg";
 
 const AppBgImg = () => {
-  return <div>AppBgImg</div>;
+  return (
+    <Image
+      src={bgImage}
+      placeholder="blur"
+      fill
+      sizes="100vw"
+      style={{
+        objectFit: "cover",
+        zIndex: -1,
+      }}
+      alt="Header Image"
+    />
+  );
 };
 
 export default AppBgImg;
