@@ -6,6 +6,7 @@ import { Menu } from "lucide-react";
 import Image from "next/image";
 import { usePathname } from "next/navigation";
 import clsx from "clsx";
+import { ModeToggle } from "../ModeToggler/modeToggler";
 
 export default function Navbar() {
   const [state, setState] = React.useState(false);
@@ -61,6 +62,7 @@ export default function Navbar() {
                 </Link>
               </li>
             ))}
+            <ModeToggle />
           </ul>
         </div>
       </div>
