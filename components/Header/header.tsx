@@ -7,8 +7,10 @@ const Header = () => {
   return (
     <div className="flex justify-center items-center">
       <div className="absolute text-center m-0">
-        <h1 className="text-white font-bold text-5xl">Welcome to Keys Rig</h1>
-        <p className="text-white font-bold text-2xl">
+        <h1 className="text-white font-bold text-5xl md:text-6xl lg:text-7xl">
+          Welcome to Keys Rig
+        </h1>
+        <p className="text-white font-bold text-2xl md:text-xl lg:text-2xl">
           Step into a world where creativity knows no bounds...
         </p>
         <br />
@@ -19,7 +21,10 @@ const Header = () => {
           >
             <Link href="/">Featured Plugins</Link>
           </Button>
-          <Button className="bg-black text-white border border-white hover:bg-white hover:text-black hover:border-white">
+          <Button
+            variant="default"
+            className="bg-black text-white border border-white hover:bg-white hover:text-black hover:border-white"
+          >
             <Link href="/login">Key Rig</Link>
           </Button>
         </div>
