@@ -7,9 +7,9 @@ const AppBgImg = () => {
     <Image
       src={bgImage}
       placeholder="blur"
-      layout="responsive"
-      width={1200}
-      height={300}
+      quality={100}
+      fill
+      sizes="100vw"
       style={{
         objectFit: "cover",
         zIndex: -1,
