@@ -11,11 +11,10 @@ const AppBgImg = () => {
         quality={100}
         fill
         sizes="100vw"
-        objectPosition="-95% bottom"
         style={{
           objectFit: "cover",
           zIndex: -1,
-          filter: "brightness(30%)",
+          filter: "brightness(70%)",
         }}
         alt="Header Image"
       />
