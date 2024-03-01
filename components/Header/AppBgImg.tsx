@@ -14,8 +14,8 @@ const AppBgImg = () => {
         objectPosition="-95% bottom"
         style={{
           objectFit: "cover",
-
           zIndex: -1,
+          filter: "brightness(30%)",
         }}
         alt="Header Image"
       />
