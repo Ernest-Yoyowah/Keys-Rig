@@ -62,7 +62,8 @@ export default function Navbar() {
                 </Link>
               </li>
             ))}
-            <ModeToggle />
+
+            {/* <ModeToggle /> */}
           </ul>
         </div>
       </div>
