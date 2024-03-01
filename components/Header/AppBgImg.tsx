@@ -1,21 +1,25 @@
 import React from "react";
 import Image from "next/image";
-import bgImage from "@/public/header_bg.jpg";
+import bgImage from "@/public/ableton_live.jpg";
 
 const AppBgImg = () => {
   return (
-    <Image
-      src={bgImage}
-      placeholder="blur"
-      quality={100}
-      fill
-      sizes="100vw"
-      style={{
-        objectFit: "cover",
-        zIndex: -1,
-      }}
-      alt="Header Image"
-    />
+    <div style={{ width: "100%", height: "100vh", overflow: "hidden" }}>
+      <Image
+        src={bgImage}
+        placeholder="blur"
+        quality={100}
+        fill
+        sizes="100vw"
+        objectPosition="-95% bottom"
+        style={{
+          objectFit: "cover",
+
+          zIndex: -1,
+        }}
+        alt="Header Image"
+      />
+    </div>
   );
 };
 
