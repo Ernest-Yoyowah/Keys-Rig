@@ -25,7 +25,7 @@ const Header = () => {
             variant="default"
             className="bg-black text-white border border-white hover:bg-white hover:text-black hover:border-white"
           >
-            <Link href="/login">Key Rig</Link>
+            <Link href="/hub/keysrig">Key Rig</Link>
           </Button>
         </div>
         <br />
