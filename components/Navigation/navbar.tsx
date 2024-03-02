@@ -16,7 +16,7 @@ export default function Navbar() {
     { title: "Home", path: "/" },
     { title: "Plugins", path: "/hub/plugins" },
     { title: "Keys Rig", path: "/hub/keysrig" },
-    { title: "Contact Us", path: "/hub/plugins" },
+    { title: "Producer Tech Tips", path: "/hub/producerTech" },
   ];
 
   return (
