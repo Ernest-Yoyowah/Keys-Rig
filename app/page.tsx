@@ -1,3 +1,4 @@
+import Featured from "@/components/FeaturedRig/featuredRig";
 import Header from "@/components/Header/header";
 import Introductory from "@/components/Introductory/introductory";
 import Navbar from "@/components/Navigation/navbar";
@@ -8,6 +9,7 @@ export default function Home() {
       <Navbar />
       <Header />
       <Introductory />
+      <Featured />
     </main>
   );
 }
