@@ -10,27 +10,26 @@ const Featured: React.FC = () => {
         </h2>
         <div className="flex justify-center items-center space-x-8">
           <Image
-            src="/ableton_logo.jpg" // Replace with the path to your logo image
+            src="/ableton_logo.jpg"
             alt="Logo 1"
             className="h-12"
             width={100}
             height={200}
           />
           <Image
-            src="/FL-Studio-Hero.png" // Replace with the path to your logo image
+            src="/FL-Studio-Hero.png"
             alt="Logo 2"
             className="h-14"
             width={130}
             height={50}
           />
           <Image
-            src="/korg.jpg" // Replace with the path to your logo image
+            src="/korg.jpg"
             alt="Logo 3"
             className="h-12"
             width={100}
             height={70}
           />
-          {/* Add more logo images as needed */}
         </div>
       </div>
     </div>
