@@ -19,7 +19,7 @@ const Header = () => {
             variant="secondary"
             className="bg-white text-black hover:bg-black hover:text-white hover:border-black"
           >
-            <Link href="/">Featured Plugins</Link>
+            <Link href="/hub/plugins">Featured Plugins</Link>
           </Button>
           <Button
             variant="default"
