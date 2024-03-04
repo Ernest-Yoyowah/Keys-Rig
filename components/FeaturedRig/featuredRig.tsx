@@ -1,7 +1,7 @@
 import Link from "next/link";
 import { Button } from "../ui/button";
 
-const Featured = () => {
+const Featured: React.FC = () => {
   // Sample data for featured plugins
   const featuredPlugins = [
     {
