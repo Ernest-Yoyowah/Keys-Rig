@@ -3,7 +3,7 @@ import AppBgImg from "./AppBgImg";
 import { Button } from "../ui/button";
 import Link from "next/link";
 
-const Header = () => {
+const Header: React.FC = () => {
   return (
     <div className="flex justify-center items-center">
       <div className="absolute text-center m-0">
