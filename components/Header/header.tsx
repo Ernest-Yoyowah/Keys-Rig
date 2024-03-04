@@ -7,10 +7,10 @@ const Header = () => {
   return (
     <div className="flex justify-center items-center">
       <div className="absolute text-center m-0">
-        <h1 className="text-white font-bold text-5xl md:text-6xl lg:text-7xl ">
+        <h1 className="text-white font-bold text-4xl md:text-5xl lg:text-7xl ">
           Welcome to Keys Rig
         </h1>
-        <p className="text-white font-bold text-2xl md:text-xl lg:text-2xl ">
+        <p className="text-white font-bold text-2xl md:text-1xl lg:text-2xl ">
           Step into a world where creativity knows no bounds...
         </p>
         <br />
