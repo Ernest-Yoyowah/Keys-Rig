@@ -4,7 +4,7 @@ import React from "react";
 const Plugins = () => {
   return (
     <>
-      <h1>VST Plugins</h1>
+      <h1>page</h1>
       <Featured />
     </>
   );
