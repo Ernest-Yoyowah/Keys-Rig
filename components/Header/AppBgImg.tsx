@@ -2,7 +2,7 @@ import React from "react";
 import Image from "next/image";
 import bgImage from "@/public/ableton_live.jpg";
 
-const AppBgImg = () => {
+const AppBgImg: React.FC = () => {
   return (
     <div style={{ width: "100%", height: "100vh", overflow: "hidden" }}>
       <Image
