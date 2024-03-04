@@ -8,28 +8,34 @@ const Featured: React.FC = () => {
         <h2 className="text-3xl font-semibold mb-4 text-zinc-700 font-mono">
           FEATURED IN
         </h2>
-        <div className="flex justify-center items-center space-x-8">
-          <Image
-            src="/ableton_logo.jpg"
-            alt="Logo 1"
-            className="h-12"
-            width={100}
-            height={200}
-          />
-          <Image
-            src="/FL-Studio-Hero.png"
-            alt="Logo 2"
-            className="h-14"
-            width={130}
-            height={50}
-          />
-          <Image
-            src="/korg.jpg"
-            alt="Logo 3"
-            className="h-12"
-            width={100}
-            height={70}
-          />
+        <div className="flex flex-wrap justify-center items-center space-x-8">
+          <div className="w-1/2 sm:w-auto mb-4 sm:mb-0">
+            <Image
+              src="/ableton_logo.jpg"
+              alt="Logo 1"
+              className="h-12"
+              width={100}
+              height={200}
+            />
+          </div>
+          <div className="w-1/2 sm:w-auto mb-4 sm:mb-0">
+            <Image
+              src="/FL-Studio-Hero.png"
+              alt="Logo 2"
+              className="h-14"
+              width={130}
+              height={50}
+            />
+          </div>
+          <div className="w-1/2 sm:w-auto mb-4 sm:mb-0">
+            <Image
+              src="/korg.jpg"
+              alt="Logo 3"
+              className="h-12"
+              width={100}
+              height={70}
+            />
+          </div>
         </div>
       </div>
     </div>
