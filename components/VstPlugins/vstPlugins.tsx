@@ -1,6 +1,6 @@
 import React from "react";
 
-const vstPlugins = () => {
+const vstPlugins: React.FC = () => {
   return <div>vstPlugins</div>;
 };
 
