@@ -9,7 +9,7 @@ export default function Home() {
       <Navbar />
       <Header />
       <Introductory />
-      <About />
+      {/* <About /> */}
     </main>
   );
 }
