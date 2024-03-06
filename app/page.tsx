@@ -1,4 +1,3 @@
-import About from "@/components/About/about";
 import Header from "@/components/Header/header";
 import Introductory from "@/components/Introductory/introductory";
 import Navbar from "@/components/Navigation/navbar";
