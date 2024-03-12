@@ -18,12 +18,9 @@ import {
 import { ModeToggle } from "../ModeToggler/modeToggler";
 import Image from "next/image";
 import { Menu } from "lucide-react";
+import { keysRigComponents } from "@/types/types";
 
-const keysRigComponents: {
-  title: string;
-  href: string;
-  description: string;
-}[] = [
+const keysRigComponents: keysRigComponents = [
   {
     title: "Main Keys",
     href: "/hub/keysrig/main",
@@ -229,8 +226,8 @@ export function Navbar() {
 
       {/* Mobile menu */}
       <div className={`md:hidden ${state ? "" : "hidden"}`}>
-        <div className="">
-          <div className="px-2 py-3 space-y-1">
+        <div className="bg-red-700 text-blue-600">
+          <div className="">
             <Link href="/" passHref>
               <p
                 className="block px-3 py-2 text-white rounded-md hover:bg-gray-900"
