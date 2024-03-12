@@ -90,10 +90,10 @@ const instrumentMarketComponents: {
 export function Navbar() {
   return (
     <nav className="bg-white w-full border-b md:border-0">
-      <div className="max-w-screen-xl mx-auto md:flex md:px-8">
+      <div className="max-w-screen-xl mx-auto md:flex md:px-8 mr-0">
         <div className="flex md:py-5 md:block">
           <NavigationMenu>
-            <Link href="/" className="flex mr-10 ">
+            <Link href="/" className="flex mr-20 ">
               <Image
                 src="/logo.jpg"
                 width={60}
@@ -104,6 +104,7 @@ export function Navbar() {
                 Keyz Rig
               </h1>
             </Link>
+
             <NavigationMenuList>
               <NavigationMenuItem>
                 <Link href="/" legacyBehavior passHref>
@@ -186,9 +187,9 @@ export function Navbar() {
                 </NavigationMenuContent>
               </NavigationMenuItem>
               <NavigationMenuItem>
-                <Link href="/docs" legacyBehavior passHref>
+                <Link href="/blog" legacyBehavior passHref>
                   <NavigationMenuLink className={navigationMenuTriggerStyle()}>
-                    About
+                    Blog
                   </NavigationMenuLink>
                 </Link>
               </NavigationMenuItem>
