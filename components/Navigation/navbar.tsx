@@ -116,7 +116,7 @@ export function Navbar() {
               </button>
             </div>
 
-            <NavigationMenuList className="">
+            <NavigationMenuList>
               <NavigationMenuItem>
                 <Link href="/" legacyBehavior passHref>
                   <NavigationMenuLink className={navigationMenuTriggerStyle()}>
