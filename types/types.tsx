@@ -3,3 +3,9 @@ export type keysRigComponents = {
   href: string;
   description: string;
 }[];
+
+export type instrumentMarketComponents = {
+  title: string;
+  href: string;
+  description: string;
+}[];

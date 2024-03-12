@@ -18,7 +18,7 @@ import {
 import { ModeToggle } from "../ModeToggler/modeToggler";
 import Image from "next/image";
 import { Menu } from "lucide-react";
-import { keysRigComponents } from "@/types/types";
+import { instrumentMarketComponents, keysRigComponents } from "@/types/types";
 
 const keysRigComponents: keysRigComponents = [
   {
@@ -55,11 +55,7 @@ const keysRigComponents: keysRigComponents = [
   },
 ];
 
-const instrumentMarketComponents: {
-  title: string;
-  href: string;
-  description: string;
-}[] = [
+const instrumentMarketComponents: instrumentMarketComponents = [
   {
     title: "Buy and Sell Instruments",
     href: "/hub/instrumentMarket/buy-sell",
