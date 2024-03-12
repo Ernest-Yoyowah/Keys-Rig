@@ -91,12 +91,16 @@ const instrumentMarketComponents: {
 export function Navbar() {
   const [state, setState] = React.useState(false);
 
+  const closeMobileMenu = () => {
+    setState(false);
+  };
+
   return (
     <nav className="bg-white w-full border-b md:border-0">
       <div className="items-center px-4 max-w-screen-xl mx-auto md:flex md:px-8">
         <div className="flex items-center justify-between py-3 md:py-5 md:block">
           <NavigationMenu>
-            <Link href="/" className="flex mr-48 ">
+            <Link href="/" className="flex md:mr-48 ">
               <Image
                 src="/logo.jpg"
                 width={60}
@@ -211,6 +215,7 @@ export function Navbar() {
             </div>
           </NavigationMenu>
 
+          {/* Mobile menu button */}
           <div className="md:hidden">
             <button
               className="text-slate-800 outline-none p-2  rounded-md focus:border-black-400 focus:border"
@@ -218,6 +223,22 @@ export function Navbar() {
             >
               <Menu />
             </button>
+          </div>
+        </div>
+      </div>
+
+      {/* Mobile menu */}
+      <div className={`md:hidden ${state ? "" : "hidden"}`}>
+        <div className="">
+          <div className="px-2 py-3 space-y-1">
+            <Link href="/" passHref>
+              <p
+                className="block px-3 py-2 text-white rounded-md hover:bg-gray-900"
+                onClick={closeMobileMenu}
+              >
+                Home
+              </p>
+            </Link>
           </div>
         </div>
       </div>
