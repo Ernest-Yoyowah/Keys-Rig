@@ -1,6 +1,6 @@
 import Header from "@/components/Header/header";
 import Introductory from "@/components/Introductory/introductory";
-import Navbar from "@/components/Navigation/navbar";
+import { Navbar } from "@/components/Navigation/navbar";
 
 export default function Home() {
   return (
