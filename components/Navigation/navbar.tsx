@@ -105,7 +105,7 @@ export function Navbar() {
               </h1>
             </Link>
 
-            <NavigationMenuList className="hidden md:block">
+            <NavigationMenuList className="">
               <NavigationMenuItem>
                 <Link href="/" legacyBehavior passHref>
                   <NavigationMenuLink className={navigationMenuTriggerStyle()}>
