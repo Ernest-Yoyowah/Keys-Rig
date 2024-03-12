@@ -107,12 +107,14 @@ export function Navbar() {
                 Keyz Rig
               </h1>
             </Link>
-            <button
-              className="text-slate-800 outline-none p-2  rounded-md focus:border-black-400 focus:border"
-              onClick={() => setState(!state)}
-            >
-              <Menu />
-            </button>
+            <div className="md:hidden">
+              <button
+                className="text-slate-800 outline-none p-2  rounded-md focus:border-black-400 focus:border"
+                onClick={() => setState(!state)}
+              >
+                <Menu />
+              </button>
+            </div>
 
             <NavigationMenuList className="">
               <NavigationMenuItem>
