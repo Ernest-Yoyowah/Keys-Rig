@@ -105,7 +105,7 @@ export function Navbar() {
               </h1>
             </Link>
 
-            <NavigationMenuList className="flex md:hidden">
+            <NavigationMenuList className="hidden md:blog">
               <NavigationMenuItem>
                 <Link href="/" legacyBehavior passHref>
                   <NavigationMenuLink className={navigationMenuTriggerStyle()}>
