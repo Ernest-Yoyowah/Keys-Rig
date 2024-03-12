@@ -17,6 +17,7 @@ import {
 
 import { ModeToggle } from "../ModeToggler/modeToggler";
 import Image from "next/image";
+import { Menu } from "lucide-react";
 
 const keysRigComponents: {
   title: string;
@@ -88,6 +89,8 @@ const instrumentMarketComponents: {
 ];
 
 export function Navbar() {
+  const [state, setState] = React.useState(false);
+
   return (
     <nav className="bg-white w-full border-b md:border-0">
       <div className=" mx-auto md:flex md:px-8">
@@ -104,6 +107,12 @@ export function Navbar() {
                 Keyz Rig
               </h1>
             </Link>
+            <button
+              className="text-slate-800 outline-none p-2  rounded-md focus:border-black-400 focus:border"
+              onClick={() => setState(!state)}
+            >
+              <Menu />
+            </button>
 
             <NavigationMenuList className="">
               <NavigationMenuItem>
