@@ -90,10 +90,10 @@ const instrumentMarketComponents: {
 export function Navbar() {
   return (
     <nav className="bg-white w-full border-b md:border-0">
-      <div className="max-w-screen-xl mx-auto md:flex md:px-8 mr-0">
+      <div className=" mx-auto md:flex md:px-8">
         <div className="flex md:py-5 md:block">
           <NavigationMenu>
-            <Link href="/" className="flex mr-20 ">
+            <Link href="/" className="flex mr-48 ">
               <Image
                 src="/logo.jpg"
                 width={60}
@@ -105,7 +105,7 @@ export function Navbar() {
               </h1>
             </Link>
 
-            <NavigationMenuList>
+            <NavigationMenuList className="flex md:hidden">
               <NavigationMenuItem>
                 <Link href="/" legacyBehavior passHref>
                   <NavigationMenuLink className={navigationMenuTriggerStyle()}>
