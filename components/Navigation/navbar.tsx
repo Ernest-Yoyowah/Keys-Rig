@@ -93,8 +93,8 @@ export function Navbar() {
 
   return (
     <nav className="bg-white w-full border-b md:border-0">
-      <div className=" mx-auto md:flex md:px-8">
-        <div className="flex md:py-5 md:block">
+      <div className="items-center px-4 max-w-screen-xl mx-auto md:flex md:px-8">
+        <div className="flex items-center justify-between py-3 md:py-5 md:block">
           <NavigationMenu>
             <Link href="/" className="flex mr-48 ">
               <Image
@@ -107,106 +107,118 @@ export function Navbar() {
                 Keyz Rig
               </h1>
             </Link>
-            <div className="md:hidden">
-              <button
-                className="text-slate-800 outline-none p-2  rounded-md focus:border-black-400 focus:border"
-                onClick={() => setState(!state)}
-              >
-                <Menu />
-              </button>
-            </div>
 
-            <NavigationMenuList>
-              <NavigationMenuItem>
-                <Link href="/" legacyBehavior passHref>
-                  <NavigationMenuLink className={navigationMenuTriggerStyle()}>
-                    Home
-                  </NavigationMenuLink>
-                </Link>
-              </NavigationMenuItem>
-              <NavigationMenuItem>
-                <NavigationMenuTrigger>Plugins</NavigationMenuTrigger>
-                <NavigationMenuContent>
-                  <ul className="grid gap-3 p-4 md:w-[400px] lg:w-[500px] lg:grid-cols-[.75fr_1fr]">
-                    <li className="row-span-3">
-                      <NavigationMenuLink asChild>
-                        <Link
-                          className="flex h-full w-full select-none flex-col justify-end rounded-md bg-gradient-to-b from-muted/50 to-muted p-6 no-underline outline-none focus:shadow-md"
-                          href="/hub/plugins"
+            <div className="hidden md:flex">
+              <NavigationMenuList>
+                <NavigationMenuItem>
+                  <Link href="/" legacyBehavior passHref>
+                    <NavigationMenuLink
+                      className={navigationMenuTriggerStyle()}
+                    >
+                      Home
+                    </NavigationMenuLink>
+                  </Link>
+                </NavigationMenuItem>
+                <NavigationMenuItem>
+                  <NavigationMenuTrigger>Plugins</NavigationMenuTrigger>
+                  <NavigationMenuContent>
+                    <ul className="grid gap-3 p-4 md:w-[400px] lg:w-[500px] lg:grid-cols-[.75fr_1fr]">
+                      <li className="row-span-3">
+                        <NavigationMenuLink asChild>
+                          <Link
+                            className="flex h-full w-full select-none flex-col justify-end rounded-md bg-gradient-to-b from-muted/50 to-muted p-6 no-underline outline-none focus:shadow-md"
+                            href="/hub/plugins"
+                          >
+                            <Icons.logo className="h-6 w-6" />
+                            <div className="mb-2 mt-4 text-lg font-medium">
+                              vst plugins
+                            </div>
+                            <p className="text-sm leading-tight text-muted-foreground">
+                              Vst plugins crafted to elevate your music
+                              production experience.
+                            </p>
+                          </Link>
+                        </NavigationMenuLink>
+                      </li>
+                      <ListItem
+                        href="/hub/plugins/featured"
+                        title="Featured Plugins"
+                      >
+                        Upgrade your music production setup with exciting new
+                        virtual instruments
+                      </ListItem>
+                      <ListItem
+                        href="/hub/plugins/installation"
+                        title="Installation"
+                      >
+                        How to install and setup your vst plugins.
+                      </ListItem>
+                      <ListItem
+                        href="/hub/plugins/top"
+                        title="Most Used plugins"
+                      >
+                        There are hundreds of free VSTs online, and finding good
+                        ones takes time.
+                      </ListItem>
+                    </ul>
+                  </NavigationMenuContent>
+                </NavigationMenuItem>
+                <NavigationMenuItem>
+                  <NavigationMenuTrigger>Keys Rig</NavigationMenuTrigger>
+                  <NavigationMenuContent>
+                    <ul className="grid w-[400px] gap-3 p-4 md:w-[500px] md:grid-cols-2 lg:w-[600px] ">
+                      {keysRigComponents.map((component) => (
+                        <ListItem
+                          key={component.title}
+                          title={component.title}
+                          href={component.href}
                         >
-                          <Icons.logo className="h-6 w-6" />
-                          <div className="mb-2 mt-4 text-lg font-medium">
-                            vst plugins
-                          </div>
-                          <p className="text-sm leading-tight text-muted-foreground">
-                            Vst plugins crafted to elevate your music production
-                            experience.
-                          </p>
-                        </Link>
-                      </NavigationMenuLink>
-                    </li>
-                    <ListItem
-                      href="/hub/plugins/featured"
-                      title="Featured Plugins"
+                          {component.description}
+                        </ListItem>
+                      ))}
+                    </ul>
+                  </NavigationMenuContent>
+                </NavigationMenuItem>
+                <NavigationMenuItem>
+                  <NavigationMenuTrigger>
+                    Instrument Market
+                  </NavigationMenuTrigger>
+                  <NavigationMenuContent>
+                    <ul className="grid w-[400px] gap-3 p-4 md:w-[500px] md:grid-cols-2 lg:w-[600px] ">
+                      {instrumentMarketComponents.map((component) => (
+                        <ListItem
+                          key={component.title}
+                          title={component.title}
+                          href={component.href}
+                        >
+                          {component.description}
+                        </ListItem>
+                      ))}
+                    </ul>
+                  </NavigationMenuContent>
+                </NavigationMenuItem>
+                <NavigationMenuItem>
+                  <Link href="/blog" legacyBehavior passHref>
+                    <NavigationMenuLink
+                      className={navigationMenuTriggerStyle()}
                     >
-                      Upgrade your music production setup with exciting new
-                      virtual instruments
-                    </ListItem>
-                    <ListItem
-                      href="/hub/plugins/installation"
-                      title="Installation"
-                    >
-                      How to install and setup your vst plugins.
-                    </ListItem>
-                    <ListItem href="/hub/plugins/top" title="Most Used plugins">
-                      There are hundreds of free VSTs online, and finding good
-                      ones takes time.
-                    </ListItem>
-                  </ul>
-                </NavigationMenuContent>
-              </NavigationMenuItem>
-              <NavigationMenuItem>
-                <NavigationMenuTrigger>Keys Rig</NavigationMenuTrigger>
-                <NavigationMenuContent>
-                  <ul className="grid w-[400px] gap-3 p-4 md:w-[500px] md:grid-cols-2 lg:w-[600px] ">
-                    {keysRigComponents.map((component) => (
-                      <ListItem
-                        key={component.title}
-                        title={component.title}
-                        href={component.href}
-                      >
-                        {component.description}
-                      </ListItem>
-                    ))}
-                  </ul>
-                </NavigationMenuContent>
-              </NavigationMenuItem>
-              <NavigationMenuItem>
-                <NavigationMenuTrigger>Instrument Market</NavigationMenuTrigger>
-                <NavigationMenuContent>
-                  <ul className="grid w-[400px] gap-3 p-4 md:w-[500px] md:grid-cols-2 lg:w-[600px] ">
-                    {instrumentMarketComponents.map((component) => (
-                      <ListItem
-                        key={component.title}
-                        title={component.title}
-                        href={component.href}
-                      >
-                        {component.description}
-                      </ListItem>
-                    ))}
-                  </ul>
-                </NavigationMenuContent>
-              </NavigationMenuItem>
-              <NavigationMenuItem>
-                <Link href="/blog" legacyBehavior passHref>
-                  <NavigationMenuLink className={navigationMenuTriggerStyle()}>
-                    Blog
-                  </NavigationMenuLink>
-                </Link>
-              </NavigationMenuItem>
-              {/* <ModeToggle /> */}
-            </NavigationMenuList>
+                      Blog
+                    </NavigationMenuLink>
+                  </Link>
+                </NavigationMenuItem>
+                {/* <ModeToggle /> */}
+              </NavigationMenuList>
+            </div>
           </NavigationMenu>
+
+          <div className="md:hidden">
+            <button
+              className="text-slate-800 outline-none p-2  rounded-md focus:border-black-400 focus:border"
+              onClick={() => setState(!state)}
+            >
+              <Menu />
+            </button>
+          </div>
         </div>
       </div>
     </nav>
