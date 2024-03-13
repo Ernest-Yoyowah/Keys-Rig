@@ -230,7 +230,7 @@ export function Navbar() {
         <div className=" bg-gray-800 h-full w-48  ease-in-out duration-300">
           <div className="px-2 py-3 ">
             <NavigationMenu>
-              <NavigationMenuList>
+              <NavigationMenuList className={cn("block")}>
                 <NavigationMenuItem>
                   <Link href="/" legacyBehavior passHref>
                     <NavigationMenuLink
