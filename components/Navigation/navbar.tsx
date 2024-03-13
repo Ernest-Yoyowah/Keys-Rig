@@ -222,11 +222,11 @@ export function Navbar() {
 
       {/* Mobile menu */}
       <div className={`md:hidden ${state ? "" : "hidden"}`}>
-        <div className="bg-grey-700 text-blue-600">
+        <div className="bg-sky-100 text-blue-600">
           <div className="">
             <Link href="/" passHref>
               <p
-                className="block px-3 py-2 text-white rounded-md hover:bg-gray-900"
+                className="block px-3 py-0 text-white rounded-md hover:bg-gray-900"
                 onClick={closeMobileMenu}
               >
                 Home
