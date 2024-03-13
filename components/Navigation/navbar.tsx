@@ -222,17 +222,19 @@ export function Navbar() {
 
       {/* Mobile menu */}
       <div
-        className={`fixed inset-0 z-50 md:hidden ${state ? "block" : "hidden"}`}
+        className={`fixed inset-0 z-50 md:hidden transition-opacity ${
+          state ? "opacity-100" : "opacity-0 pointer-events-none"
+        }`}
         onClick={closeMobileMenu}
       >
-        <div className="bg-gray-800 h-full w-full absolute top-0 right-0 transform transition-transform ease-in-out duration-300 translate-x-full">
-          <div className="">
+        <div className="bg-gray-800 h-full w-3/4 absolute top-0 right-0 transform translate-x-full transition-transform ease-in-out duration-300">
+          <div className="px-2 py-3 space-y-1">
             <Link href="/" passHref>
-              <p className="block px-3 py-2 text-white rounded-md hover:bg-gray-900">
+              <a className="block px-3 py-2 text-white rounded-md hover:bg-gray-900">
                 Home
-              </p>
+              </a>
             </Link>
-            {/* i will add other mobile menu links here */}
+            {/* Add other mobile menu links similarly */}
           </div>
         </div>
       </div>
