@@ -227,14 +227,23 @@ export function Navbar() {
         }`}
         onClick={closeMobileMenu}
       >
-        <div className="bg-gray-800 h-full w-3/4 relative top-0 right-0 transform translate-x-full transition-transform ease-in-out duration-300">
-          <div className="px-2 py-3 space-y-1">
+        <div className="bg-gray-800 h-full w-64  top-0 right-0 transform translate-x-full transition-transform ease-in-out duration-300">
+          <div className="px-2 py-3 ">
             <Link href="/" passHref>
               <p className="block px-3 py-2 text-white rounded-md hover:bg-gray-900">
                 Home
               </p>
             </Link>
-            {/* Add other mobile menu links similarly */}
+            <Link href="/hub/keysrig" passHref>
+              <p className="block px-3 py-2 text-white rounded-md hover:bg-gray-900">
+                Keys Rig
+              </p>
+            </Link>
+            <Link href="/blog" passHref>
+              <p className="block px-3 py-2 text-white rounded-md hover:bg-gray-900">
+                Blog
+              </p>
+            </Link>
           </div>
         </div>
       </div>
