@@ -227,8 +227,66 @@ export function Navbar() {
         }`}
         onClick={closeMobileMenu}
       >
-        <div className="bg-gray-800 h-full w-64  ease-in-out duration-300">
+        <div className=" block bg-gray-800 h-full w-48  ease-in-out duration-300">
           <div className="px-2 py-3 ">
+            <NavigationMenu>
+              <NavigationMenuList>
+                <NavigationMenuItem>
+                  <Link href="/" legacyBehavior passHref>
+                    <NavigationMenuLink
+                      className={navigationMenuTriggerStyle()}
+                    >
+                      Home
+                    </NavigationMenuLink>
+                  </Link>
+                </NavigationMenuItem>
+
+                <NavigationMenuItem>
+                  <NavigationMenuTrigger>Plugins</NavigationMenuTrigger>
+                  <NavigationMenuContent>
+                    <ul className="grid gap-3 p-4 md:w-[400px] lg:w-[500px] lg:grid-cols-[.75fr_1fr]">
+                      <li className="row-span-3">
+                        <NavigationMenuLink asChild>
+                          <Link
+                            className="flex h-full w-80 select-none flex-col justify-end rounded-md bg-gradient-to-b from-muted/50 to-muted p-6 no-underline outline-none focus:shadow-md"
+                            href="/hub/plugins"
+                          >
+                            <Icons.logo className="h-6 w-6" />
+                            <div className="mb-2 mt-4 text-lg font-medium">
+                              vst plugins
+                            </div>
+                            <p className="text-sm leading-tight text-muted-foreground">
+                              Vst plugins crafted to elevate your music
+                              production experience.
+                            </p>
+                          </Link>
+                        </NavigationMenuLink>
+                      </li>
+                      <ListItem
+                        href="/hub/plugins/featured"
+                        title="Featured Plugins"
+                      >
+                        Upgrade your music production setup with exciting new
+                        virtual instruments
+                      </ListItem>
+                      <ListItem
+                        href="/hub/plugins/installation"
+                        title="Installation"
+                      >
+                        How to install and setup your vst plugins.
+                      </ListItem>
+                      <ListItem
+                        href="/hub/plugins/top"
+                        title="Most Used plugins"
+                      >
+                        There are hundreds of free VSTs online, and finding good
+                        ones takes time.
+                      </ListItem>
+                    </ul>
+                  </NavigationMenuContent>
+                </NavigationMenuItem>
+              </NavigationMenuList>
+            </NavigationMenu>
             <Link href="/" passHref>
               <p className="block px-3 py-2 text-white rounded-md hover:bg-gray-900">
                 Home
