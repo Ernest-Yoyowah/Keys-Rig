@@ -227,7 +227,7 @@ export function Navbar() {
         }`}
         onClick={closeMobileMenu}
       >
-        <div className="bg-gray-800 h-full w-64  top-0 right-0 transform translate-x-full transition-transform ease-in-out duration-300">
+        <div className="bg-gray-800 h-full w-64  ease-in-out duration-300">
           <div className="px-2 py-3 ">
             <Link href="/" passHref>
               <p className="block px-3 py-2 text-white rounded-md hover:bg-gray-900">
