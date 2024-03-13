@@ -222,7 +222,7 @@ export function Navbar() {
 
       {/* Mobile menu */}
       <div className={`md:hidden ${state ? "" : "hidden"}`}>
-        <div className="bg-red-700 text-blue-600">
+        <div className="bg-grey-700 text-blue-600">
           <div className="">
             <Link href="/" passHref>
               <p
