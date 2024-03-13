@@ -211,7 +211,7 @@ export function Navbar() {
           {/* Mobile menu button */}
           <div className="md:hidden">
             <button
-              className="text-slate-800 outline-none p-2  rounded-md focus:border-black-400 focus:border"
+              className="text-slate-800 outline-none p-2 rounded-md focus:border-black-400 focus:border"
               onClick={() => setState(!state)}
             >
               <Menu />
@@ -221,17 +221,18 @@ export function Navbar() {
       </div>
 
       {/* Mobile menu */}
-      <div className={`md:hidden ${state ? "" : "hidden"}`}>
-        <div className="bg-sky-100 text-blue-600">
-          <div className="">
+      <div
+        className={`fixed inset-0 z-50 md:hidden ${state ? "block" : "hidden"}`}
+        onClick={closeMobileMenu}
+      >
+        <div className="bg-gray-800 h-full w-full absolute top-0 right-0 transform transition-transform ease-in-out duration-300 translate-x-full">
+          <div className="px-2 py-3 space-y-1">
             <Link href="/" passHref>
-              <p
-                className="block px-3 py-0 text-white rounded-md hover:bg-gray-900"
-                onClick={closeMobileMenu}
-              >
+              <a className="block px-3 py-2 text-white rounded-md hover:bg-gray-900">
                 Home
-              </p>
+              </a>
             </Link>
+            {/* i will add other mobile menu links here */}
           </div>
         </div>
       </div>
