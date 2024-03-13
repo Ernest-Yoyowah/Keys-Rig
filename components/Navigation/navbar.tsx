@@ -287,21 +287,6 @@ export function Navbar() {
                 </NavigationMenuItem>
               </NavigationMenuList>
             </NavigationMenu>
-            <Link href="/" passHref>
-              <p className="block px-3 py-2 text-white rounded-md hover:bg-gray-900">
-                Home
-              </p>
-            </Link>
-            <Link href="/hub/keysrig" passHref>
-              <p className="block px-3 py-2 text-white rounded-md hover:bg-gray-900">
-                Keys Rig
-              </p>
-            </Link>
-            <Link href="/blog" passHref>
-              <p className="block px-3 py-2 text-white rounded-md hover:bg-gray-900">
-                Blog
-              </p>
-            </Link>
           </div>
         </div>
       </div>
