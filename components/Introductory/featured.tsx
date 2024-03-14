@@ -3,12 +3,12 @@ import React from "react";
 
 const Featured: React.FC = () => {
   return (
-    <div className="bg-gray-100 py-8">
+    <div className="bg-gray-100 py-8 mt-0">
       <div className="container mx-auto text-center">
         <h2 className="text-3xl font-semibold mb-4 text-zinc-700 font-mono">
           FEATURED IN
         </h2>
-        <div className="flex flex-wrap justify-center items-center space-x-8">
+        <div className="flex md:flex-wrap justify-center items-center gap-2 md:space-x-8">
           <div className="w-1/2 sm:w-auto mb-4 sm:mb-0">
             <Image
               src="/ableton_logo.jpg"

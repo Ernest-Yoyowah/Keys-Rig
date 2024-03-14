@@ -5,10 +5,9 @@ import Featured from "./featured";
 const Introductory: React.FC = () => {
   return (
     <>
-      <Featured />
-      <div className="py-12">
+      <div className="py-12 mt-0">
         <div className="container mx-auto text-center">
-          <h2 className="text-3xl font-semibold mb-0 text-slate-700	">
+          <h2 className="text-3xl font-semibold mb-5 text-slate-700	">
             Unlock Your Musical Potential
           </h2>
           <div className="max-w-3xl mx-auto">
@@ -22,6 +21,7 @@ const Introductory: React.FC = () => {
           </div>
         </div>
       </div>
+      <Featured />
     </>
   );
 };
