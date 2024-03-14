@@ -3,7 +3,7 @@ import React from "react";
 const About: React.FC = () => {
   return (
     <>
-      <div className="container mx-auto my-auto text-center py-8 mt-10 bg-[#131517]">
+      <div className="container mx-auto my-auto text-center py-8 mt-10 ">
         <h1 className="text-3xl font-semibold mb-4 text-[#f5f5f5]">
           About Keys Rig
         </h1>
