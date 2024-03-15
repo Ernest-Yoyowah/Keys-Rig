@@ -61,12 +61,12 @@ const Featured: React.FC = () => {
   ];
 
   return (
-    <div className="text-image theme-default ce-3-pf text-left cols-3 cols-tiles p-20">
+    <div className="text-image theme-default ce-3-pf text-left cols-3 cols-tiles md:p-20">
       <div id="plugins" className="container">
         <div className="row-text">
           <div className="flex justify-between items-center">
-            <div className="text-3xl font-semibold text-slate-800">
-              <h2>Featured Piano VSTs</h2>
+            <div className="md:text-3xl font-semibold text-slate-800">
+              <h2>Featured Plugins</h2>
             </div>
             <div className="text-right">
               <Button>
