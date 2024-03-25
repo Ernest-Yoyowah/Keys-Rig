@@ -1,28 +1,35 @@
-import React from "react";
-import "./Footer.css";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import {
+  faFacebook,
+  faTwitter,
+  faInstagram,
+} from "@fortawesome/free-brands-svg-icons";
 
 const Footer = () => {
   return (
-    <footer id="footer" className="footer" data-media-query="d">
-      <div className="footer-primary container">
-        <div className="row">
-          <div className="column1 col-xs-4 col-md-4 services">
+    <footer
+      id="footer"
+      className="footer bg-[#2a2c2e] text-white py-10 md:py-20 text-lg font-serif"
+    >
+      <div className="footer-primary container mx-auto mb-10">
+        <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
+          <div className="column1">
             <span className="footer-column-headline headline-shop-service">
               Shop &amp; service
             </span>
-            <ul>
-              <li>
+            <ul className="text-base">
+              <li className="mb-2">
                 <a href="/en/shop-information/">Shop info &amp; faq</a>
               </li>
-              <li>
+              <li className="mb-2">
                 <a href="https://www.native-instruments.com/en/my-account/">
                   My account &amp; order history
                 </a>
               </li>
-              <li>
+              <li className="mb-2">
                 <a href="/en/company/resellers/">Find a dealer</a>
               </li>
-              <li>
+              <li className="mb-2">
                 <a href="/en/specials/native-access-2/">Native Access</a>
               </li>
             </ul>
@@ -36,117 +43,53 @@ const Footer = () => {
               </a>
             </span>
           </div>
-          <div className="column2 col-xs-5 col-md-5 newsletter">
+          <div className="column2">
+            <span className="footer-column-headline hidden md:block">
+              Connect with us
+            </span>
+            <ul className="flex items-center">
+              <li className="mr-4">
+                <a href="#" className="text-white">
+                  <FontAwesomeIcon icon={faFacebook} />
+                </a>
+              </li>
+              <li className="mr-4">
+                <a href="#" className="text-white">
+                  <FontAwesomeIcon icon={faTwitter} />
+                </a>
+              </li>
+              <li>
+                <a href="#" className="text-white">
+                  <FontAwesomeIcon icon={faInstagram} />
+                </a>
+              </li>
+            </ul>
             <span className="footer-column-headline headline-newsletter">
               Newsletter subscription
             </span>
-            <ul className="newsletter-container">
-              <li>
-                <div id="" className="">
-                  <form
-                    method="post"
-                    name="participant"
-                    className="ni-inline-form"
-                    role="form"
-                    action=""
-                    data-ajax-action=""
-                    data-ajax-target=""
-                    data-media-query=""
-                  >
-                    <div className="form-group">
-                      <div className="input-group">
-                        <input
-                          data-error="This is not a valid email address."
-                          placeholder="Enter email address"
-                          className="form-control email-suggest fill-email email-address placeholder-color"
-                          type="email"
-                        />
-
-                        <div className="input-group-btn">
-                          <input
-                            className="btn btn-primary"
-                            title="SUBSCRIBE"
-                            type="submit"
-                            value="SUBSCRIBE"
-                          />
-                        </div>
-                      </div>
-                      <div className="help-block with-errors">
-                        <ul className="list-unstyled"></ul>
-                      </div>
-                    </div>
-
-                    <div className="form-group" style={{ marginTop: "15px" }}>
-                      <input
-                        type="hidden"
-                        name="tx_niforms_niforms[participant][form]"
-                        value="footer"
-                      />
-                    </div>
-
-                    <input
-                      type="hidden"
-                      name="tx_niforms_niforms[module]"
-                      value=""
-                    />
-                  </form>
-                </div>
-              </li>
-            </ul>
-            {/* <span className="footer-column-headline hidden-xs connect-text"></span> */}
-            <p className="rights_text">© VST-HUB. All rights reserved.</p>
-            <ul className="connect-container hidden-xs">
-              <li>
-                <a href="#" className="connect-facebook">
-                  {/* <FontAwesomeIcon icon={faFacebook} /> */}
-                  connect-facebook
-                </a>
-              </li>
-              <li>
-                <a href="#" className="connect-facebook">
-                  {/* <FontAwesomeIcon icon={faInstagram} /> */}
-                  connect-instagram
-                </a>
-              </li>
-              <li>
-                <a href="#" className="connect-facebook">
-                  {/* <FontAwesomeIcon icon={faTwitter} /> */}
-                  connect-twitter
-                </a>
-                <li>
-                  <a href="#" className="connect-facebook">
-                    {/* <FontAwesomeIcon icon={faYoutube} /> */}
-                    connect-youtube
-                  </a>
-                  <li>
-                    <a href="#" className="connect-facebook">
-                      {/* <FontAwesomeIcon icon={faSoundcloud} /> */}
-                      connect-facebook
-                    </a>
-                  </li>
-                </li>
-              </li>
+            <ul className="newsletter-container text-base">
+              <li>{/* Newsletter form goes here */}</li>
             </ul>
           </div>
-          <div className="company-footer column3 col-xs-3 col-md-3">
-            <span className="footer-column-headline company-text">Company</span>
-            <ul>
-              <li>
+          <div className="column3">
+            <span className="footer-column-headline">Company</span>
+            <ul className="text-base">
+              <li className="mb-2">
                 <a href="https://blog.native-instruments.com/">Blog</a>
               </li>
-              <li>
+              <li className="mb-2">
                 <a href="/en/company/">Corporate info</a>
               </li>
-              <li>
+              <li className="mb-2">
                 <a href="/en/company/ni-locations/">Contact us</a>
               </li>
-              <li>
+              <li className="mb-2">
                 <a href="/en/careers/">Careers</a>
               </li>
-              <li>
+              <li className="mb-2">
                 <a href="/en/press-area/">Press area</a>
               </li>
-              <li>
+              <li className="mb-2">
                 <a href="/en/company/education-program/">Education</a>
               </li>
             </ul>
@@ -154,83 +97,46 @@ const Footer = () => {
         </div>
       </div>
 
-      <div
-        className="modal fade"
-        id="niModal"
-        role="dialog"
-        aria-labelledby="niModalLabel"
-        aria-hidden="true"
-        data-keyboard="true"
-      >
-        <div className="modal-header">
-          <button
-            type="button"
-            className="close"
-            data-dismiss="modal"
-            aria-hidden="true"
-          >
-            ×
-          </button>
-          <h3 className="notitle" id="niModalLabel"></h3>
-        </div>
-        <div className="modal-body">Loading...</div>
-      </div>
-      <div
-        className="modal fade"
-        id="1niAccountModal"
-        role="dialog"
-        aria-hidden="true"
-        data-keyboard="true"
-        style={{ minHeight: "343px" }}
-      >
-        <div className="modal-header">
-          <button
-            type="button"
-            className="close"
-            data-dismiss="modal"
-            aria-hidden="true"
-          >
-            ×
-          </button>
-        </div>
-        <div className="modal-body">Loading...</div>
-      </div>
-      <div
-        className="modal fade"
-        id="niAccountModal"
-        role="dialog"
-        aria-labelledby="myModalLabel"
-        aria-hidden="true"
-      >
-        <div className="modal-dialog">
-          <div className="modal-content">
-            <div className="modal-header">
-              <button
-                type="button"
-                className="close"
-                data-dismiss="modal"
-                aria-hidden="true"
-              >
-                ×
-              </button>
-              <h4 className="modal-title" id="myModalLabel">
-                Modal title
-              </h4>
-            </div>
-            <div className="modal-body">...</div>
-            <div className="modal-footer">
-              <button
-                type="button"
-                className="btn btn-default"
-                data-dismiss="modal"
-              >
-                Close
-              </button>
-              <button type="button" className="btn btn-primary">
-                Save changes
-              </button>
-            </div>
-          </div>
+      <div className="footer-secondary bg-[#333] pt-4 pb-2 text-sm">
+        <div className="container-fluid mx-auto">
+          <ul className="text-center">
+            <li className="inline-block mr-6">&copy; 2024 Keys Rig GmbH</li>
+            <li className="inline-block mr-6">
+              <a href="/en/company/legal-information/">Legal Information</a> |{" "}
+              <a href="/en/company/legal-information/privacy-policy/">
+                Privacy Policy
+              </a>
+              <span data-cookie-consent-toggle="" className="hide">
+                | <a href="#">Manage Cookies</a>
+              </span>{" "}
+              | <a href="/en/company/ni-locations/">Contact</a>
+            </li>
+            <li className="inline-block lang-switcher">
+              <a href="/en/" data-code="en" rel="alternate" hreflang="en">
+                English
+              </a>{" "}
+              |{" "}
+              <a href="/de/" data-code="de" rel="alternate" hreflang="de">
+                Deutsch
+              </a>{" "}
+              |{" "}
+              <a href="/jp/" data-code="jp" rel="alternate" hreflang="ja">
+                日本語
+              </a>{" "}
+              |{" "}
+              <a href="/fr/" data-code="fr" rel="alternate" hreflang="fr">
+                Français
+              </a>{" "}
+              |{" "}
+              <a href="/es/" data-code="es" rel="alternate" hreflang="es">
+                Español
+              </a>{" "}
+              |{" "}
+              <a href="/zh/" data-code="zh" rel="alternate" hreflang="zh">
+                简体中文
+              </a>
+            </li>
+          </ul>
         </div>
       </div>
     </footer>
