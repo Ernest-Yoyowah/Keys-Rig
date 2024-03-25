@@ -5,8 +5,8 @@ import { ThemeProvider } from "@/components/theme-provider";
 
 export const metadata: Metadata = {
   title: "Keys Rig",
-  description: "The official Next.js Course Dashboard, built with App Router.",
-  metadataBase: new URL("https://next-learn-dashboard.vercel.sh"),
+  description: "Software and Hardware for music production",
+  // metadataBase: new URL("keysrig.netlify.app"),
 };
 
 export default function RootLayout({
