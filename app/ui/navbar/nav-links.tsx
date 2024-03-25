@@ -105,7 +105,6 @@ export const instrumentMarketComponents: InstrumentMarketComponent[] = [
 
 export default function NavLinks() {
   const pathname = usePathname();
-  const [activeLink, setActiveLink] = useState(pathname);
 
   return (
     <>
