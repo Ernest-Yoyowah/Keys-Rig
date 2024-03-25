@@ -42,7 +42,7 @@ export function Navbar() {
         onClick={closeMobileMenu}
       >
         <div className="bg-[#254d63] h-full w-64 transition-transform ease-in-out duration-300">
-          <div className="p-0 text-[#f3eded]">
+          <div className="p-0 text-[#aeaaaa]">
             <SideNav />
           </div>
         </div>
