@@ -4,9 +4,12 @@ import { inter } from "./ui/fonts";
 import { ThemeProvider } from "@/components/theme-provider";
 
 export const metadata: Metadata = {
-  title: "Keys Rig",
-  description: "Software and Hardware for music production",
-  // metadataBase: new URL("keysrig.netlify.app"),
+  title: {
+    template: "%s",
+    default: "Keys Rig",
+  },
+  description: "Software and Hardware for Music Production",
+  metadataBase: new URL("https://next-learn-dashboard.vercel.sh"),
 };
 
 export default function RootLayout({
