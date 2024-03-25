@@ -122,7 +122,11 @@ export default function NavLinks() {
               }
             )}
           >
-            <LinkIcon className="text-[#a5a5a5] w-6" />
+            {/* <LinkIcon className="text-[#a5a5a5] w-6" /> */}
+            <LinkIcon
+              className={clsx("w-6", { "text-black": pathname === link.href })}
+            />
+
             <p className="block">{link.name}</p>
           </Link>
         );
