@@ -128,30 +128,3 @@ export default function NavLinks() {
     </>
   );
 }
-
-// export default function NavLinks() {
-//   const pathname = usePathname();
-
-//   return (
-//     <>
-//       {links.map((link) => {
-//         const LinkIcon = link.icon;
-//         return (
-//           <Link
-//             key={link.name}
-//             href={link.href}
-//             className={clsx(
-//               `flex h-[48px] grow items-center  gap-2 text-[#f3eded] md:round p-3 text-sm font-medium hover:bg-white hover:text-black  md:p-2 md:px-3`,
-//               {
-//                 " text-black": pathname === link.href,
-//               }
-//             )}
-//           >
-//             <LinkIcon className=" text-[#a5a5a5] w-6" />
-//             <p className="block">{link.name}</p>
-//           </Link>
-//         );
-//       })}
-//     </>
-//   );
-// }
