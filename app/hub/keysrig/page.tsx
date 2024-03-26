@@ -10,11 +10,11 @@ export const metadata: Metadata = {
 
 const Rig = () => {
   return (
-    <>
-      <div className="bg-[#172D44] text-[#f5f5f5] flex justify-center items-center">
+    <div className="">
+      <div className="bg-[#172D44] text-[#f5f5f5] flex justify-center items-center p-5 md:p-0">
         <div className=" ">
-          <div className="max-w-5xl pb-6 md:pt-0 text-center space-y-10">
-            <h1 className="text-4xl font-bold mt-20">
+          <div className="max-w-5xl md:pb-6 md:pt-0 text-center space-y-10">
+            <h1 className="text-2xl md:text-4xl font-bold mt-7 md:mt-20">
               Choose 9 Expansions. Pay only $99.00
             </h1>
             <p className="pb-0 pt-0">
@@ -49,7 +49,30 @@ const Rig = () => {
           style={{ minWidth: "100%", minHeight: "50vh", objectFit: "cover" }}
         />
       </div>
-    </>
+      <div className="bg-[#172D44] text-[#f5f5f5] flex justify-center items-center p-5 md:p-0">
+        <div className=" max-w-5xl pb-6 p-0 md:pt-0 text-center space-y-10">
+          <h1 className="text-4xl font-bold mt-20">Build your own bundle</h1>
+          <p className="pb-0 pt-0">
+            Click below to check out all the Expansions on offer, pick the nine
+            you love the most, and simply add them to your basket to create your
+            own personalized bundle. The discounted price will be applied
+            automatically, for a saving of over 75%.
+          </p>
+
+          <Button
+            variant="default"
+            className="bg-white text-black border-white rounded-none font-semibold hover:bg-[#d1d5db] hover:text-black hover:border-white"
+          >
+            Choose your Expansions
+          </Button>
+        </div>
+      </div>
+      <img
+        src="/setupImg_2.jpg"
+        alt="worhip rig setup image"
+        style={{ minWidth: "100%", minHeight: "50vh", objectFit: "cover" }}
+      />
+    </div>
   );
 };
 
