@@ -13,9 +13,9 @@ const Rig = () => {
     <>
       <div className="bg-[#172D44] text-[#f5f5f5] min-h-screen flex justify-center items-center">
         <div className=" ">
-          <div className="max-w-4xl pb-6 md:p-8 text-center space-y-10">
-            <h1 className="text-4xl font-bold mt-10">
-              Choose 9 Expansions. Pay only $99.00 vs $441.00
+          <div className="max-w-5xl pb-6 md:pt-0 text-center space-y-10">
+            <h1 className="text-4xl font-bold mt-0">
+              Choose 9 Expansions. Pay only $99.00
             </h1>
             <p className="pb-6 pt-0">
               From soulful hip-hop to liquid drum and bass, or from lo-fi to
