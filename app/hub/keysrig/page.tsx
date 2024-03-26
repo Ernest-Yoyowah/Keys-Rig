@@ -17,7 +17,7 @@ const Rig = () => {
             <h1 className="text-4xl font-bold mt-10">
               Choose 9 Expansions. Pay only $99.00 vs $441.00
             </h1>
-            <p className="pb-6 pt-4">
+            <p className="pb-6 pt-0">
               From soulful hip-hop to liquid drum and bass, or from lo-fi to
               classic house – whatever genre you’re making, there’s an Expansion
               to do it with. Until April 9, grab any nine Expansions for just
