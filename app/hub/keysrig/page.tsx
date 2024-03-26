@@ -32,7 +32,7 @@ const Rig = () => {
 
         <Button
           variant="default"
-          className="bg-white text-black border border-white hover:bg-[#d1d5db] hover:text-black hover:border-white"
+          className="bg-white text-black border-white hover:bg-[#d1d5db] hover:text-black hover:border-white"
         >
           Choose now
         </Button>
