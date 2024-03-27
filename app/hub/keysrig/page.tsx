@@ -104,7 +104,7 @@ const Rig: React.FC = () => {
       />
 
       <div id="c1017229" className="p-1 md:p-20">
-        <div className="container mt-0 py-0 md:py-10 md:px-4 px-0">
+        <div className="">
           {expansions.map((expansion, index) => (
             <div
               key={index}
