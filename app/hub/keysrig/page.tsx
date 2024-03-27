@@ -104,7 +104,7 @@ const Rig: React.FC = () => {
       />
 
       <div id="c1017229" className="p-1 md:p-20">
-        <div className="">
+        <div className="container">
           {expansions.map((expansion, index) => (
             <div
               key={index}
@@ -146,7 +146,7 @@ const Rig: React.FC = () => {
                       />
                     </div>
                   </div>
-                  <div className="col-text w-96">
+                  <div className="col-text md:w-96">
                     <ExpansionItem {...expansion} />
                   </div>
                 </>
