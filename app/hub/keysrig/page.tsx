@@ -39,13 +39,13 @@ const Rig: React.FC = () => {
 
   return (
     <div className="bg-[#172D44]">
-      <div className=" text-[#f5f5f5] flex md:justify-center md:items-center p-5 md:p-0 text-left	md:text-center">
+      <div className=" text-[#f5f5f5] flex md:justify-center md:items-center p-5 md:p-0 ">
         <div className=" ">
           <div className="max-w-5xl md:pb-6 md:pt-0 text-center space-y-10">
-            <h1 className="text-2xl md:text-4xl font-bold mt-7 md:mt-20">
+            <h1 className="text-2xl md:text-4xl font-bold mt-7 md:mt-20 text-left	md:text-center">
               Choose 9 Expansions. Pay only $99.00
             </h1>
-            <p className="pb-0 pt-0 	">
+            <p className="pb-0 pt-0 text-left	md:text-center">
               From soulful hip-hop to liquid drum and bass, or from lo-fi to
               classic house – whatever genre you’re making, there’s an Expansion
               to do it with. Until April 9, grab any nine Expansions for just
@@ -55,7 +55,7 @@ const Rig: React.FC = () => {
               workflow with the free Komplete Kontrol software.
             </p>
 
-            <p className="p-5">
+            <p className="p-0 md:p-5 text-left	md:text-center">
               <span className="text-lg font-bold">Offer ends in:</span> 15 Days
               09 Hours 15 Minutes 30 Seconds
             </p>
