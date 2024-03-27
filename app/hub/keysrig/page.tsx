@@ -78,7 +78,7 @@ const Rig: React.FC = () => {
         />
       </div>
       <div className=" text-[#f5f5f5] flex justify-center items-center p-5 md:p-0">
-        <div className=" max-w-5xl pb-6 p-0 md:pt-0 text-center space-y-5 md:space-y-10">
+        <div className=" max-w-5xl pb-6 p-0 md:pt-0 md:text-center space-y-5 md:space-y-10">
           <h1 className="text-lg md:text-4xl font-bold mt-20 text-left	md:text-center">
             Build your own bundle
           </h1>
