@@ -8,7 +8,7 @@ const ExpansionItem: React.FC<ExpansionItemProps> = ({
   imageUrl,
 }) => {
   return (
-    <div className="col-text w-[15rem] md:w-96 justify-center items-center p-5 md:p-0">
+    <div className="">
       <h2 className="text-white md:text-4xl font-bold mb-4">{title}</h2>
       <div className="text-white  md:mb-6">{description}</div>
       <div className="media media--youtube media--complex media--small media--padding-bottom flex text-[#fff]">
