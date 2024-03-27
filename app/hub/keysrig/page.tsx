@@ -39,9 +39,9 @@ const Rig: React.FC = () => {
 
   return (
     <div className="bg-[#172D44]">
-      <div className=" text-[#f5f5f5] flex md:justify-center md:items-center p-5 md:p-0 ">
+      <div className=" text-[#f5f5f5] md:flex md:justify-center md:items-center p-5 md:p-0 ">
         <div className=" ">
-          <div className="max-w-5xl md:pb-6 md:pt-0 text-center space-y-10">
+          <div className="max-w-5xl md:pb-6 md:pt-0 md:text-center space-y-10">
             <h1 className="text-2xl md:text-4xl font-bold mt-7 md:mt-20 text-left	md:text-center">
               Choose 9 Expansions. Pay only $99.00
             </h1>
@@ -79,7 +79,7 @@ const Rig: React.FC = () => {
       </div>
       <div className=" text-[#f5f5f5] flex justify-center items-center p-5 md:p-0">
         <div className=" max-w-5xl pb-6 p-0 md:pt-0 md:text-center space-y-5 md:space-y-10">
-          <h1 className="text-lg md:text-4xl font-bold md:mt-20 text-left	md:text-center">
+          <h1 className="text-2xl md:text-4xl font-bold md:mt-20 text-left	md:text-center">
             Build your own bundle
           </h1>
           <p className="pb-0 pt-0 text-left	md:text-center">
@@ -91,7 +91,7 @@ const Rig: React.FC = () => {
 
           <Button
             variant="default"
-            className="bg-white text-black border-white rounded-none font-semibold hover:bg-[#d1d5db] hover:text-black hover:border-white"
+            className="bg-white text-black border-white rounded-none font-semibold hover:bg-[#d1d5db]  hover:text-black hover:border-white"
           >
             Choose your Expansions
           </Button>
