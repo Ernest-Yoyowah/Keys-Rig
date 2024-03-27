@@ -108,7 +108,7 @@ const Rig: React.FC = () => {
           {expansions.map((expansion, index) => (
             <div
               key={index}
-              className={`grid grid-cols-1 md:grid-cols-2 gap-4 my-48 ${
+              className={`grid grid-cols-1 md:grid-cols-2 gap-4 md:my-48 my-5 ${
                 index % 2 === 0 ? "" : "md:grid-flow-col-reverse"
               }`}
             >
