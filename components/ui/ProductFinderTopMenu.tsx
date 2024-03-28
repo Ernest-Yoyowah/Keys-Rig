@@ -2,7 +2,10 @@ import React from "react";
 
 const ProductFinderTopMenu: React.FC = () => {
   return (
-    <nav data-testid="product-finder-top-menu-root" className="bg-gray-900 p-4">
+    <nav
+      data-testid="product-finder-top-menu-root"
+      className="bg-[#2a2c2e] p-4"
+    >
       <ul className="flex flex-wrap gap-x-4">
         <li>
           <a href="/en/catalog/" className="text-white">
