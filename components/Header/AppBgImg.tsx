@@ -1,6 +1,6 @@
 import React from "react";
 import Image from "next/image";
-import bgImage from "@/public/ableton_live.jpg";
+import bgImage from "@/public/header_bg1.jpg";
 
 const AppBgImg: React.FC = () => {
   return (
