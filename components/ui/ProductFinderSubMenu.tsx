@@ -2,7 +2,7 @@ import React from "react";
 
 const ProductFinderSubMenu: React.FC = () => {
   return (
-    <ul className="text-center bg-gray-200 p-0">
+    <ul className="text-center bg-[#3a3d40] p-0">
       <li className="product-finder-submenu-link mb-2">
         <a href="/en/catalog/deals/" className="text-blue-600">
           Deals
