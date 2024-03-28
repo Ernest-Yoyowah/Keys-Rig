@@ -6,7 +6,7 @@ const Introductory: React.FC = () => {
   return (
     <>
       <div className="pb-12 md:pb-12 mt-0">
-        <div className="container mx-auto text-center">
+        <div className="container mx-auto md:text-center">
           <h2 className="text-3xl font-semibold mb-5 text-slate-700	">
             Unlock Your Musical Potential
           </h2>
