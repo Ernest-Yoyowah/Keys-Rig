@@ -100,7 +100,7 @@ const Rig: React.FC = () => {
       <img
         src="/setupImg_2.jpg"
         alt="worhip rig setup image"
-        style={{ minWidth: "100%", minHeight: "50vh", objectFit: "cover" }}
+        style={{ minWidth: "90%", minHeight: "30vh", objectFit: "cover" }}
       />
 
       <div id="c1017229" className="p-1 md:p-20">
