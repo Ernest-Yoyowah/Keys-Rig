@@ -6,7 +6,7 @@ const ProductFinderTopMenu: React.FC = () => {
       data-testid="product-finder-top-menu-root"
       className="bg-[#2a2c2e] p-4"
     >
-      <ul className="md:flex md:justify-center md:items-center gap-x-10 text-center">
+      <ul className="md:flex md:justify-center md:items-center gap-x-12 text-center">
         <li>
           <a href="/en/catalog/" className="text-[#f0f0f0]">
             <span className="font-bold">OVERVIEW</span>
