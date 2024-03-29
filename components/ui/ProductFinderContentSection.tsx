@@ -11,10 +11,10 @@ const ProductFinderContentSection: React.FC = () => {
           New products
         </h2>
       </div>
-      <div className="grid grid-cols-1 md:grid-cols-0 lg:grid-cols-3 gap-4">
+      <div className="flex flex-wrap justify-center gap-4">
         {/* Featured Product 1 */}
-        <div className="bg-white shadow-md p-4">
-          <div className="relative h-[320px]">
+        <div className="bg-white shadow-md p-4 w-64">
+          <div className="relative h-48">
             <img
               src="https://www.native-instruments.com/typo3temp/pics/img-packshot-kontrol-s88-product-finder-567d15708f21fecf897559368e397a50-d.jpg"
               alt="Product Image"
