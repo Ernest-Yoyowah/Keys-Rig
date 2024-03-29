@@ -16,3 +16,12 @@ export interface ExpansionItemProps {
   youtubeLink: string;
   imageUrl: string;
 }
+
+export interface ProductFinderContentProps {
+  title: string;
+  productName: string;
+  description: string;
+  price: string;
+  discountedPrice: string;
+  imageUrl: string;
+}
