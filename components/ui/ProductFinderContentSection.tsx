@@ -18,9 +18,9 @@ const ProductFinderContentSection: React.FC = () => {
             <img
               src="https://www.native-instruments.com/typo3temp/pics/img-packshot-kontrol-s88-product-finder-567d15708f21fecf897559368e397a50-d.jpg"
               alt="Product Image"
-              className="w-full h-auto rounded-lg"
+              className="w-sm"
             />
-            <span className="absolute top-2 right-2 bg-gray-700 text-white py-1 px-2 rounded">
+            <span className="absolute top-2 left-2 bg-gray-700 text-white py-1 px-2 rounded">
               New
             </span>
           </div>
