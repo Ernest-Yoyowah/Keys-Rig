@@ -7,7 +7,7 @@ const ProductFinderContentSection: React.FC = () => {
       className="p-4 bg-gray-100"
     >
       <div className="text-center">
-        <h2 className="mb-4 text-2xl font-bold">New products</h2>
+        <h2 className="mb-4 text-2xl font-bold text-[#222222]">New products</h2>
       </div>
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
         {/* Featured Product 1 */}
