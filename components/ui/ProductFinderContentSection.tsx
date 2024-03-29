@@ -16,7 +16,7 @@ const ProductFinderContentSection: React.FC = () => {
         <div className="product-tile-wrapper bg-white shadow-md rounded-lg p-4">
           <div className="relative">
             <img
-              src="/https://www.native-instruments.com/typo3temp/pics/img-packshot-kontrol-s88-product-finder-567d15708f21fecf897559368e397a50-d.jpg"
+              src="https://www.native-instruments.com/typo3temp/pics/img-packshot-kontrol-s88-product-finder-567d15708f21fecf897559368e397a50-d.jpg"
               alt="Product Image"
               className="w-full h-auto rounded-lg"
             />
