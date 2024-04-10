@@ -50,7 +50,7 @@ const ProductFinderContentSection: React.FC = () => {
         </p>
         <Button
           variant="default"
-          className="bg-[#3c3c3c] text-[#ffffff] border"
+          className="bg-[#3c3c3c] text-[#ffffff] mt-2 rounded-none	"
         >
           See all software & sounds
         </Button>
