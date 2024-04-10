@@ -10,7 +10,7 @@ export const metadata: Metadata = {
     default: "Keys Rig",
   },
   description: "Software and Hardware for Music Production",
-  metadataBase: new URL("https://next-learn-dashboard.vercel.sh"),
+  metadataBase: new URL("https://keysrig.com"),
 };
 
 export default function RootLayout({
