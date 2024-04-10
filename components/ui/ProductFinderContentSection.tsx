@@ -43,6 +43,10 @@ const ProductFinderContentSection: React.FC = () => {
       <div className="flex p-6 mt-8 justify-center items-center">
         <h2 className="text-2xl text-[#222] font-bold">Software & sounds</h2>
       </div>
+      <p>
+        A vast range of virtual instruments and effects: Synths, sampled
+        instruments, studio and creative effects, samplers, and cinematic tools.
+      </p>
     </div>
   );
 };
