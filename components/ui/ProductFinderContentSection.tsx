@@ -1,6 +1,7 @@
 // ProductFinderContentSection.tsx
 import React from "react";
 import { products } from "@/app/lib/productsData";
+import { Button } from "./button";
 const ProductFinderContentSection: React.FC = () => {
   return (
     <div
@@ -42,11 +43,12 @@ const ProductFinderContentSection: React.FC = () => {
       </div>
       <div className="p-6 mt-8 text-center max-w-2xl mx-auto">
         <h2 className="text-2xl text-[#222] font-bold">Software & sounds</h2>
-        <p>
+        <p className="mt-3">
           A vast range of virtual instruments and effects: Synths, sampled
           instruments, studio and creative effects, samplers, and cinematic
           tools.
         </p>
+        <Button>See all software & sounds</Button>
       </div>
     </div>
   );
