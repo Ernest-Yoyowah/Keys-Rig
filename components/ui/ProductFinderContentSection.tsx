@@ -43,12 +43,17 @@ const ProductFinderContentSection: React.FC = () => {
       </div>
       <div className="p-6 mt-8 text-center max-w-2xl mx-auto">
         <h2 className="text-2xl text-[#222] font-bold">Software & sounds</h2>
-        <p className="mt-3">
+        <p className="my-3">
           A vast range of virtual instruments and effects: Synths, sampled
           instruments, studio and creative effects, samplers, and cinematic
           tools.
         </p>
-        <Button>See all software & sounds</Button>
+        <Button
+          variant="default"
+          className="bg-[#3c3c3c] text-[#ffffff] border"
+        >
+          See all software & sounds
+        </Button>
       </div>
     </div>
   );
