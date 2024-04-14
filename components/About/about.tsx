@@ -15,16 +15,17 @@ const About: React.FC = () => {
             selection and discover a curated selection of VST plugins to fuel
             your creativity. Let's make music magic together.
           </p>
-          <div className="embed-responsive mt-10">
+          <div className="mt-10 md:h-[456px] aspect-w-16 aspect-h-9">
             <iframe
               width="810"
               height="456"
               src="https://www.youtube.com/embed/I4pKBOxosrk"
               title="Worship Rig Tour - Piano &amp; Keys Gear | Sunday Keys App Setup"
-              frameborder="0"
+              frameBorder="0"
               allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-              referrerpolicy="strict-origin-when-cross-origin"
-              allowfullscreen
+              referrerPolicy="strict-origin-when-cross-origin"
+              allowFullScreen
+              className="w-full h-full"
             ></iframe>
           </div>
         </div>
