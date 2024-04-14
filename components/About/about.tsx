@@ -18,7 +18,6 @@ const About: React.FC = () => {
           </p>
         </div>
         <div className="max-w-3xl mx-auto">
-          {" "}
           <div className="mt-10 md:h-[456px] aspect-w-16 aspect-h-9">
             <iframe
               width="1067"
