@@ -89,7 +89,6 @@ const Rig: React.FC = () => {
             automatically, for a saving of over 75%.
           </p>
           <Link to="/hub/keysrig/tools">
-            {" "}
             <Button
               variant="default"
               className="bg-white text-black border-white rounded-none font-semibold hover:bg-[#d1d5db]  hover:text-black hover:border-white"
