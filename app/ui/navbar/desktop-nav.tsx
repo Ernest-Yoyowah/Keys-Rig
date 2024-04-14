@@ -37,14 +37,14 @@ const DesktopNav = () => {
             </Link>
           </NavigationMenuItem>
           <NavigationMenuItem>
-            <Link href="/hub/keysrig" legacyBehavior passHref>
+            <Link href="/hub/plugins" legacyBehavior passHref>
               <NavigationMenuLink className={navigationMenuTriggerStyle()}>
                 Plugins
               </NavigationMenuLink>
             </Link>
           </NavigationMenuItem>
           <NavigationMenuItem>
-            <Link href="/hub/plugins" legacyBehavior passHref>
+            <Link href="/hub/keysrig" legacyBehavior passHref>
               <NavigationMenuLink className={navigationMenuTriggerStyle()}>
                 Keys Rig
               </NavigationMenuLink>
