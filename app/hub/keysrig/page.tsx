@@ -43,7 +43,7 @@ const Rig: React.FC = () => {
         <div className=" ">
           <div className="max-w-5xl md:pb-6 md:pt-0 md:text-center space-y-10">
             <h1 className="text-2xl md:text-4xl font-bold mt-7 md:mt-20 text-left	md:text-center">
-              Choose 9 Expansions. Pay only $99.00
+              Piano & Keys Gear Setup
             </h1>
             <p className="pb-0 pt-0 text-left	md:text-center">
               From soulful hip-hop to liquid drum and bass, or from lo-fi to
