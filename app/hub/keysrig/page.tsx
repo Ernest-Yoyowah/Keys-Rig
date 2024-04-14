@@ -88,13 +88,15 @@ const Rig: React.FC = () => {
             own personalized bundle. The discounted price will be applied
             automatically, for a saving of over 75%.
           </p>
-
-          <Button
-            variant="default"
-            className="bg-white text-black border-white rounded-none font-semibold hover:bg-[#d1d5db]  hover:text-black hover:border-white"
-          >
-            Choose your Expansions
-          </Button>
+          <Link to="/hub/keysrig/tools">
+            {" "}
+            <Button
+              variant="default"
+              className="bg-white text-black border-white rounded-none font-semibold hover:bg-[#d1d5db]  hover:text-black hover:border-white"
+            >
+              Choose your Expansions
+            </Button>
+          </Link>
         </div>
       </div>
       <img
