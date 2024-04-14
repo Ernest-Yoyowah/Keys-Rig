@@ -5,18 +5,26 @@ const About: React.FC = () => {
     <>
       <div className="container mx-auto my-auto text-slate-800 md:text-center py-8 mt-10 ">
         <h1 className="text-3xl font-semibold mb-4">About Keys Rig</h1>
-        <div className="max-w-3xl mx-auto  ">
+        <div className="max-w-3xl mx-auto">
           <p className="">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores
-            dicta ex nulla, voluptas odio suscipit eveniet accusamus iste nisi
-            culpa rem non? Velit ipsam nihil optio enim fugit molestias atque!
+            Welcome to Keys Rig Setup and VST Plugins! We're your go-to resource
+            for crafting the ultimate keyboard rig and exploring the world of
+            virtual instruments and effects. Find expert advice on gear
+            selection and discover a curated selection of VST plugins to fuel
+            your creativity. Let's make music magic together.
           </p>
-          <br />
-          <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores
-            dicta ex nulla, voluptas odio suscipit eveniet accusamus iste nisi
-            culpa rem non? Velit ipsam nihil optio enim fugit molestias atque!
-          </p>
+          <div className="embed-responsive mt-10">
+            <iframe
+              width="810"
+              height="456"
+              src="https://www.youtube.com/embed/I4pKBOxosrk"
+              title="My Worship Rig Tour - Piano &amp; Keys Gear | Sunday Keys App Setup"
+              frameborder="0"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+              referrerpolicy="strict-origin-when-cross-origin"
+              allowfullscreen
+            ></iframe>
+          </div>
         </div>
       </div>
     </>
