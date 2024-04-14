@@ -39,35 +39,35 @@ const Rig: React.FC = () => {
 
   return (
     <div className="bg-[#172D44]">
-      <div className=" text-[#f5f5f5] md:flex md:justify-center md:items-center p-5 md:p-0 ">
+      <div className="text-[#f5f5f5] md:flex md:justify-center md:items-center p-5 md:p-0 ">
         <div className=" ">
           <div className="max-w-5xl md:pb-6 md:pt-0 md:text-center space-y-10">
             <h1 className="text-2xl md:text-4xl font-bold mt-7 md:mt-20 text-left	md:text-center">
               Piano & Keys Gear Setup
             </h1>
             <p className="pb-0 pt-0 text-left	md:text-center">
-              From soulful hip-hop to liquid drum and bass, or from lo-fi to
-              classic house – whatever genre you’re making, there’s an Expansion
-              to do it with. Until April 9, grab any nine Expansions for just
-              $99.00. Get kits, preset patterns, and complete effect chains to
-              use with Maschine, plus Battery kits and synth presets for
-              Massive, Monark, and Prism, or seamlessly integrate them into any
-              workflow with the free Komplete Kontrol software.
+              Unlock the full potential of your musical expression with our
+              comprehensive guide to piano and keys gear setup. Whether you're a
+              seasoned pianist or a budding keyboardist, crafting the perfect
+              setup is essential for unleashing your creativity. Dive into our
+              expert recommendations for MIDI controllers, stage pianos,
+              synthesizers, and more, tailored to suit your playing style and
+              musical preferences.
             </p>
 
             <p className="p-0 md:p-5 text-left	md:text-center">
-              <span className="text-lg font-bold">Offer ends in:</span> 15 Days
-              09 Hours 15 Minutes 30 Seconds
+              <span className="text-lg font-bold">Explore Gear Selection:</span>{" "}
+              Choose from a wide range of keyboards, MIDI controllers, and
+              accessories to create your ideal setup.
             </p>
 
             <Button
               variant="default"
               className="bg-white text-black border-white rounded-none font-semibold hover:bg-[#d1d5db] hover:text-black hover:border-white"
             >
-              Choose now
+              View Gear Options
             </Button>
           </div>
-          {/* Image component */}
         </div>
       </div>
       <div className="">
@@ -77,8 +77,8 @@ const Rig: React.FC = () => {
           style={{ minWidth: "100%", minHeight: "50vh", objectFit: "cover" }}
         />
       </div>
-      <div className=" text-[#f5f5f5] flex justify-center items-center p-5 md:p-0">
-        <div className=" max-w-5xl pb-6 p-0 md:pt-0 md:text-center space-y-5 md:space-y-10">
+      <div className="text-[#f5f5f5] flex justify-center items-center p-5 md:p-0">
+        <div className="max-w-5xl pb-6 p-0 md:pt-0 md:text-center space-y-5 md:space-y-10">
           <h1 className="text-2xl md:text-4xl font-bold md:mt-20 text-left	md:text-center">
             Build your own bundle
           </h1>
