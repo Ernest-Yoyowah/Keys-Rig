@@ -7,7 +7,6 @@ const About: React.FC = () => {
         <h1 className="text-3xl font-semibold mb-4">VST Plugins</h1>
         <div className="max-w-3xl mx-auto">
           <p className="">
-            {" "}
             Discover the tools to elevate your music production to new heights.
             Whether you're sculpting lush synth textures, shaping dynamic drum
             beats, or adding the perfect finishing touch with audio effects, our
