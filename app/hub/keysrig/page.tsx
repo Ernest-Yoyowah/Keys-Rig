@@ -60,13 +60,14 @@ const Rig: React.FC = () => {
               Choose from a wide range of keyboards, MIDI controllers, and
               accessories to create your ideal setup.
             </p>
-
-            <Button
-              variant="default"
-              className="bg-white text-black border-white rounded-none font-semibold hover:bg-[#d1d5db] hover:text-black hover:border-white"
-            >
-              View Gear Options
-            </Button>
+            <Link to="/hub/keysrig/tools">
+              <Button
+                variant="default"
+                className="bg-white text-black border-white rounded-none font-semibold hover:bg-[#d1d5db] hover:text-black hover:border-white"
+              >
+                View Gear Options
+              </Button>
+            </Link>
           </div>
         </div>
       </div>
@@ -88,14 +89,13 @@ const Rig: React.FC = () => {
             own personalized bundle. The discounted price will be applied
             automatically, for a saving of over 75%.
           </p>
-          <Link to="/hub/keysrig/tools">
-            <Button
-              variant="default"
-              className="bg-white text-black border-white rounded-none font-semibold hover:bg-[#d1d5db]  hover:text-black hover:border-white"
-            >
-              Choose your Expansions
-            </Button>
-          </Link>
+
+          <Button
+            variant="default"
+            className="bg-white text-black border-white rounded-none font-semibold hover:bg-[#d1d5db]  hover:text-black hover:border-white"
+          >
+            Choose your Expansions
+          </Button>
         </div>
       </div>
       <img
