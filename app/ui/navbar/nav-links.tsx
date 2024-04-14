@@ -50,7 +50,7 @@ export const keysRigComponents: KeysRigComponent[] = [
   },
   {
     title: "Tools Needed (Main Keys)",
-    href: "/hub/keysrig/main/tools",
+    href: "/hub/keysrig/tools",
     description:
       "Essential tools required for setting up the main keyboard rig.",
   },
@@ -80,7 +80,7 @@ export const keysRigComponents: KeysRigComponent[] = [
 export const instrumentMarketComponents: InstrumentMarketComponent[] = [
   {
     title: "Buy and Sell Instruments",
-    href: "/hub/instrumentMarket/buy-sell",
+    href: "/hub/instrumentMarket",
     description: "Explore the instrument market for buying, selling, and more.",
   },
   {
