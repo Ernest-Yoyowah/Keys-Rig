@@ -44,7 +44,7 @@ export type InstrumentMarketComponent = {
 
 export const keysRigComponents: KeysRigComponent[] = [
   {
-    title: "Main Keys",
+    title: "Keys Rig",
     href: "/hub/keysrig",
     description: "Explore our main keyboard setup.",
   },
