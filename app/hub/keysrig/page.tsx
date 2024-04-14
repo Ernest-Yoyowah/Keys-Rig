@@ -1,7 +1,7 @@
 import React from "react";
 import { Metadata } from "next";
 import { Button } from "@/components/ui/button";
-import { Link } from "lucide-react";
+import Link from "next/link";
 import Image from "next/image";
 import ExpansionItem from "@/components/ui/ExpansionItem";
 
@@ -57,10 +57,10 @@ const Rig: React.FC = () => {
 
             <p className="p-0 md:p-5 text-left	md:text-center">
               <span className="text-lg font-bold">Explore Gear Selection:</span>{" "}
-              Choose from a wide range of keyboards, MIDI controllers, and
-              accessories to create your ideal setup.
+              Choose from a wide range of accessories to create your ideal
+              setup.
             </p>
-            <Link to="/hub/keysrig/tools">
+            <Link href="/hub/keysrig/tools">
               <Button
                 variant="default"
                 className="bg-white text-black border-white rounded-none font-semibold hover:bg-[#d1d5db] hover:text-black hover:border-white"
