@@ -4,8 +4,40 @@ const About: React.FC = () => {
   return (
     <>
       <div className="container mx-auto my-auto text-slate-800 md:text-center py-8 mt-10 ">
+        <h1 className="text-3xl font-semibold mb-4">VST Plugins</h1>
+        <div className="max-w-3xl mx-auto">
+          <p className="">
+            {" "}
+            Discover the tools to elevate your music production to new heights.
+            Whether you're sculpting lush synth textures, shaping dynamic drum
+            beats, or adding the perfect finishing touch with audio effects, our
+            handpicked collection has something for every musician and producer.
+            Let your creativity flow freely as you harness the power of these
+            plugins to shape your unique sound and inspire your next musical
+            masterpiece.
+          </p>
+        </div>
+        <div className="max-w-3xl mx-auto">
+          {" "}
+          <div className="mt-10 md:h-[456px] aspect-w-16 aspect-h-9">
+            <iframe
+              width="1067"
+              height="600"
+              src="https://www.youtube.com/embed/j09JDxQNyus"
+              title="What Is a VST?"
+              frameBorder="0"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+              referrerPolicy="strict-origin-when-cross-origin"
+              allowFullScreen
+              className="w-full h-full"
+            ></iframe>
+          </div>
+        </div>
+      </div>
+
+      <div className="container mx-auto my-auto text-slate-800 md:text-center py-8 mt-10 ">
         <h1 className="text-3xl font-semibold mb-4">
-          About Keys Rig Setup and VST Plugins
+          Keys Rig Setup and VST Plugins
         </h1>
         <div className="max-w-3xl mx-auto">
           <p className="">
