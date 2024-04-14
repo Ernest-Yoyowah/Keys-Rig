@@ -4,7 +4,9 @@ const About: React.FC = () => {
   return (
     <>
       <div className="container mx-auto my-auto text-slate-800 md:text-center py-8 mt-10 ">
-        <h1 className="text-3xl font-semibold mb-4">About Keys Rig</h1>
+        <h1 className="text-3xl font-semibold mb-4">
+          About Keys Rig Setup and VST Plugins
+        </h1>
         <div className="max-w-3xl mx-auto">
           <p className="">
             Welcome to Keys Rig Setup and VST Plugins! We're your go-to resource
@@ -18,7 +20,7 @@ const About: React.FC = () => {
               width="810"
               height="456"
               src="https://www.youtube.com/embed/I4pKBOxosrk"
-              title="My Worship Rig Tour - Piano &amp; Keys Gear | Sunday Keys App Setup"
+              title="Worship Rig Tour - Piano &amp; Keys Gear | Sunday Keys App Setup"
               frameborder="0"
               allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
               referrerpolicy="strict-origin-when-cross-origin"
