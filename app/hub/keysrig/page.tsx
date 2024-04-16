@@ -81,21 +81,22 @@ const Rig: React.FC = () => {
       <div className="text-[#f5f5f5] flex justify-center items-center p-5 md:p-0">
         <div className="max-w-5xl pb-6 p-0 md:pt-0 md:text-center space-y-5 md:space-y-10">
           <h1 className="text-2xl md:text-4xl font-bold md:mt-20 text-left	md:text-center">
-            Build your own bundle
+            Building The Ultimate Keyboard Utility Rig
           </h1>
-          <p className="pb-0 pt-0 text-left	md:text-center">
+          <p className="pb-4 pt-0 text-left	md:text-center">
             Click below to check out all the Expansions on offer, pick the nine
             you love the most, and simply add them to your basket to create your
             own personalized bundle. The discounted price will be applied
             automatically, for a saving of over 75%.
           </p>
-
-          <Button
-            variant="default"
-            className="bg-white text-black border-white rounded-none font-semibold hover:bg-[#d1d5db]  hover:text-black hover:border-white"
-          >
-            Choose your Expansions
-          </Button>
+          <Link href="/hub/keysrig/build-rig">
+            <Button
+              variant="default"
+              className="bg-white text-black border-white rounded-none font-semibold hover:bg-[#d1d5db]  hover:text-black hover:border-white"
+            >
+              Build your own Keys Rig
+            </Button>
+          </Link>
         </div>
       </div>
       <img
