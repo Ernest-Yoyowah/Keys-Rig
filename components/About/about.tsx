@@ -62,7 +62,6 @@ const About: React.FC = () => {
       </div>
 
       <div className="container mx-auto my-auto text-slate-800 md:text-center py-8 mt-10 ">
-        <h1 className="text-3xl font-semibold mb-4"></h1>
         <div className="max-w-3xl mx-auto">
           <p className="">
             Welcome to Keys Rig Setup and VST Plugins! We're your go-to resource
