@@ -60,6 +60,21 @@ const About: React.FC = () => {
           </div>
         </div>
       </div>
+
+      <div className="container mx-auto my-auto text-slate-800 md:text-center py-8 mt-10 ">
+        <h1 className="text-3xl font-semibold mb-4">
+          Keys Rig Setup and VST Plugins
+        </h1>
+        <div className="max-w-3xl mx-auto">
+          <p className="">
+            Welcome to Keys Rig Setup and VST Plugins! We're your go-to resource
+            for crafting the ultimate keyboard rig and exploring the world of
+            virtual instruments and effects. Find expert advice on gear
+            selection and discover a curated selection of VST plugins to fuel
+            your creativity. Let's make music magic together.
+          </p>
+        </div>
+      </div>
     </>
   );
 };
