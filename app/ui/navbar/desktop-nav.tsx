@@ -44,11 +44,11 @@ const DesktopNav = () => {
             </Link>
           </NavigationMenuItem>
           <NavigationMenuItem>
-            <Link href="/hub/keysrig" legacyBehavior passHref>
+            {/* <Link href="/hub/keysrig" legacyBehavior passHref>
               <NavigationMenuLink className={navigationMenuTriggerStyle()}>
                 Keys Rig
               </NavigationMenuLink>
-            </Link>
+            </Link> */}
           </NavigationMenuItem>
           <NavigationMenuItem>
             <NavigationMenuTrigger>Instrument Market</NavigationMenuTrigger>
