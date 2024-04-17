@@ -55,8 +55,8 @@ export const keysRigComponents: KeysRigComponent[] = [
       "Essential tools required for setting up the main keyboard rig.",
   },
   {
-    title: "Cables Needed (Main Keys)",
-    href: "/hub/keysrig/main/cables",
+    title: "Build your own Keys Rig",
+    href: "/hub/keysrig/build-rig",
     description: "Required cables for connecting the main keyboard rig.",
   },
   {
