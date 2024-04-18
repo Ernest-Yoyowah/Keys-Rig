@@ -55,7 +55,7 @@ const Rig: React.FC = () => {
               your sound to the next level.
             </p>
 
-            <p className="p-0 md:p-5 text-left	md:text-center">
+            <p className="pb-4 md:p-5 text-left	md:text-center">
               <span className="text-lg font-bold">Explore Gear Selection:</span>{" "}
               Choose from a wide range of accessories to create your ideal
               setup.
@@ -63,7 +63,7 @@ const Rig: React.FC = () => {
             <Link href="/hub/keysrig/tools">
               <Button
                 variant="default"
-                className="bg-white text-slate-700 border-white mt-5 rounded-none font-semibold hover:bg-[#d1d5db] hover:text-black hover:border-white"
+                className="bg-white text-slate-700 border-white rounded-none font-semibold hover:bg-[#d1d5db] hover:text-black hover:border-white"
               >
                 View Gear Options
               </Button>
