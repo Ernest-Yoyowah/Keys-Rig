@@ -49,20 +49,20 @@ export const keysRigComponents: KeysRigComponent[] = [
     description: "Explore our main keyboard setup.",
   },
   {
-    title: "Tools Needed (Main Keys)",
-    href: "/hub/keysrig/tools",
-    description:
-      "Essential tools required for setting up the main keyboard rig.",
-  },
-  {
     title: "Build your own Keys Rig",
     href: "/hub/keysrig/build-rig",
     description: "Required cables for connecting the main keyboard rig.",
   },
   {
-    title: "Auxiliary Keys",
+    title: "Gear & Cables Needed ",
+    href: "/hub/keysrig/tools",
+    description:
+      "Knowing what keys gear is right for you and how it works together will benefit your playing, as well as the entire sound of the band!.",
+  },
+  {
+    title: "Keys Rig Rundown",
     href: "/hub/keysrig/aux/",
-    description: "Discover our auxiliary keyboard setup.",
+    description: "Discover other rig setup from other keys musicians.",
   },
   {
     title: "Tools Needed (Auxiliary Keys)",
