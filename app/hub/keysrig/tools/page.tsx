@@ -37,19 +37,11 @@ const GearPage = () => {
             rig in full detail!
           </p>
 
-          <br />
-          <p>
-            Keith has been performing in live worship bands and in the studio as
-            a keyboardist for many years. In this series, he will break down all
-            of the hardware and software required to achieve full, rich keys and
-            synth sounds. Watch now!
-          </p>
-
-          <div className="mt-10 md:h-[456px] aspect-w-16 aspect-h-9">
+          <div className="my-10 md:h-[456px] aspect-w-16 aspect-h-9">
             <iframe
               width="810"
               height="456"
-              src="https://www.youtube.com/embed/I4pKBOxosrk"
+              src="https://www.youtube.com/embed/neNbVMelMcQ"
               title="Worship Rig Tour - Piano &amp; Keys Gear | Sunday Keys App Setup"
               frameBorder="0"
               allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
@@ -58,6 +50,13 @@ const GearPage = () => {
               className="w-full h-full"
             ></iframe>
           </div>
+
+          <p>
+            Keith has been performing in live worship bands and in the studio as
+            a keyboardist for many years. In this series, he will break down all
+            of the hardware and software required to achieve full, rich keys and
+            synth sounds. Watch now!
+          </p>
         </div>
       </div>
     </>
