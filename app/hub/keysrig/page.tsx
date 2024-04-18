@@ -63,7 +63,7 @@ const Rig: React.FC = () => {
             <Link href="/hub/keysrig/tools">
               <Button
                 variant="default"
-                className="bg-white text-slate-700 border-white rounded-none font-semibold hover:bg-[#d1d5db] hover:text-black hover:border-white"
+                className="bg-white text-slate-700 border-white mt-5 rounded-none font-semibold hover:bg-[#d1d5db] hover:text-black hover:border-white"
               >
                 View Gear Options
               </Button>
