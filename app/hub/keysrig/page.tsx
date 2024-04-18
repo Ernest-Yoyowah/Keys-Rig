@@ -41,7 +41,7 @@ const Rig: React.FC = () => {
     <div className="bg-[#172D44]">
       <div className="text-[#f5f5f5] md:flex md:justify-center md:items-center p-5 md:p-0 ">
         <div className=" ">
-          <div className="max-w-5xl md:pb-6 md:pt-0 md:text-center space-y-10">
+          <div className="max-w-5xl md:pb-6 md:pt-0 md:text-center space-y-4">
             <h1 className="text-2xl md:text-4xl font-bold mt-7 md:mt-20 text-left	md:text-center">
               Piano & Keys Gear Setup
             </h1>
