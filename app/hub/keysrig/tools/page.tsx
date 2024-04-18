@@ -18,7 +18,7 @@ const GearPage = () => {
           </h1>
         </div>
       </div>
-      <div className="mx-auto my-auto text-slate-800 md:text-center py-8">
+      <div className="md:mx-auto px-5 my-auto text-slate-800 md:text-center py-8">
         <div className="max-w-3xl mx-auto">
           <p>
             One of the hardest parts of being a worship keys player is choosing
@@ -37,7 +37,7 @@ const GearPage = () => {
             rig in full detail!
           </p>
 
-          <div className="my-10 md:h-[456px] aspect-w-16 aspect-h-9">
+          <div className="my-10 px-10 md:h-[456px] aspect-w-16 aspect-h-9">
             <iframe
               width="810"
               height="456"
