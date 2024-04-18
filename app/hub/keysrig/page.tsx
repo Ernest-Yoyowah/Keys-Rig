@@ -51,8 +51,7 @@ const Rig: React.FC = () => {
               <br />
               From choosing the best controller, the best software for your
               sounds, to the gear required to make the software work, the
-              options are overwhelming! Mastering your keyboard rig can take
-              your sound to the next level.
+              options are overwhelming!
             </p>
 
             <p className="pb-4 md:p-5 text-left	md:text-center">
