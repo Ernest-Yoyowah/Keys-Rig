@@ -64,17 +64,17 @@ export const keysRigComponents: KeysRigComponent[] = [
     href: "/hub/keysrig/aux/",
     description: "Discover other rig setup from other keys musicians.",
   },
-  {
-    title: "Tools Needed (Auxiliary Keys)",
-    href: "/hub/keysrig/aux/tools",
-    description:
-      "Essential tools required for setting up the auxiliary keyboard rig.",
-  },
-  {
-    title: "Cables Needed (Auxiliary Keys)",
-    href: "/hub/keysrig/aux/cables",
-    description: "Required cables for connecting the auxiliary keyboard rig.",
-  },
+  // {
+  //   title: "Tools Needed (Auxiliary Keys)",
+  //   href: "/hub/keysrig/aux/tools",
+  //   description:
+  //     "Essential tools required for setting up the auxiliary keyboard rig.",
+  // },
+  // {
+  //   title: "Cables Needed (Auxiliary Keys)",
+  //   href: "/hub/keysrig/aux/cables",
+  //   description: "Required cables for connecting the auxiliary keyboard rig.",
+  // },
 ];
 
 export const instrumentMarketComponents: InstrumentMarketComponent[] = [
