@@ -46,13 +46,17 @@ const Rig: React.FC = () => {
               Piano & Keys Gear Setup
             </h1>
             <p className="pb-0 pt-0 text-left	md:text-center">
-              Unlock the full potential of your musical expression with our
-              comprehensive guide to piano and keys gear setup. Whether you're a
-              seasoned pianist or a budding keyboardist, crafting the perfect
-              setup is essential for unleashing your creativity. Dive into our
-              expert recommendations for MIDI controllers, stage pianos,
-              synthesizers, and more, tailored to suit your playing style and
-              musical preferences.
+              One of the hardest parts of being a worship keys player is
+              choosing which gear to buy when building your keyboard rig.
+              <br />
+              From choosing the best controller, the best software for your
+              sounds, to the gear required to make the software work, the
+              options are overwhelming! Mastering your keyboard rig can take
+              your sound to the next level.
+              <br />
+              Knowing what keys gear is right for you and how it works together
+              will benefit your playing, as well as the entire sound of the
+              band!
             </p>
 
             <p className="p-0 md:p-5 text-left	md:text-center">
