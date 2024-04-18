@@ -53,10 +53,6 @@ const Rig: React.FC = () => {
               sounds, to the gear required to make the software work, the
               options are overwhelming! Mastering your keyboard rig can take
               your sound to the next level.
-              <br />
-              Knowing what keys gear is right for you and how it works together
-              will benefit your playing, as well as the entire sound of the
-              band!
             </p>
 
             <p className="p-0 md:p-5 text-left	md:text-center">
