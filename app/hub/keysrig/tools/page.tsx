@@ -18,13 +18,33 @@ const GearPage = () => {
           </h1>
         </div>
       </div>
-      <div>
-        <p>
-          Lorem ipsum, dolor sit amet consectetur adipisicing elit. Tenetur
-          fugit dolorum hic vitae qui rem aspernatur quis! Ullam placeat ipsa
-          necessitatibus at quidem, porro temporibus totam atque repellendus,
-          earum optio!
-        </p>
+      <div className="mx-auto my-auto text-slate-800 md:text-center py-8">
+        <div className="max-w-3xl mx-auto">
+          <p>
+            One of the hardest parts of being a worship keys player is choosing
+            which gear to buy when building your keyboard rig.
+          </p>
+
+          <br />
+          <p>
+            Knowing what keys gear is right for you and how it works together
+            will benefit your playing, as well as the entire sound of the band!
+          </p>
+
+          <br />
+          <p>
+            In this 2 part video series, Keith Duell breaks down his keyboard
+            rig in full detail!
+          </p>
+
+          <br />
+          <p>
+            Keith has been performing in live worship bands and in the studio as
+            a keyboardist for many years. In this series, he will break down all
+            of the hardware and software required to achieve full, rich keys and
+            synth sounds. Watch now!
+          </p>
+        </div>
       </div>
     </>
   );
