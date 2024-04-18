@@ -11,7 +11,7 @@ const GearPage = () => {
         }}
       ></div>
       <div className="absolute inset-0 bg-black opacity-50"></div>
-      <div className="container mx-auto my-auto text-white text-center relative z-10 py-16">
+      <div className="container mx-auto my-auto text-white text-center relative py-16">
         <h1 className="text-3xl md:text-5xl font-semibold mt-20">
           Keys Rig Rundown: Gear
         </h1>
