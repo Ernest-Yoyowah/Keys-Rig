@@ -1,13 +1,13 @@
 import React from "react";
 
-const GearPage = () => {
+const BuildRigPage = () => {
   return (
     <div className="relative h-96">
       <div
-        className="absolute  bg-cover bg-center"
+        className="absolute inset-0 bg-cover bg-center"
         style={{
           backgroundImage:
-            "https://worshipteamresources.com/wp-content/uploads/2021/11/1920x1080-KeyStudio-on-MacBook.png",
+            'url("https://cdn.shopify.com/s/files/1/0552/4206/4048/t/4/assets/sundaykeysinsiders_vH5y.jpg?v=1631290429638")',
         }}
       ></div>
       <div className="absolute inset-0 bg-black opacity-50"></div>
@@ -20,4 +20,4 @@ const GearPage = () => {
   );
 };
 
-export default GearPage;
+export default BuildRigPage;
