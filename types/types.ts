@@ -25,3 +25,8 @@ export interface ProductFinderContentProps {
   discountedPrice: string;
   imageUrl: string;
 }
+
+export interface Video {
+  url: string;
+  name: string;
+}
