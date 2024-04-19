@@ -6,7 +6,7 @@ import Image from "next/image";
 import ExpansionItem from "@/components/ui/ExpansionItem";
 
 export const metadata: Metadata = {
-  title: "Worship Rig Setup | Keys Rig",
+  title: "Worship Rig Setup - Piano & Keys Gear",
 };
 
 const Rig: React.FC = () => {
