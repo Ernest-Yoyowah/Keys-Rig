@@ -28,13 +28,9 @@ const BuildRigPage = () => {
         <div className="max-w-3xl mx-auto">
           <p>
             One of the hardest parts of being a worship keys player is choosing
-            which gear to buy when building your keyboard rig.
-          </p>
-
-          <br />
-          <p>
-            Knowing what keys gear is right for you and how it works together
-            will benefit your playing, as well as the entire sound of the band!
+            which gear to buy when building your keyboard rig. Knowing what keys
+            gear is right for you and how it works together will benefit your
+            playing, as well as the entire sound of the band!
           </p>
 
           <br />
