@@ -1,4 +1,9 @@
 import React from "react";
+import { Metadata } from "next";
+
+export const metadata: Metadata = {
+  title: "Virtual Rig - build your own keys rig",
+};
 
 const BuildRigPage = () => {
   return (
@@ -12,8 +17,8 @@ const BuildRigPage = () => {
           }}
         ></div>
         <div className="absolute inset-0 bg-black opacity-50"></div>
-        <div className="container mx-auto my-auto text-white text-center relative py-16">
-          <h1 className="text-3xl md:text-5xl font-semibold mt-20">
+        <div className="container max-w-4xl mx-auto text-white text-center relative py-20 bg-[#000000a6] top-20 border-8">
+          <h1 className="text-3xl md:text-5xl font-semibold my-0 ">
             The Ultimate Keyboard Utility Rig
           </h1>
         </div>
