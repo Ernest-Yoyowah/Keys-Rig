@@ -1,4 +1,10 @@
 import React from "react";
+import { Metadata } from "next";
+
+export const metadata: Metadata = {
+  title:
+    "Gear- choosing which gear to buy when building your keyboard rig can be overwhelming",
+};
 
 const GearPage = () => {
   return (
@@ -12,9 +18,10 @@ const GearPage = () => {
           }}
         ></div>
         <div className="absolute inset-0 bg-black opacity-50"></div>
-        <div className="container mx-auto my-auto text-white text-center relative py-16">
-          <h1 className="text-3xl md:text-5xl font-semibold mt-20">
-            Keys Rig Rundown: Gear & Software
+
+        <div className="container max-w-4xl mx-auto text-white text-center relative py-20 bg-[#000000a6] top-20 border-8">
+          <h1 className="text-3xl md:text-5xl font-semibold my-0 ">
+            Gear & Software
           </h1>
         </div>
       </div>
@@ -22,14 +29,16 @@ const GearPage = () => {
         <div className="max-w-3xl mx-auto">
           <p>
             One of the hardest parts of being a worship keys player is choosing
-            which gear to buy when building your keyboard rig.
+            which gear to buy when building your keyboard rig. Knowing what keys
+            gear is right for you and how it works together will benefit your
+            playing, as well as the entire sound of the band!
           </p>
 
-          <br />
-          <p>
+          {/* <br /> */}
+          {/* <p>
             Knowing what keys gear is right for you and how it works together
             will benefit your playing, as well as the entire sound of the band!
-          </p>
+          </p> */}
 
           <br />
           <p>
