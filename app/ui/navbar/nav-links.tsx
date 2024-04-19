@@ -61,7 +61,7 @@ export const keysRigComponents: KeysRigComponent[] = [
   },
   {
     title: "Keys Rig Rundown",
-    href: "/hub/keysrig/aux/",
+    href: "/hub/keysrig/more-rigs",
     description: "Discover other rig setup from other keys musicians.",
   },
   // {
