@@ -9,7 +9,7 @@ import ProductFinderSubMenu from "@/components/ui/ProductFinderSubMenu";
 import ProductFinderContentSection from "@/components/ui/ProductFinderContentSection";
 
 export const metadata: Metadata = {
-  title: "Plugins | Keys Rig",
+  title: "Plugins - explore our curated plugins",
 };
 
 const Plugins = () => {
