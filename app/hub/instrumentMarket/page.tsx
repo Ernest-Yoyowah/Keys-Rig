@@ -72,7 +72,7 @@ const InstrumentMarket: NextPage = () => {
         </p>
         <div className="flex justify-center">
           <img
-            src="/vst_setup.jpg"
+            src="https://static1.makeuseofimages.com/wordpress/wp-content/uploads/2023/07/fi-from-arturia.jpg"
             alt="VST and Music Tech Setup"
             className="w-1/2 md:w-1/3"
           />
