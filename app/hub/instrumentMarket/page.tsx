@@ -6,8 +6,8 @@ export const metadata: Metadata = {
   title: "Buy and Sell - meet and collaborate with other musicians",
 };
 
-const ProduceTech: React.FC = () => {
-  return <h1>ProduceTech</h1>;
+const InstrumentMarket: React.FC = () => {
+  return <h1>InstrumentMarket</h1>;
 };
 
-export default ProduceTech;
+export default InstrumentMarket;
