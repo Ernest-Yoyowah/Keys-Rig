@@ -22,6 +22,18 @@ const InstrumentMarket: NextPage = () => {
           Looking to rent instruments or equipment for your gigs or events?
           Browse our rental listings for a wide range of musical gear.
         </p>
+        <div className="flex justify-center">
+          <img
+            src="https://www.keytarhq.com/wp-content/uploads/instrument-rentals.jpg"
+            alt="Rentals"
+            className="w-1/2 md:w-1/3"
+          />
+        </div>
+        <div className="flex justify-center mt-4">
+          <a href="#" className="text-blue-500 underline">
+            Explore Rentals
+          </a>
+        </div>
       </div>
 
       {/* Sound Engineering Section */}
@@ -34,6 +46,18 @@ const InstrumentMarket: NextPage = () => {
           live performances? Discover experienced sound engineers who can help
           you achieve the perfect sound.
         </p>
+        <div className="flex justify-center">
+          <img
+            src="/sound_engineering.jpg"
+            alt="Sound Engineering Services"
+            className="w-1/2 md:w-1/3"
+          />
+        </div>
+        <div className="flex justify-center mt-4">
+          <a href="#" className="text-blue-500 underline">
+            Discover Sound Engineering Services
+          </a>
+        </div>
       </div>
 
       {/* VST and Music Tech Setup Section */}
@@ -46,6 +70,18 @@ const InstrumentMarket: NextPage = () => {
           enhance your music production setup. Find the latest technology and
           expert assistance to take your music to the next level.
         </p>
+        <div className="flex justify-center">
+          <img
+            src="/vst_setup.jpg"
+            alt="VST and Music Tech Setup"
+            className="w-1/2 md:w-1/3"
+          />
+        </div>
+        <div className="flex justify-center mt-4">
+          <a href="#" className="text-blue-500 underline">
+            Explore VST and Music Tech Setup
+          </a>
+        </div>
       </div>
     </div>
   );
