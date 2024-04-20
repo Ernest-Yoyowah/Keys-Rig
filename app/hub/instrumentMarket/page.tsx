@@ -1,13 +1,19 @@
 import React from "react";
+import { NextPage } from "next";
 
-import { Metadata } from "next";
-
-export const metadata: Metadata = {
-  title: "Buy and Sell - meet and collaborate with other musicians",
-};
-
-const InstrumentMarket: React.FC = () => {
-  return <h1>Instrument Market</h1>;
+const InstrumentMarket: NextPage = () => {
+  return (
+    <div className="container mx-auto py-8">
+      <h1 className="text-3xl md:text-5xl font-semibold text-center mb-8">
+        Instrument Market
+      </h1>
+      <p className="text-lg text-center">
+        Welcome to our instrument market! Browse through listings to buy or sell
+        musical instruments and equipment. Connect with other musicians,
+        collaborate on projects, and find your next favorite gear!
+      </p>
+    </div>
+  );
 };
 
 export default InstrumentMarket;
