@@ -48,7 +48,7 @@ const InstrumentMarket: NextPage = () => {
         </p>
         <div className="flex justify-center">
           <img
-            src="/sound_engineering.jpg"
+            src="https://admi.ac.ke/wp-content/uploads/2023/09/Untitled-design-45.png"
             alt="Sound Engineering Services"
             className="w-1/2 md:w-1/3"
           />
