@@ -7,7 +7,7 @@ export const metadata: Metadata = {
 };
 
 const InstrumentMarket: React.FC = () => {
-  return <h1>InstrumentMarket</h1>;
+  return <h1>Instrument Market</h1>;
 };
 
 export default InstrumentMarket;
