@@ -16,7 +16,7 @@ const InstrumentMarket: NextPage = () => {
         <div className="absolute inset-0 bg-black opacity-50"></div>
         {/* Content */}
         <div className="absolute inset-0 flex items-center justify-center text-white z-10">
-          <div className="text-center max-w-4xl">
+          <div className="text-center max-w-4xl md:p-0 px-5">
             <h1 className="text-4xl md:text-6xl font-bold mb-4">
               Instrument Market
             </h1>
