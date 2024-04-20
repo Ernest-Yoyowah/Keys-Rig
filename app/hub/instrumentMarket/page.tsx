@@ -12,6 +12,16 @@ const InstrumentMarket: NextPage = () => {
         musical instruments and equipment. Connect with other musicians,
         collaborate on projects, and find your next favorite gear!
       </p>
+      <div className="mt-12">
+        <h2 className="text-2xl md:text-4xl font-semibold text-center mb-6">
+          Repair Services
+        </h2>
+        <p className="text-lg text-center">
+          Need repairs or maintenance for your instruments? Explore repair
+          services offered by skilled technicians to keep your gear in top
+          condition.
+        </p>
+      </div>
     </div>
   );
 };
