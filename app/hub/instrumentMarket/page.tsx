@@ -9,7 +9,7 @@ const InstrumentMarket: NextPage = () => {
         {/* Background Image */}
         <img
           className="absolute inset-0 w-full h-full object-cover"
-          src="https://t4.ftcdn.net/jpg/00/84/74/07/360_F_84740771_LLHbY91VIzrmRgaPrzAM9m2NJznHqiF2.jpg"
+          src="https://c4.wallpaperflare.com/wallpaper/257/116/964/light-strings-music-sound-wallpaper-preview.jpg"
           alt="Header Background"
         />
         {/* Overlay */}
