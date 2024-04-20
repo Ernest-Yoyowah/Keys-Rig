@@ -66,7 +66,7 @@ const MoreRigPage = () => {
       </div>
 
       <div className="container mx-auto py-8">
-        <h2 className="text-3xl md:text-5xl font-semibold text-center mb-8">
+        <h2 className="text-xl md:text-5xl font-semibold text-center mb-8">
           View More Rig Setups
         </h2>
         <div className="max-w-5xl mx-auto grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-8">
