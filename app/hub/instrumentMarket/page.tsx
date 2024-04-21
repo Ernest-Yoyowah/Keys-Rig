@@ -76,12 +76,12 @@ const InstrumentMarket: NextPage = () => {
             />
           </div>
           <div className="flex justify-center mt-4">
-            <a
+            <Link
               href="/hub/instrumentMarket/sound-engineering"
               className="text-blue-500 underline"
             >
               Discover Sound Engineering Services
-            </a>
+            </Link>
           </div>
         </div>
 
@@ -103,12 +103,12 @@ const InstrumentMarket: NextPage = () => {
             />
           </div>
           <div className="flex justify-center mt-4">
-            <a
+            <Link
               href="/hub/instrumentMarket/meet-instrumentalists"
               className="text-blue-500 underline"
             >
               Explore VST and Music Tech Setup
-            </a>
+            </Link>
           </div>
         </div>
       </div>
