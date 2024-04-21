@@ -76,7 +76,10 @@ const InstrumentMarket: NextPage = () => {
             />
           </div>
           <div className="flex justify-center mt-4">
-            <a href="#" className="text-blue-500 underline">
+            <a
+              href="/hub/instrumentMarket/sound-engineering"
+              className="text-blue-500 underline"
+            >
               Discover Sound Engineering Services
             </a>
           </div>
