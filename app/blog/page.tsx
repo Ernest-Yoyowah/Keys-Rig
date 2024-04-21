@@ -11,7 +11,6 @@ export const metadata: Metadata = {
 const BlogPage: NextPage = () => {
   return (
     <div>
-      {/* Header Section */}
       <div className="bg-gray-800 py-12 text-center text-white">
         <div className="container mx-auto">
           <h1 className="text-3xl md:text-5xl font-semibold">
