@@ -1,5 +1,6 @@
 import React from "react";
 import { NextPage } from "next";
+import Link from "next/link";
 
 const InstrumentMarket: NextPage = () => {
   return (
@@ -48,9 +49,12 @@ const InstrumentMarket: NextPage = () => {
             />
           </div>
           <div className="flex justify-center mt-4">
-            <a href="#" className="text-blue-500 underline">
+            <Link
+              href="/hub/instrumentMarket/repair-rental"
+              className="text-blue-500 underline"
+            >
               Explore Rentals
-            </a>
+            </Link>
           </div>
         </div>
 
