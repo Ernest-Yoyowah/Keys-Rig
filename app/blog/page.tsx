@@ -13,7 +13,7 @@ const BlogPage: NextPage = () => {
         <div className="bg-white rounded-lg overflow-hidden shadow-lg">
           <img
             className="w-full h-48 object-cover"
-            src="https://via.placeholder.com/800x400"
+            src="https://www.jimquesta.com/wp-content/uploads/2021/06/Key-Rig.jpg"
             alt="Blog Post"
           />
           <div className="p-6">
