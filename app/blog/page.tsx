@@ -25,8 +25,7 @@ const largeBlogData = [
     date: "April 22, 2024",
     excerpt:
       "This is an example blog post excerpt for the large blog post. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam sit amet lorem eu mauris fermentum malesuada. Aliquam posuere auctor justo, ac sagittis enim interdum in.",
-    image:
-      "https://media.gettyimages.com/id/1352603244/photo/shot-of-an-unrecognizable-businessman-working-on-his-laptop-in-the-office.jpg?s=612x612&w=gi&k=20&c=P5z85b4Wg80UO19u2YvRAbmpwxqWyyImihiMb6gWp8I=",
+    image: "https://wemakestuff.co/wp-content/uploads/2018/05/coffee.jpg",
   },
 ];
 
