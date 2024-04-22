@@ -25,7 +25,7 @@ const BlogPage: NextPage = () => {
       {/* Main Content */}
       <div className="container px-28 py-8 flex flex-col md:flex-row">
         {/* Large Blog Post */}
-        <div className="bg-white overflow-hidden shadow-lg mb-8 md:mb-0 md:w-1/2 md:mr-8">
+        <div className="bg-white overflow-hidden shadow-lg mb-0 h-4/6 md:mb-0 md:w-1/2 md:mr-8">
           <img
             className="w-full h-64 object-cover"
             src="https://www.jimquesta.com/wp-content/uploads/2021/06/Key-Rig.jpg"
