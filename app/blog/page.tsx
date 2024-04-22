@@ -108,7 +108,7 @@ const BlogPage: NextPage = () => {
           {largeBlogData.map((blog, index) => (
             <div
               key={index}
-              className="bg-white overflow-hidden shadow-lg mb-8"
+              className="bg-white rounded-md overflow-hidden shadow-lg mb-8"
             >
               <img
                 className="w-full h-64 object-cover"
@@ -138,7 +138,7 @@ const BlogPage: NextPage = () => {
           {smallBlogData.map((blog, index) => (
             <div
               key={index}
-              className="bg-white rounded-lg overflow-hidden shadow-lg"
+              className="bg-white rounded-md overflow-hidden shadow-lg"
             >
               <img
                 className="w-full h-32 object-cover"
