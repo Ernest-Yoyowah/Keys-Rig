@@ -23,7 +23,7 @@ const BlogPage: NextPage = () => {
       </div>
 
       {/* Main Content */}
-      <div className="container mx-auto py-8 flex flex-col md:flex-row">
+      <div className="container px-28 py-8 flex flex-col md:flex-row">
         {/* Large Blog Post */}
         <div className="bg-white overflow-hidden shadow-lg mb-8 md:mb-0 md:w-1/2 md:mr-8">
           <img
