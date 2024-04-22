@@ -28,7 +28,7 @@ const BlogPage: NextPage = () => {
         <div className="bg-white overflow-hidden shadow-lg mb-0 h-4/6 md:mb-0 md:w-1/2 md:mr-8">
           <img
             className="w-full h-64 object-cover"
-            src="https://www.jimquesta.com/wp-content/uploads/2021/06/Key-Rig.jpg"
+            src="https://media.gettyimages.com/id/1352603244/photo/shot-of-an-unrecognizable-businessman-working-on-his-laptop-in-the-office.jpg?s=612x612&w=gi&k=20&c=P5z85b4Wg80UO19u2YvRAbmpwxqWyyImihiMb6gWp8I="
             alt="Blog Post"
           />
           <div className="p-6">
