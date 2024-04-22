@@ -1,3 +1,5 @@
+// pages/blog.tsx
+
 import React from "react";
 import { NextPage } from "next";
 import { Metadata } from "next";
@@ -32,12 +34,12 @@ const BlogPage: NextPage = () => {
             alt="Blog Post"
           />
           <div className="p-6">
-            <h2 className="text-xl font-semibold mb-2">
+            <h2 className="text-lg font-semibold mb-2">
               Large Blog Post Title
             </h2>
             <p className="text-gray-600 mb-2">By John Doe</p>
             <p className="text-gray-600 mb-2">Published on April 22, 2024</p>
-            <p className="text-gray-800">
+            <p className="text-sm md:text-base text-gray-800">
               This is an example blog post excerpt for the large blog post.
               Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam
               sit amet lorem eu mauris fermentum malesuada. Aliquam posuere
@@ -65,14 +67,14 @@ const BlogPage: NextPage = () => {
                 alt="Blog Post"
               />
               <div className="p-6">
-                <h2 className="text-lg font-semibold mb-2">
+                <h2 className="text-base font-semibold mb-2">
                   Small Blog Post Title
                 </h2>
                 <p className="text-gray-600 mb-2">By John Doe</p>
                 <p className="text-gray-600 mb-2">
                   Published on April 22, 2024
                 </p>
-                <p className="text-gray-800">
+                <p className="text-sm text-gray-800">
                   This is an example blog post excerpt for the small blog posts.
                   Lorem ipsum dolor sit amet, consectetur adipiscing elit.
                 </p>
