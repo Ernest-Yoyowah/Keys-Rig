@@ -53,7 +53,7 @@ const BlogPage: NextPage = () => {
         </div>
 
         {/* Small Blog Posts */}
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-8 md:w-1/3">
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-8 md:w-[70%]">
           {[...Array(4)].map((_, index) => (
             <div
               key={index}
