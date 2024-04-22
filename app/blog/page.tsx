@@ -29,7 +29,6 @@ const largeBlogData = [
   },
 ];
 
-// Define an array to store small blog data
 const smallBlogData = [
   {
     title: "Small Blog Post Title",
