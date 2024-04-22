@@ -61,7 +61,7 @@ const BlogPage: NextPage = () => {
             >
               <img
                 className="w-full h-32 object-cover"
-                src="https://via.placeholder.com/800x400"
+                src="https://www.searchenginejournal.com/wp-content/uploads/2020/08/7-ways-a-blog-can-help-your-business-right-now-5f3c06b9eb24e-1280x720.png"
                 alt="Blog Post"
               />
               <div className="p-6">
