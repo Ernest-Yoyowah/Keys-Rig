@@ -5,7 +5,8 @@ import { NextPage } from "next";
 import { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Blog | Keys Rig",
+  title:
+    "Blog - Explore insightful articles and resources about keyboard rigs and music production on Keys Rig.",
 };
 
 // Define an array to store large blog data
