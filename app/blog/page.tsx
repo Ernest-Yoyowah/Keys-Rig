@@ -1,5 +1,3 @@
-// pages/blog.tsx
-
 import React from "react";
 import { NextPage } from "next";
 import { Metadata } from "next";
