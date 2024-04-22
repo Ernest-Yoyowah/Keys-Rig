@@ -8,8 +8,8 @@ export const metadata: Metadata = {
   title: "Blog | Keys Rig",
 };
 
-// Define an array to store blog data
-const blogData = [
+// Define an array to store large blog data
+const largeBlogData = [
   {
     title: "Large Blog Post Title 1",
     author: "John Doe",
@@ -19,7 +19,37 @@ const blogData = [
     image:
       "https://media.gettyimages.com/id/1352603244/photo/shot-of-an-unrecognizable-businessman-working-on-his-laptop-in-the-office.jpg?s=612x612&w=gi&k=20&c=P5z85b4Wg80UO19u2YvRAbmpwxqWyyImihiMb6gWp8I=",
   },
+  {
+    title: "Large Blog Post Title 1",
+    author: "John Doe",
+    date: "April 22, 2024",
+    excerpt:
+      "This is an example blog post excerpt for the large blog post. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam sit amet lorem eu mauris fermentum malesuada. Aliquam posuere auctor justo, ac sagittis enim interdum in.",
+    image:
+      "https://media.gettyimages.com/id/1352603244/photo/shot-of-an-unrecognizable-businessman-working-on-his-laptop-in-the-office.jpg?s=612x612&w=gi&k=20&c=P5z85b4Wg80UO19u2YvRAbmpwxqWyyImihiMb6gWp8I=",
+  },
+  {
+    title: "Large Blog Post Title 1",
+    author: "John Doe",
+    date: "April 22, 2024",
+    excerpt:
+      "This is an example blog post excerpt for the large blog post. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam sit amet lorem eu mauris fermentum malesuada. Aliquam posuere auctor justo, ac sagittis enim interdum in.",
+    image:
+      "https://media.gettyimages.com/id/1352603244/photo/shot-of-an-unrecognizable-businessman-working-on-his-laptop-in-the-office.jpg?s=612x612&w=gi&k=20&c=P5z85b4Wg80UO19u2YvRAbmpwxqWyyImihiMb6gWp8I=",
+  },
+  {
+    title: "Large Blog Post Title 1",
+    author: "John Doe",
+    date: "April 22, 2024",
+    excerpt:
+      "This is an example blog post excerpt for the large blog post. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam sit amet lorem eu mauris fermentum malesuada. Aliquam posuere auctor justo, ac sagittis enim interdum in.",
+    image:
+      "https://media.gettyimages.com/id/1352603244/photo/shot-of-an-unrecognizable-businessman-working-on-his-laptop-in-the-office.jpg?s=612x612&w=gi&k=20&c=P5z85b4Wg80UO19u2YvRAbmpwxqWyyImihiMb6gWp8I=",
+  },
+];
 
+// Define an array to store small blog data
+const smallBlogData = [
   {
     title: "Small Blog Post Title",
     author: "John Doe",
@@ -30,34 +60,7 @@ const blogData = [
       "https://www.searchenginejournal.com/wp-content/uploads/2020/08/7-ways-a-blog-can-help-your-business-right-now-5f3c06b9eb24e-1280x720.png",
   },
   {
-    title: "Small Blog Post Title 1",
-    author: "Mike Nii",
-    date: "April 22, 2024",
-    excerpt:
-      "This is an example blog post excerpt for the small blog posts. Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
-    image:
-      "https://www.searchenginejournal.com/wp-content/uploads/2020/08/7-ways-a-blog-can-help-your-business-right-now-5f3c06b9eb24e-1280x720.png",
-  },
-  {
-    title: "Small Blog Post Title 2",
-    author: "Yoyowah Jnr",
-    date: "April 22, 2024",
-    excerpt:
-      "This is an example blog post excerpt for the small blog posts. Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
-    image:
-      "https://www.searchenginejournal.com/wp-content/uploads/2020/08/7-ways-a-blog-can-help-your-business-right-now-5f3c06b9eb24e-1280x720.png",
-  },
-  {
-    title: "Small Blog Post Title 3",
-    author: "Frank Boateng",
-    date: "April 22, 2024",
-    excerpt:
-      "This is an example blog post excerpt for the small blog posts. Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
-    image:
-      "https://www.searchenginejournal.com/wp-content/uploads/2020/08/7-ways-a-blog-can-help-your-business-right-now-5f3c06b9eb24e-1280x720.png",
-  },
-  {
-    title: "Small Blog Post Title 4",
+    title: "Small Blog Post Title",
     author: "John Doe",
     date: "April 22, 2024",
     excerpt:
@@ -66,7 +69,34 @@ const blogData = [
       "https://www.searchenginejournal.com/wp-content/uploads/2020/08/7-ways-a-blog-can-help-your-business-right-now-5f3c06b9eb24e-1280x720.png",
   },
   {
-    title: "Small Blog Post Title 3",
+    title: "Small Blog Post Title",
+    author: "John Doe",
+    date: "April 22, 2024",
+    excerpt:
+      "This is an example blog post excerpt for the small blog posts. Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+    image:
+      "https://www.searchenginejournal.com/wp-content/uploads/2020/08/7-ways-a-blog-can-help-your-business-right-now-5f3c06b9eb24e-1280x720.png",
+  },
+  {
+    title: "Small Blog Post Title",
+    author: "John Doe",
+    date: "April 22, 2024",
+    excerpt:
+      "This is an example blog post excerpt for the small blog posts. Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+    image:
+      "https://www.searchenginejournal.com/wp-content/uploads/2020/08/7-ways-a-blog-can-help-your-business-right-now-5f3c06b9eb24e-1280x720.png",
+  },
+  {
+    title: "Small Blog Post Title",
+    author: "John Doe",
+    date: "April 22, 2024",
+    excerpt:
+      "This is an example blog post excerpt for the small blog posts. Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+    image:
+      "https://www.searchenginejournal.com/wp-content/uploads/2020/08/7-ways-a-blog-can-help-your-business-right-now-5f3c06b9eb24e-1280x720.png",
+  },
+  {
+    title: "Small Blog Post Title",
     author: "John Doe",
     date: "April 22, 2024",
     excerpt:
@@ -96,7 +126,7 @@ const BlogPage: NextPage = () => {
       <div className="container px-28 py-8 flex flex-col md:flex-row">
         {/* Large Blog Posts */}
         <div className="md:w-1/2 md:mr-8">
-          {blogData.map((blog, index) => (
+          {largeBlogData.map((blog, index) => (
             <div
               key={index}
               className="bg-white overflow-hidden shadow-lg mb-8"
@@ -125,29 +155,22 @@ const BlogPage: NextPage = () => {
         </div>
 
         {/* Small Blog Posts */}
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-8 md:w-[70%]">
-          {[...Array(4)].map((_, index) => (
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-8 md:w-[70%] h-[50%]">
+          {smallBlogData.map((blog, index) => (
             <div
               key={index}
               className="bg-white rounded-lg overflow-hidden shadow-lg"
             >
               <img
                 className="w-full h-32 object-cover"
-                src="https://www.searchenginejournal.com/wp-content/uploads/2020/08/7-ways-a-blog-can-help-your-business-right-now-5f3c06b9eb24e-1280x720.png"
+                src={blog.image}
                 alt="Blog Post"
               />
               <div className="p-6">
-                <h2 className="text-lg font-semibold mb-2">
-                  Small Blog Post Title
-                </h2>
-                <p className="text-gray-600 mb-2">By John Doe</p>
-                <p className="text-gray-600 mb-2">
-                  Published on April 22, 2024
-                </p>
-                <p className="text-gray-800">
-                  This is an example blog post excerpt for the small blog posts.
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                </p>
+                <h2 className="text-lg font-semibold mb-2">{blog.title}</h2>
+                <p className="text-gray-600 mb-2">By {blog.author}</p>
+                <p className="text-gray-600 mb-2">Published on {blog.date}</p>
+                <p className="text-gray-800">{blog.excerpt}</p>
                 <a
                   href="#"
                   className="text-blue-500 inline-block mt-4 hover:underline"
