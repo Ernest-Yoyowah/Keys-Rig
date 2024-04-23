@@ -9,7 +9,7 @@ const Introductory: React.FC = () => {
         <div className="container mx-auto md:text-center">
           <h2 className="head-text_1">Unlock Your Musical Potential</h2>
           <div className="max-w-3xl mx-auto">
-            <p className="text-md">
+            <p className="paragraph-text">
               Dive into the world of music production with our collection of
               premium VST plugins for keys and synths. Whether you're a seasoned
               musician or just starting out, our plugins offer unparalleled
