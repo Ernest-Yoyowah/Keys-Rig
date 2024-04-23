@@ -34,11 +34,9 @@ const About: React.FC = () => {
       </div>
 
       <div className="container mx-auto my-auto text-slate-800 md:text-center py-8 mt-10 ">
-        <h1 className="text-3xl font-semibold mb-4">
-          Keys Rig Setup and VST Plugins
-        </h1>
+        <h1 className="head-text_1 mb-4">Keys Rig Setup and VST Plugins</h1>
         <div className="max-w-3xl mx-auto">
-          <p className="">
+          <p className="paragraph-text">
             Welcome to Keys Rig Setup and VST Plugins! We're your go-to resource
             for crafting the ultimate keyboard rig and exploring the world of
             virtual instruments and effects. Find expert advice on gear
@@ -63,7 +61,7 @@ const About: React.FC = () => {
 
       <div className="container mx-auto my-auto text-slate-800 md:text-center py-8">
         <div className="max-w-3xl mx-auto">
-          <p className="">
+          <p className="paragraph-text">
             Welcome to Keys Rig Setup and VST Plugins! We're your go-to resource
             for crafting the ultimate keyboard rig and exploring the world of
             virtual instruments and effects. Find expert advice on gear
