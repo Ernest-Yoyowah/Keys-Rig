@@ -57,3 +57,7 @@
     @apply bg-background text-foreground;
   }
 }
+
+.head-text_1 {
+  @apply text-3xl font-semibold mb-5 text-[#242424];
+}
