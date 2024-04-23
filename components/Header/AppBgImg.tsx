@@ -1,6 +1,6 @@
 import React from "react";
 import Image from "next/image";
-import bgImage from "@/public/header_bg1.jpg";
+import bgImage from "@/public/header_bg2.png";
 
 const AppBgImg: React.FC = () => {
   return (
@@ -14,7 +14,7 @@ const AppBgImg: React.FC = () => {
         style={{
           objectFit: "cover",
           zIndex: -1,
-          filter: "brightness(70%)",
+          filter: "brightness(60%)",
         }}
         alt="Header Image"
       />
