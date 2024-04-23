@@ -7,11 +7,11 @@ const Introductory: React.FC = () => {
     <>
       <div className="pb-12 md:pb-12 mt-0">
         <div className="container mx-auto md:text-center">
-          <h2 className="text-3xl font-semibold mb-5 text-slate-700	">
+          <h2 className="text-3xl font-semibold mb-5 text-[#242424]	">
             Unlock Your Musical Potential
           </h2>
           <div className="max-w-3xl mx-auto">
-            <p className="text-lg text-gray-700">
+            <p className="text-md">
               Dive into the world of music production with our collection of
               premium VST plugins for keys and synths. Whether you're a seasoned
               musician or just starting out, our plugins offer unparalleled
