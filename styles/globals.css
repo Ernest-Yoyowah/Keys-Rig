@@ -61,3 +61,7 @@
 .head-text_1 {
   @apply text-3xl font-semibold mb-5 text-[#242424];
 }
+
+.paragraph-text {
+  @apply text-base text-[#242424];
+}
