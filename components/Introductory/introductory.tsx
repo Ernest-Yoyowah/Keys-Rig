@@ -7,9 +7,7 @@ const Introductory: React.FC = () => {
     <>
       <div className="pb-12 md:pb-12 mt-0">
         <div className="container mx-auto md:text-center">
-          <h2 className="text-3xl font-semibold mb-5 text-[#242424]	">
-            Unlock Your Musical Potential
-          </h2>
+          <h2 className="head-text_1">Unlock Your Musical Potential</h2>
           <div className="max-w-3xl mx-auto">
             <p className="text-md">
               Dive into the world of music production with our collection of
