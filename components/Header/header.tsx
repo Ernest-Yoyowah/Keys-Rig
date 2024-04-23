@@ -7,9 +7,7 @@ const Header: React.FC = () => {
   return (
     <div className="flex justify-center items-center mb-0">
       <div className="absolute text-center mx-3 mt-0">
-        <h1 className="text-white font-bold text-3xl md:text-5xl lg:text-6xl ">
-          Welcome to Keys Rig
-        </h1>
+        <h1 className="hero-text">Welcome to Keys Rig</h1>
         <p className="text-white font-semibold text-2xl md:text-1xl lg:text-xl m-2">
           Step into a world where creativity knows no bounds...
         </p>
