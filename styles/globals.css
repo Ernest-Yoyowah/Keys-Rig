@@ -65,3 +65,7 @@
 .paragraph-text {
   @apply text-base text-[#242424];
 }
+
+.hero-text {
+  @apply text-white font-bold text-3xl md:text-5xl lg:text-6xl;
+}
