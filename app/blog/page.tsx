@@ -99,7 +99,7 @@ const BlogPage: NextPage = () => {
       </div>
 
       {/* Main Content */}
-      <div className="container px-28 py-8 flex flex-col md:flex-row">
+      <div className="container md:px-28 px-5 py-8 flex flex-col md:flex-row">
         {/* Large Blog Posts */}
         <div className="md:w-1/2 md:mr-8">
           {largeBlogData.map((blog, index) => (
