@@ -1,6 +1,7 @@
-import React from "react";
+import React, { Suspense } from "react";
 import { NextPage } from "next";
 import { Metadata } from "next";
+import Loading from "./loading";
 
 export const metadata: Metadata = {
   title:
@@ -98,66 +99,68 @@ const BlogPage: NextPage = () => {
         </div>
       </div>
 
-      {/* Main Content */}
-      <div className="container md:px-28 px-5 py-8 flex flex-col md:flex-row">
-        {/* Large Blog Posts */}
-        <div className="md:w-1/2 md:mr-8">
-          {largeBlogData.map((blog, index) => (
-            <div
-              key={index}
-              className="bg-white rounded-md overflow-hidden shadow-lg mb-8"
-            >
-              <img
-                className="w-full h-64 object-cover"
-                src={blog.image}
-                alt="Blog Post"
-              />
-              <div className="p-6">
-                <h2 className="head-text_2 mb-3">{blog.title}</h2>
-                <p className="paragraph mb-2">By {blog.author}</p>
-                <p className="paragraph mb-2">Published on {blog.date}</p>
-                <p className="paragraph-text_2">{blog.excerpt}</p>
-                <a
-                  href="#"
-                  className="text-blue-500 inline-block mt-4 hover:underline"
-                >
-                  Read More
-                </a>
+      <Suspense fallback={<Loading />}>
+        {/* Main Content */}
+        <div className="container md:px-28 px-5 py-8 flex flex-col md:flex-row">
+          {/* Large Blog Posts */}
+          <div className="md:w-1/2 md:mr-8">
+            {largeBlogData.map((blog, index) => (
+              <div
+                key={index}
+                className="bg-white rounded-md overflow-hidden shadow-lg mb-8"
+              >
+                <img
+                  className="w-full h-64 object-cover"
+                  src={blog.image}
+                  alt="Blog Post"
+                />
+                <div className="p-6">
+                  <h2 className="head-text_2 mb-3">{blog.title}</h2>
+                  <p className="paragraph mb-2">By {blog.author}</p>
+                  <p className="paragraph mb-2">Published on {blog.date}</p>
+                  <p className="paragraph-text_2">{blog.excerpt}</p>
+                  <a
+                    href="#"
+                    className="text-blue-500 inline-block mt-4 hover:underline"
+                  >
+                    Read More
+                  </a>
+                </div>
               </div>
-            </div>
-          ))}
-        </div>
+            ))}
+          </div>
 
-        {/* Small Blog Posts */}
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-8 md:w-[70%] h-[50%]">
-          {smallBlogData.map((blog, index) => (
-            <div
-              key={index}
-              className="bg-white rounded-md overflow-hidden shadow-lg"
-            >
-              <img
-                className="w-full h-32 object-cover"
-                src={blog.image}
-                alt="Blog Post"
-              />
-              <div className="p-6">
-                <h2 className="head-text_3 mb-2">{blog.title}</h2>
-                <p className="paragraph-text_2 mb-2">By {blog.author}</p>
-                <p className="paragraph-text_2 mb-2">
-                  Published on {blog.date}
-                </p>
-                <p className="paragraph-text_3">{blog.excerpt}</p>
-                <a
-                  href="#"
-                  className="text-blue-500 inline-block mt-4 hover:underline"
-                >
-                  Read More
-                </a>
+          {/* Small Blog Posts */}
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-8 md:w-[70%] h-[50%]">
+            {smallBlogData.map((blog, index) => (
+              <div
+                key={index}
+                className="bg-white rounded-md overflow-hidden shadow-lg"
+              >
+                <img
+                  className="w-full h-32 object-cover"
+                  src={blog.image}
+                  alt="Blog Post"
+                />
+                <div className="p-6">
+                  <h2 className="head-text_3 mb-2">{blog.title}</h2>
+                  <p className="paragraph-text_2 mb-2">By {blog.author}</p>
+                  <p className="paragraph-text_2 mb-2">
+                    Published on {blog.date}
+                  </p>
+                  <p className="paragraph-text_3">{blog.excerpt}</p>
+                  <a
+                    href="#"
+                    className="text-blue-500 inline-block mt-4 hover:underline"
+                  >
+                    Read More
+                  </a>
+                </div>
               </div>
-            </div>
-          ))}
+            ))}
+          </div>
         </div>
-      </div>
+      </Suspense>
     </div>
   );
 };
