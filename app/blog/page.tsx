@@ -90,10 +90,8 @@ const BlogPage: NextPage = () => {
       {/* Header Section */}
       <div className="bg-gray-800 py-12 text-center text-white">
         <div className="container mx-auto">
-          <h1 className="text-3xl md:text-5xl font-semibold">
-            Welcome to the Blog
-          </h1>
-          <p className="mt-4 text-lg">
+          <h1 className="hero-text_2">Welcome to the Blog</h1>
+          <p className="mt-4 sub-hero-text_2">
             Explore insightful articles and resources about keyboard rigs and
             music production.
           </p>
@@ -115,12 +113,10 @@ const BlogPage: NextPage = () => {
                 alt="Blog Post"
               />
               <div className="p-6">
-                <h2 className="text-xl font-semibold mb-2">{blog.title}</h2>
+                <h2 className="head-text_2 mb-2">{blog.title}</h2>
                 <p className="text-gray-600 mb-2">By {blog.author}</p>
                 <p className="text-gray-600 mb-2">Published on {blog.date}</p>
-                <p className="text-sm md:text-base text-gray-800">
-                  {blog.excerpt}
-                </p>
+                <p className="paragraph">{blog.excerpt}</p>
                 <a
                   href="#"
                   className="text-blue-500 inline-block mt-4 hover:underline"
