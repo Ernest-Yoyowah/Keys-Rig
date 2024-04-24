@@ -63,11 +63,23 @@
 }
 
 .head-text_2 {
-  @apply text-xl font-semibold text-[#242424];
+  @apply text-[18px] font-semibold text-[#242424];
 }
 
 .paragraph-text {
   @apply text-base text-[#242424];
+}
+
+.paragraph-text_2 {
+  @apply text-[14px] text-[#242424];
+}
+
+.paragraph-text_3 {
+  @apply text-[13px] text-[#242424];
+}
+
+.head-text_3 {
+  @apply text-[15px] font-semibold text-[#242424];
 }
 
 .hero-text {
