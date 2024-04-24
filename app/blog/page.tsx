@@ -113,10 +113,10 @@ const BlogPage: NextPage = () => {
                 alt="Blog Post"
               />
               <div className="p-6">
-                <h2 className="head-text_2 mb-2">{blog.title}</h2>
-                <p className="text-gray-600 mb-2">By {blog.author}</p>
-                <p className="text-gray-600 mb-2">Published on {blog.date}</p>
-                <p className="paragraph">{blog.excerpt}</p>
+                <h2 className="head-text_2 mb-3">{blog.title}</h2>
+                <p className="paragraph mb-2">By {blog.author}</p>
+                <p className="paragraph mb-2">Published on {blog.date}</p>
+                <p className="paragraph-text_2">{blog.excerpt}</p>
                 <a
                   href="#"
                   className="text-blue-500 inline-block mt-4 hover:underline"
@@ -141,10 +141,12 @@ const BlogPage: NextPage = () => {
                 alt="Blog Post"
               />
               <div className="p-6">
-                <h2 className="text-lg font-semibold mb-2">{blog.title}</h2>
-                <p className="text-gray-600 mb-2">By {blog.author}</p>
-                <p className="text-gray-600 mb-2">Published on {blog.date}</p>
-                <p className="text-gray-800">{blog.excerpt}</p>
+                <h2 className="head-text_3 mb-2">{blog.title}</h2>
+                <p className="paragraph-text_2 mb-2">By {blog.author}</p>
+                <p className="paragraph-text_2 mb-2">
+                  Published on {blog.date}
+                </p>
+                <p className="paragraph-text_3">{blog.excerpt}</p>
                 <a
                   href="#"
                   className="text-blue-500 inline-block mt-4 hover:underline"
