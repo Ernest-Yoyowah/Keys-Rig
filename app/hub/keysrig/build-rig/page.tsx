@@ -17,13 +17,10 @@ const BuildRigPage = () => {
         <div className="absolute inset-0 bg-black opacity-50"></div>
         <div className="absolute inset-0 flex items-center justify-center text-white">
           <div className="text-center max-w-4xl md:p-0 px-5">
-            <h1 className="text-3xl md:text-5xl font-bold mb-4">
-              The Ultimate Keyboard Utility Rig
-            </h1>
-            <p className="text-md md:text-lg">
+            <h1 className="hero-text_2 mb-4">Virtual Worship Rig</h1>
+            <p className="sub-hero-text_2">
               One of the hardest parts of being a worship keys player is
-              choosing which gear to buy when building your keyboard rig. Here
-              are some essential gear items for your setup!
+              choosing which gear to buy when building your keyboard rig.
             </p>
           </div>
         </div>
