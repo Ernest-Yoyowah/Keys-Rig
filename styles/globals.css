@@ -59,7 +59,11 @@
 }
 
 .head-text_1 {
-  @apply text-3xl font-semibold mb-5 text-[#242424];
+  @apply text-3xl font-semibold text-[#242424];
+}
+
+.head-text_2 {
+  @apply text-xl font-semibold text-[#242424];
 }
 
 .paragraph-text {
@@ -68,4 +72,16 @@
 
 .hero-text {
   @apply text-white font-bold text-3xl md:text-5xl lg:text-6xl;
+}
+
+.hero-text_2 {
+  @apply text-white font-bold text-3xl md:text-5xl;
+}
+
+.sub-hero-text {
+  @apply text-white font-semibold text-2xl md:text-xl lg:text-xl;
+}
+
+.sub-hero-text_2 {
+  @apply text-white text-base md:text-lg;
 }
