@@ -55,7 +55,7 @@ export const keysRigComponents: KeysRigComponent[] = [
   },
   {
     title: "Gear & Cables Needed ",
-    href: "/hub/keysrig/tools",
+    href: "/hub/keysrig/gear",
     description:
       "Knowing what keys gear is right for you and how it works together will benefit your playing, as well as the entire sound of the band!.",
   },
