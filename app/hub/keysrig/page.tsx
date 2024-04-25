@@ -50,8 +50,7 @@ const Rig: React.FC = () => {
               choosing which gear to buy when building your keyboard rig.
               <br />
               From choosing the best controller, the best software for your
-              sounds, to the gear required to make the software work, the
-              options are overwhelming!
+              sounds.
             </p>
 
             <p className="pb-4 md:p-5 text-left	md:text-center">
