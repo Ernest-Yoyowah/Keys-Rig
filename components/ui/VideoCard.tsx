@@ -15,7 +15,7 @@ const VideoCard: React.FC<{ video: Video }> = ({ video }) => {
         allowFullScreen
       ></iframe>
       <div className="p-4">
-        <h2 className="text-lg font-semibold mb-2">{video.name}</h2>
+        <h2 className="head-text_3 mb-2">{video.name}</h2>
       </div>
     </div>
   );
