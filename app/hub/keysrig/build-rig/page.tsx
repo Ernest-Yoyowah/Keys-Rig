@@ -11,7 +11,7 @@ const BuildRigPage = () => {
       <div className="relative h-96">
         <img
           className="absolute inset-0 w-full h-full object-cover"
-          src="https://flypaper.soundfly.com/wp-content/uploads/2018/04/roli-seaboard-facebook.jpg"
+          src="https://www.shutterstock.com/image-photo/microphone-computer-musical-equipment-guitars-260nw-1776708860.jpg"
           alt="Header Background"
         />
         <div className="absolute inset-0 bg-black opacity-50"></div>
