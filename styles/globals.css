@@ -113,3 +113,9 @@
 .hero-text_3 {
   @apply text-2xl md:text-4xl font-bold;
 }
+
+/* plugins */
+
+.color-primary {
+  color: 242424;
+}
