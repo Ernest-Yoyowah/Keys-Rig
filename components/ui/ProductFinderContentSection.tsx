@@ -9,7 +9,7 @@ const ProductFinderContentSection: React.FC = () => {
       className=" bg-gray-100 min-w-[0] py-[0.5rem] pb-[4rem]"
     >
       <div className="flex p-6 justify-center items-center">
-        <h2 className="text-2xl text-[#222] font-bold">New products</h2>
+        <h2 className="text-2xl color-primary font-bold">New products</h2>
       </div>
       <div className="flex flex-wrap justify-center gap-4 md:text-center">
         {/* Render product cards */}
