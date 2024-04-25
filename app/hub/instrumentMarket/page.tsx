@@ -38,7 +38,7 @@ const InstrumentMarket: NextPage = () => {
         {/* Background Image */}
         <img
           className="absolute inset-0 w-full h-full object-cover"
-          src="https://static1.makeuseofimages.com/wordpress/wp-content/uploads/2021/02/keyboard-red-green-blue.jpg"
+          src="https://info.shimamura.co.jp/digital/img/upload/shimastaff/2016/nanoKONTROL_Studio_mac_rgb_s.jpg"
           alt="Header Background"
         />
         {/* Overlay */}
