@@ -19,22 +19,6 @@ const Rig: React.FC = () => {
         "//www.youtube.com/embed/LMoaiV4utSE?showinfo=1&amp;rel=0&amp;hd=1&amp;cc_lang_pref=en&amp;cc_load_policy=1",
       imageUrl: "/vid_1.jpg",
     },
-    // {
-    //   title: "YohanJim’s favorite Expansions",
-    //   description:
-    //     "Dive into a world of curated sounds with Datsunn, our Expansion connoisseur. Discover his hand-picked favorites and watch him quickly create some beats from scratch with his top selections.",
-    //   youtubeLink:
-    //     "//www.youtube.com/embed/gb48bvtbFRk?showinfo=1&amp;rel=0&amp;hd=1&amp;cc_lang_pref=en&amp;cc_load_policy=1",
-    //   imageUrl: "/vid_1.jpg",
-    // },
-    // // {
-    // //   title: "Jonh Mike’s favorite Expansions",
-    // //   description:
-    // //     "Dive into a world of curated sounds with Datsunn, our Expansion connoisseur. Discover his hand-picked favorites and watch him quickly create some beats from scratch with his top selections.",
-    // //   youtubeLink:
-    // //     "//www.youtube.com/embed/gb48bvtbFRk?showinfo=1&amp;rel=0&amp;hd=1&amp;cc_lang_pref=en&amp;cc_load_policy=1",
-    // //   imageUrl: "/vid_1.jpg",
-    // // },
   ];
 
   return (
