@@ -11,7 +11,7 @@ const BuildRigPage = () => {
       <div className="relative h-96">
         <img
           className="absolute inset-0 w-full h-full object-cover"
-          src="https://blog.burtonacoustix.com/wp-content/uploads/2024/02/DALL%C2%B7E-2024-02-08-11.50.07-An-overhead-view-of-a-music-producers-desk-with-a-MIDI-controller-keyboard-featuring-various-knobs-faders-and-drum-pads.-The-desk-setup-includes-a--1024x585.webp"
+          src="https://flypaper.soundfly.com/wp-content/uploads/2018/04/roli-seaboard-facebook.jpg"
           alt="Header Background"
         />
         <div className="absolute inset-0 bg-black opacity-50"></div>
