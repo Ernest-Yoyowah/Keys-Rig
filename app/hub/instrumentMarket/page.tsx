@@ -9,7 +9,7 @@ const sections = [
     description:
       "Looking to rent instruments or equipment for your gigs or events? Browse our rental listings for a wide range of musical gear.",
     imageUrl:
-      "https://www.keytarhq.com/wp-content/uploads/instrument-rentals.jpg",
+      "https://www.thomann.de/blog/wp-content/uploads/2023/07/HelloNewGear_header_770x425_july2023.png",
     link: "/hub/instrumentMarket/repair-rental",
   },
   {
