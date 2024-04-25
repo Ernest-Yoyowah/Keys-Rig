@@ -55,7 +55,9 @@ const Rig: React.FC = () => {
             </p>
 
             <p className="pb-4 md:p-5 text-left	md:text-center">
-              <span className="text-lg font-bold">Explore Gear Selection:</span>
+              <span className="text-lg font-bold">
+                Explore Gear Selection:{" "}
+              </span>
               Choose from a wide range of accessories to create your ideal
               setup.
             </p>
