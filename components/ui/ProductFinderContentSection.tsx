@@ -6,7 +6,7 @@ const ProductFinderContentSection: React.FC = () => {
   return (
     <div
       data-testid="product-finder-content-section"
-      className="line-height-[1.15] text-size-adjust-[100%]  font-normal font-size-[16px] color-[#222] bg-gray-100 box-border min-w-[0] py-[0.5rem] pb-[4rem] "
+      className="line-height-[1.15] text-size-adjust-[100%]  font-normal font-size-[16px] bg-gray-100 box-border min-w-[0] py-[0.5rem] pb-[4rem] "
     >
       <div className="flex p-6 justify-center items-center">
         <h2 className="text-2xl text-[#222] font-bold">New products</h2>
