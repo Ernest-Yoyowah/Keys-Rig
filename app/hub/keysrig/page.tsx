@@ -38,14 +38,14 @@ const Rig: React.FC = () => {
   ];
 
   return (
-    <div className="bg-[#172D44]">
-      <div className="text-[#f5f5f5] md:flex md:justify-center md:items-center p-5 md:p-0 ">
+    <div className="blue-bg">
+      <div className="text-theme md:flex md:justify-center md:items-center p-5 md:p-0 ">
         <div className=" ">
           <div className="max-w-5xl md:pb-6 md:pt-0 md:text-center space-y-4">
-            <h1 className="text-2xl md:text-4xl font-bold mt-7 md:mt-20 text-left	md:text-center">
+            <h1 className="hero-text_3 mt-7 md:mt-20 text-left	md:text-center">
               Piano & Keys Gear Setup
             </h1>
-            <p className="pb-0 pt-0 text-left	md:text-center">
+            <p className="text-left	md:text-center">
               One of the hardest parts of being a worship keys player is
               choosing which gear to buy when building your keyboard rig.
               <br />
@@ -55,11 +55,11 @@ const Rig: React.FC = () => {
             </p>
 
             <p className="pb-4 md:p-5 text-left	md:text-center">
-              <span className="text-lg font-bold">Explore Gear Selection:</span>{" "}
+              <span className="text-lg font-bold">Explore Gear Selection:</span>
               Choose from a wide range of accessories to create your ideal
               setup.
             </p>
-            <Link href="/hub/keysrig/tools">
+            <Link href="/hub/keysrig/gear">
               <Button
                 variant="default"
                 className="bg-white text-slate-700 border-white rounded-none font-semibold hover:bg-[#d1d5db] hover:text-black hover:border-white"
@@ -79,7 +79,7 @@ const Rig: React.FC = () => {
       </div>
       <div className="text-[#f5f5f5] flex justify-center items-center p-5 md:p-0">
         <div className="max-w-5xl pb-6 p-0 md:pt-0 md:text-center space-y-5 md:space-y-10">
-          <h1 className="text-2xl md:text-4xl font-bold md:mt-20 text-left	md:text-center">
+          <h1 className="hero-text_3 md:mt-20 text-left	md:text-center">
             Building a Virtual Keys Rig
           </h1>
           <p className="pb-4 pt-0 text-left	md:text-center">
