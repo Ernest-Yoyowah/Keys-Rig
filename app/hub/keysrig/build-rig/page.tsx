@@ -11,7 +11,7 @@ const BuildRigPage = () => {
       <div className="relative h-96">
         <img
           className="absolute inset-0 w-full h-full object-cover"
-          src="https://vietthuong.vn/upload/content/images/tuvan/piano/roland-a-88mkii-chinh-hang.jpg"
+          src="https://info.shimamura.co.jp/digital/img/upload/shimastaff/2016/nanoKONTROL_Studio_mac_rgb_s.jpg"
           alt="Header Background"
         />
         <div className="absolute inset-0 bg-black opacity-50"></div>
