@@ -55,10 +55,10 @@ const MoreRigPage = () => {
         <div className="absolute inset-0 bg-black opacity-75"></div>
         <div className="absolute inset-0 flex items-center justify-center">
           <div className="text-center text-white">
-            <h1 className="text-4xl md:text-6xl font-bold mb-4">
+            <h1 className="hero-text_2 mb-4">
               View More Rigs from Other Musicians
             </h1>
-            <p className="text-lg md:text-xl">
+            <p className="sub-hero-text_2">
               Explore amazing keyboard rig setups from top musicians!
             </p>
           </div>
