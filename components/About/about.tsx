@@ -13,8 +13,8 @@ const About: React.FC = () => {
             handpicked collection has something for every musician and producer.
           </p>
         </div>
-        <div className="max-w-3xl mx-auto">
-          <div className="mt-10 md:h-[456px] aspect-w-16 aspect-h-9">
+        <div className="max-w-2xl mx-auto">
+          <div className="mt-10 md:h-[400px] aspect-w-16 aspect-h-9">
             <iframe
               width="900"
               height="500"
