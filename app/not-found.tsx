@@ -8,7 +8,7 @@ export default function NotFound() {
       <Navbar />
       <div className="bg-gray-800 py-12 text-center text-white">
         <div className="container mx-auto">
-          <h1 className="sub-hero-text_2">Not Found</h1>
+          <h1 className="text-2xl font-semibold">Not Found</h1>
           <p className="my-4 sub-hero-text_2">
             Could not find requested resource
           </p>
