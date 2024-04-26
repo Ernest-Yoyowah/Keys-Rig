@@ -12,7 +12,7 @@ export default function NotFound() {
           <p className="my-4 sub-hero-text_2">
             Could not find requested resource
           </p>
-          <Button>
+          <Button className="bg-white text-black hover:bg-black hover:text-white hover:border-white">
             <Link href="/">Return Home</Link>
           </Button>
         </div>
