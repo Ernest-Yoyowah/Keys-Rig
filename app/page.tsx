@@ -7,6 +7,7 @@ import "../styles/globals.css";
 import { Suspense } from "react";
 import Loading from "./blog/loading";
 import AboutPage from "@/components/About/AboutPage";
+import FeatureSection from "@/components/ui/FeatureSection";
 
 export default function Home() {
   return (
@@ -18,6 +19,7 @@ export default function Home() {
         <Introductory />
         <AboutPage />
         <About />
+        <FeatureSection />
       </main>
     </>
   );
