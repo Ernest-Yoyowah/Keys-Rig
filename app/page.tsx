@@ -6,6 +6,7 @@ import { Navbar } from "@/components/Navigation/navbar";
 import "../styles/globals.css";
 import { Suspense } from "react";
 import Loading from "./blog/loading";
+import AboutPage from "@/components/About/AboutPage";
 
 export default function Home() {
   return (
@@ -15,6 +16,7 @@ export default function Home() {
         <Header />
         {/* <Hero /> */}
         <Introductory />
+        <AboutPage />
         <About />
       </main>
     </>
