@@ -1,4 +1,6 @@
 import React from "react";
+import { Button } from "../ui/button";
+import Link from "next/link";
 
 const AboutPage: React.FC = () => {
   return (
@@ -10,9 +12,12 @@ const AboutPage: React.FC = () => {
           odio. Praesent libero. Sed cursus ante dapibus diam. Sed nisi.
         </p>
         <div className="flex justify-center">
-          <button className="bg-white text-black px-4 py-2 rounded-md mr-4">
-            Button 1
-          </button>
+          <Button
+            variant="secondary"
+            className="bg-white text-black hover:bg-black hover:text-white hover:border-white"
+          >
+            <Link href="/hub/plugins">Blog</Link>
+          </Button>
           <button className="bg-white text-black px-4 py-2 rounded-md">
             Button 2
           </button>
