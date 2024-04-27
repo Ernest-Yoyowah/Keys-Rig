@@ -8,6 +8,7 @@ import { Suspense } from "react";
 import Loading from "./blog/loading";
 import AboutPage from "@/components/About/AboutPage";
 import FeatureSection from "@/components/ui/FeatureSection";
+import ArticlePage from "@/components/About/article";
 
 export default function Home() {
   return (
@@ -20,6 +21,7 @@ export default function Home() {
         <AboutPage />
         <About />
         {/* <FeatureSection /> */}
+        <ArticlePage />
       </main>
     </>
   );
