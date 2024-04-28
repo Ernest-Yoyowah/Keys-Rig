@@ -1,5 +1,4 @@
 import React from "react";
-import FeatureSection from "../ui/FeatureSection";
 
 const AboutPage: React.FC = () => {
   return (
