@@ -2,7 +2,6 @@ import Link from "next/link";
 import ArticleCard, { articles } from "../ui/articleCard";
 import { Button } from "../ui/button";
 
-// ArticlePage component
 const ArticlePage: React.FC = () => {
   return (
     <>
