@@ -14,7 +14,7 @@ export interface ExpansionItemProps {
   title: string;
   description: string;
   youtubeLink: string;
-  imageUrl: string;
+  youtubeTitle: string;
 }
 
 export interface ProductFinderContentProps {
