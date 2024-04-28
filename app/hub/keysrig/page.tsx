@@ -2,7 +2,6 @@ import React from "react";
 import { Metadata } from "next";
 import { Button } from "@/components/ui/button";
 import Link from "next/link";
-import Image from "next/image";
 import ExpansionItem from "@/components/ui/ExpansionItem";
 
 export const metadata: Metadata = {
