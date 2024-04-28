@@ -10,17 +10,6 @@ export const metadata: Metadata = {
 };
 
 const Rig: React.FC = () => {
-  const expansions = [
-    {
-      title: "Epic Worship Rig Tour",
-      description:
-        "Dive into a world of curated sounds with Datsunn, our Expansion connoisseur. Discover his hand-picked favorites and watch him quickly create some beats from scratch with his top selections.",
-      youtubeLink:
-        "//www.youtube.com/embed/LMoaiV4utSE?showinfo=1&amp;rel=0&amp;hd=1&amp;cc_lang_pref=en&amp;cc_load_policy=1",
-      imageUrl: "/vid_1.jpg",
-    },
-  ];
-
   return (
     <div className="blue-bg">
       <div className="text-theme md:flex md:justify-center md:items-center p-5 md:p-0 ">
@@ -89,40 +78,13 @@ const Rig: React.FC = () => {
         style={{ minWidth: "90%", minHeight: "30vh", objectFit: "cover" }}
       />
 
-      {/* Replace the rendering of ExpansionItem with YouTube video */}
-      <div id="c1017229" className="p-1 md:px-20 w-full">
-        <div className="container">
-          {expansions.map((expansion, index) => (
-            <div
-              key={index}
-              className={`grid grid-cols-1 md:grid-cols-2 gap-4 md:my-12 my-5 ${
-                index % 2 === 0 ? "" : "md:grid-flow-col-reverse"
-              }`}
-            >
-              {/* Render ExpansionItem details */}
-              <div className="col-text md:w-96 md:mt-24">
-                <ExpansionItem {...expansion} />
-              </div>
-              {/* Render YouTube video here */}
-              <div className="col-image">
-                <div className="mt-0 md:h-[356px] aspect-w-16">
-                  <iframe
-                    width="810"
-                    height="456"
-                    src={expansion.youtubeLink}
-                    title={expansion.title}
-                    frameBorder="0"
-                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                    referrerPolicy="strict-origin-when-cross-origin"
-                    allowFullScreen
-                    className="w-full h-full"
-                  ></iframe>
-                </div>
-              </div>
-            </div>
-          ))}
-        </div>
-      </div>
+      <ExpansionItem
+        title="Epic Worship Rig Tour"
+        description="Dive into a world of curated sounds with Datsunn, our Expansion connoisseur. Discover his hand-picked favorites and watch him quickly create some beats from scratch with his top selections."
+        youtubeLink="//www.youtube.com/embed/LMoaiV4utSE?showinfo=1&amp;rel=0&amp;hd=1&amp;cc_lang_pref=en&amp;cc_load_policy=1"
+        youtubeTitle="Something"
+        key={0}
+      />
     </div>
   );
 };
