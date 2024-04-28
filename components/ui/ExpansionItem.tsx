@@ -3,7 +3,7 @@ import { ExpansionItemProps } from "@/types/types";
 const ExpansionItem: React.FC<ExpansionItemProps> = ({
   title,
   description,
-  youtubeLink,
+  videoId,
   youtubeTitle,
 }) => {
   return (
@@ -26,7 +26,7 @@ const ExpansionItem: React.FC<ExpansionItemProps> = ({
                 <iframe
                   width="810"
                   height="456"
-                  src={youtubeLink}
+                  src={`https://www.youtube.com/embed/${videoId}`}
                   title={youtubeTitle}
                   frameBorder="0"
                   allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
