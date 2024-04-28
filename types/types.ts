@@ -37,3 +37,8 @@ export interface SectionProps {
   imageUrl: string;
   link: string;
 }
+
+export interface YoutubeEmbedProps {
+  videoId: string;
+  title?: string;
+}
