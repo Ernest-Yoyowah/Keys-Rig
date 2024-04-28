@@ -4,8 +4,6 @@ const About: React.FC = () => {
   return (
     <>
       <div className="container mx-auto my-auto text-[#242424] md:text-center py-8 mt-10 ">
-        {/* <AboutPage /> */}
-
         <h1 className="head-text_1 mb-4">VST Plugins</h1>
         <div className="max-w-3xl mx-auto">
           <p className="paragraph-text">
