@@ -1,4 +1,5 @@
 import React from "react";
+import YoutubeEmbed from "../ui/YoutubeEmbed";
 
 const aboutContent = {
   headText: "VST Plugins",
@@ -16,20 +17,8 @@ const About: React.FC = () => {
         <div className="max-w-3xl mx-auto">
           <p className="paragraph-text">{aboutContent.paragraphText}</p>
         </div>
-        <div className="max-w-2xl mx-auto">
-          <div className="mt-10 md:h-[400px] aspect-w-16 aspect-h-9">
-            <iframe
-              width="900"
-              height="500"
-              src="https://www.youtube.com/embed/j09JDxQNyus"
-              title="What Is a VST?"
-              frameBorder="0"
-              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-              referrerPolicy="strict-origin-when-cross-origin"
-              allowFullScreen
-              className="w-full h-full"
-            ></iframe>
-          </div>
+        <div>
+          <YoutubeEmbed videoId="j09JDxQNyus" title="What Is a VST?" />
         </div>
       </div>
 
