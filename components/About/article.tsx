@@ -15,7 +15,6 @@ const ArticlePage: React.FC = () => {
         </div>
       </div>
       <div className="flex justify-around">
-        {/* Mapping through articles array and rendering each article card */}
         {articles.map((article, index) => (
           <ArticleCard
             key={index}
