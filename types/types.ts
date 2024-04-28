@@ -13,7 +13,7 @@ export type instrumentMarketComponents = {
 export interface ExpansionItemProps {
   title: string;
   description: string;
-  youtubeLink: string;
+  videoId: string;
   youtubeTitle: string;
 }
 
