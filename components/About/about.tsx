@@ -4,6 +4,8 @@ const aboutContent = {
   headText: "VST Plugins",
   paragraphText:
     "Discover the tools to elevate your music production to new heights. Whether you're sculpting lush synth textures, shaping dynamic drum beats, or adding the perfect finishing touch with audio effects, our handpicked collection has something for every musician and producer.",
+  additionalParagraphText:
+    "Welcome to Keys Rig Setup and VST Plugins! We're your go-to resource for crafting the ultimate keyboard rig and exploring the world of virtual instruments and effects. Find expert advice on gear selection and discover a curated selection of VST plugins to fuel your creativity. Let's make music magic together.",
 };
 
 const About: React.FC = () => {
@@ -34,11 +36,7 @@ const About: React.FC = () => {
       <div className="container mx-auto my-auto text-slate-800 md:text-center py-8">
         <div className="max-w-3xl mx-auto">
           <p className="paragraph-text">
-            Welcome to Keys Rig Setup and VST Plugins! We're your go-to resource
-            for crafting the ultimate keyboard rig and exploring the world of
-            virtual instruments and effects. Find expert advice on gear
-            selection and discover a curated selection of VST plugins to fuel
-            your creativity. Let's make music magic together.
+            {aboutContent.additionalParagraphText}
           </p>
         </div>
       </div>
