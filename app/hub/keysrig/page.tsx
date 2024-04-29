@@ -12,6 +12,9 @@ const content = {
   headText: "Piano & Keys Gear Setup",
   paragraphText:
     "One of the hardest parts of being a worship keys player is choosing which gear to buy when building your keyboard rig. From choosing the best controller, the best software for your sounds.",
+  rigHeadText: "Building a Virtual Keys Rig",
+  rigParagraphText:
+    "  It’s not uncommon to see a laptop next to the drummer or keyboardist onstage being used for running tracks. They’re likely using Ableton Live and running tracks to help supplement the sound of the band. As a keyboardist, how can you incorporate a laptop into your rig?",
 };
 
 const Rig: React.FC = () => {
@@ -53,13 +56,10 @@ const Rig: React.FC = () => {
       <div className="text-[#f5f5f5] flex justify-center items-center p-5 md:p-0">
         <div className="max-w-5xl pb-6 p-0 md:pt-0 md:text-center space-y-5 md:space-y-10">
           <h1 className="hero-text_3 md:mt-20 text-left	md:text-center">
-            Building a Virtual Keys Rig
+            {content.rigHeadText}
           </h1>
           <p className="pb-4 pt-0 text-left	md:text-center">
-            It’s not uncommon to see a laptop next to the drummer or keyboardist
-            onstage being used for running tracks. They’re likely using Ableton
-            Live and running tracks to help supplement the sound of the band. As
-            a keyboardist, how can you incorporate a laptop into your rig?
+            {content.rigParagraphText}
           </p>
           <Link href="/hub/keysrig/build-rig">
             <Button
