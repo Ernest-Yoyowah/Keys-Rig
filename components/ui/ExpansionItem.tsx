@@ -15,11 +15,8 @@ const ExpansionItem: React.FC<ExpansionItemProps> = ({
             className="grid grid-cols-1 md:grid-cols-2 gap-4 md:my-12 my-5"
           >
             <div className="col-text md:w-96 md:mt-24">
-              <h2 className="text-white md:text-4xl font-bold md:mb-4">
-                {title}
-              </h2>
-              <div className="text-white py-2 md:mb-6">{description}</div>
-              <div className="media media--youtube media--complex media--small media--padding-bottom flex text-[#fff]"></div>
+              <h2 className="md:text-4xl font-bold md:mb-4">{title}</h2>
+              <div className="py-2 md:mb-6">{description}</div>
             </div>
             <div className="col-image">
               <div className="mt-0 md:h-[356px] aspect-w-16">
