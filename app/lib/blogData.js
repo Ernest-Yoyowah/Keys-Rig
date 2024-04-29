@@ -1,4 +1,3 @@
-// Define an array to store large blog data
 export const largeBlogData = [
   {
     title: "Large Blog Post Title 1",
