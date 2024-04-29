@@ -29,14 +29,6 @@ const About: React.FC = () => {
           /> */}
         </div>
       </div>
-
-      <div className="container mx-auto my-auto text-slate-800 md:text-center py-0">
-        <div className="max-w-3xl mx-auto">
-          <p className="paragraph-text">
-            {/* {aboutContent.additionalParagraphText} */}
-          </p>
-        </div>
-      </div>
     </>
   );
 };
