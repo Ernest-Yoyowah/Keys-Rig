@@ -17,10 +17,7 @@ const BlogPage: NextPage = () => {
       <div className="bg-gray-800 py-12 text-center text-white">
         <div className="container mx-auto">
           <h1 className="hero-text_2">{contentBlogData.headText}</h1>
-          <p className="mt-4 sub-hero-text_2">
-            Explore insightful articles and resources about keyboard rigs and
-            music production.
-          </p>
+          <p className="mt-4 sub-hero-text_2">{contentBlogData.subHeadText}</p>
         </div>
       </div>
 
