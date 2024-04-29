@@ -1,5 +1,6 @@
 import React from "react";
 import YoutubeEmbed from "../ui/YoutubeEmbed";
+import ExpansionItem from "../ui/ExpansionItem";
 
 const aboutContent = {
   headText: "VST Plugins",
@@ -19,13 +20,20 @@ const About: React.FC = () => {
         </div>
         <div>
           <YoutubeEmbed videoId="j09JDxQNyus" title="What Is a VST?" />
+          {/* <ExpansionItem
+            title="Epic Worship Rig Tour"
+            description="Dive into a world of curated sounds with Datsunn, our Expansion connoisseur. Discover his hand-picked favorites and watch him quickly create some beats from scratch with his top selections."
+            videoId="LMoaiV4utSE"
+            youtubeTitle="Something"
+            key={0}
+          /> */}
         </div>
       </div>
 
-      <div className="container mx-auto my-auto text-slate-800 md:text-center py-8">
+      <div className="container mx-auto my-auto text-slate-800 md:text-center py-0">
         <div className="max-w-3xl mx-auto">
           <p className="paragraph-text">
-            {aboutContent.additionalParagraphText}
+            {/* {aboutContent.additionalParagraphText} */}
           </p>
         </div>
       </div>
