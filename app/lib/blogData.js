@@ -74,3 +74,10 @@ export const smallBlogData = [
       "https://img.freepik.com/premium-photo/social-media-blog-concept-futuristic-icon-design-graphics-hand-with-smartphone_102583-6104.jpg",
   },
 ];
+
+export const contentBlogData = [
+  {
+    headText: "Welcome to the Blog",
+    subHeadText: "",
+  },
+];
