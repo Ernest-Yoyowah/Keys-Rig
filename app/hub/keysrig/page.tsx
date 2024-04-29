@@ -14,7 +14,7 @@ const content = {
     "One of the hardest parts of being a worship keys player is choosing which gear to buy when building your keyboard rig. From choosing the best controller, the best software for your sounds.",
   rigHeadText: "Building a Virtual Keys Rig",
   rigParagraphText:
-    "  It’s not uncommon to see a laptop next to the drummer or keyboardist onstage being used for running tracks. They’re likely using Ableton Live and running tracks to help supplement the sound of the band. As a keyboardist, how can you incorporate a laptop into your rig?",
+    "It’s not uncommon to see a laptop next to the drummer or keyboardist onstage being used for running tracks. They’re likely using Ableton Live and running tracks to help supplement the sound of the band. As a keyboardist, how can you incorporate a laptop into your rig?",
 };
 
 const Rig: React.FC = () => {
