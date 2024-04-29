@@ -78,6 +78,7 @@ export const smallBlogData = [
 export const contentBlogData = [
   {
     headText: "Welcome to the Blog",
-    subHeadText: "",
+    subHeadText:
+      "Explore insightful articles and resources about keyboard rigs and music production.",
   },
 ];
