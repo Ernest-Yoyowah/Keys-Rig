@@ -8,7 +8,7 @@ const AboutPage: React.FC = () => {
         <p className="text-sm font-normal">Why Do Musicians Love VSTs</p>
       </div>
       <div className="md:min-h-screen flex py-7 w-full">
-        <div className="flex-1 bg-black text-white p-8 flex flex-col justify-center skew-left">
+        <div className="flex-1 bg-[#000] text-white p-8 flex flex-col justify-center skew-left">
           <h1 className="text-4xl font-bold mb-4 text-center">About VSTs</h1>
           <p className="text-lg mb-8 text-center">
             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec
