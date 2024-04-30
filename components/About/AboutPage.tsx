@@ -15,7 +15,7 @@ const AboutPage: React.FC = () => {
             odio. Praesent libero. Sed cursus ante dapibus diam. Sed nisi.
           </p>
           <div className="flex justify-center">
-            <button className="px-4 py-2 rounded-md mr-4  bg-white text-black hover:bg-black hover:text-white hover:border-white">
+            <button className="px-4 py-2 rounded-md mr-4  bg-white text-black hover:bg-[#1e3a8a] hover:text-white hover:border-white">
               Button 1
             </button>
             <button className="bg-white text-black px-4 py-2 rounded-md">
