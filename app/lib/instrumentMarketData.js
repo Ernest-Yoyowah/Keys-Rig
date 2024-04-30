@@ -24,3 +24,9 @@ export const marketSections = [
     link: "/hub/instrumentMarket/meet-instrumentalists",
   },
 ];
+
+export const marketTextContent = {
+  headText: "",
+  subHeadText:
+    "Welcome to our instrument market! Browse through listings to buy or sell musical instruments and equipment. Connect with other musicians, collaborate on projects, and find your next favorite gear!",
+};
