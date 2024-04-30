@@ -1,6 +1,5 @@
 import React from "react";
 import { NextPage } from "next";
-import Link from "next/link";
 import InstrumentMarketSection from "@/components/ui/InstrumentMarketSection";
 import {
   marketSections,
