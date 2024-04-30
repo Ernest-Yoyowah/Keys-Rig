@@ -15,10 +15,10 @@ const AboutPage: React.FC = () => {
             odio. Praesent libero. Sed cursus ante dapibus diam. Sed nisi.
           </p>
           <div className="flex justify-center">
-            <button className="px-4 py-2 rounded-md mr-4  bg-white text-black hover:bg-sky-700 hover:text-white hover:border-white">
+            <button className="px-4 py-2 rounded-md mr-4  bg-white text-black hover:bg-[#036aa1d2] hover:text-white hover:border-white">
               Button 1
             </button>
-            <button className="bg-white text-black px-4 py-2 rounded-md">
+            <button className="bg-white text-black px-4 py-2 rounded-md hover:bg-[#036aa1d2] hover:text-white hover:border-white">
               Button 2
             </button>
           </div>
