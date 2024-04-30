@@ -26,7 +26,7 @@ export const marketSections = [
 ];
 
 export const marketTextContent = {
-  headText: "",
+  headText: "Instrument Market",
   subHeadText:
     "Welcome to our instrument market! Browse through listings to buy or sell musical instruments and equipment. Connect with other musicians, collaborate on projects, and find your next favorite gear!",
 };
