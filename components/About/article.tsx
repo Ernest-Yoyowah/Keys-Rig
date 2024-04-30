@@ -6,7 +6,7 @@ const ArticlePage: React.FC = () => {
   return (
     <>
       <div className="">
-        <div className="flex items-center justify-start max-w-2xl pt-10">
+        <div className="md:flex items-center justify-start md:max-w-2xl pt-10">
           <div className="w-16 h-0.5 bg-yellow-400 mr-4"></div>
           <p className="text-sm font-normal">News Articles</p>
         </div>
@@ -14,7 +14,7 @@ const ArticlePage: React.FC = () => {
           <h1 className="head-text_1 mb-0 text-left">Read Latest Articles</h1>
         </div>
       </div>
-      <div className="flex justify-around">
+      <div className="flex justify-around flex-col md:flex-row">
         {articles.map((article, index) => (
           <ArticleCard
             key={index}
