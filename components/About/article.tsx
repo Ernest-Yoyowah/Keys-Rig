@@ -6,7 +6,7 @@ const ArticlePage: React.FC = () => {
   return (
     <>
       <div className="">
-        <div className="md:flex items-center justify-start md:max-w-2xl pt-10">
+        <div className="flex items-center justify-start md:max-w-2xl pt-10">
           <div className="w-16 h-0.5 bg-yellow-400 mr-4"></div>
           <p className="text-sm font-normal">News Articles</p>
         </div>
