@@ -23,7 +23,7 @@ const AboutPage: React.FC = () => {
           </p>
           <div className="flex justify-center">
             <button className="px-4 py-2 rounded-md mr-4 bg-white text-black hover:bg-[#036aa1d2] hover:text-white hover:border-white">
-              VST Plugins
+              <Link href="/hub/plugins">VST Plugins</Link>
             </button>
             <button className="bg-white text-black px-4 py-2 rounded-md hover:bg-[#036aa1d2] hover:text-white hover:border-white">
               Gear
