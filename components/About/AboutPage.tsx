@@ -1,5 +1,11 @@
 import React from "react";
 
+const aboutContent = {
+  headText: "About VSTs",
+  paragraphText:
+    "Welcome to Keys Rig Setup and VST Plugins! We're your go-to resource for crafting the ultimate keyboard rig and exploring the world of virtual instruments and effects. Find expert advice on gear selection and discover a curated selection of VST plugins to fuel your creativity. Let's make music magic together.",
+};
+
 const AboutPage: React.FC = () => {
   return (
     <>
@@ -9,10 +15,11 @@ const AboutPage: React.FC = () => {
       </div>
       <div className="md:min-h-screen flex py-7 w-full">
         <div className="flex-1 bg-[#000] text-white p-8 flex flex-col justify-center skew-left">
-          <h1 className="text-4xl font-bold mb-4 text-center">About VSTs</h1>
+          <h1 className="text-4xl font-bold mb-4 text-center">
+            {aboutContent.headText}
+          </h1>
           <p className="text-lg mb-8 text-center">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec
-            odio. Praesent libero. Sed cursus ante dapibus diam. Sed nisi.
+            {aboutContent.paragraphText}
           </p>
           <div className="flex justify-center">
             <button className="px-4 py-2 rounded-md mr-4  bg-white text-black hover:bg-[#036aa1d2] hover:text-white hover:border-white">
