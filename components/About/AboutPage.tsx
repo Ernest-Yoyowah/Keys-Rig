@@ -26,7 +26,7 @@ const AboutPage: React.FC = () => {
               VST Plugins
             </button>
             <button className="bg-white text-black px-4 py-2 rounded-md hover:bg-[#036aa1d2] hover:text-white hover:border-white">
-              Button 2
+              Gear
             </button>
           </div>
         </div>
