@@ -111,31 +111,6 @@ const Footer = () => {
               </span>{" "}
               | <a href="/en/company/ni-locations/">Contact</a>
             </li>
-            <li className="inline-block lang-switcher">
-              <a href="/en/" data-code="en" rel="alternate" hreflang="en">
-                English
-              </a>{" "}
-              |{" "}
-              <a href="/de/" data-code="de" rel="alternate" hreflang="de">
-                Deutsch
-              </a>{" "}
-              |{" "}
-              <a href="/jp/" data-code="jp" rel="alternate" hreflang="ja">
-                日本語
-              </a>{" "}
-              |{" "}
-              <a href="/fr/" data-code="fr" rel="alternate" hreflang="fr">
-                Français
-              </a>{" "}
-              |{" "}
-              <a href="/es/" data-code="es" rel="alternate" hreflang="es">
-                Español
-              </a>{" "}
-              |{" "}
-              <a href="/zh/" data-code="zh" rel="alternate" hreflang="zh">
-                简体中文
-              </a>
-            </li>
           </ul>
         </div>
       </div>
