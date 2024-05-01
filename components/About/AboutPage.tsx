@@ -27,7 +27,7 @@ const AboutPage: React.FC = () => {
               <Link href="/hub/plugins">VST Plugins</Link>
             </button>
             <button className="bg-white text-black px-4 py-2 rounded-md hover:bg-[#036aa1d2] hover:text-white hover:border-white">
-              Gear
+              <Link href="/hub/plugins">Gear</Link>
             </button>
           </div>
         </div>
