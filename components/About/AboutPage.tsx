@@ -3,7 +3,7 @@ import React from "react";
 const aboutContent = {
   headText: "About VSTs",
   paragraphText:
-    "Welcome to Keys Rig Setup and VST Plugins! We're your go-to resource for crafting the ultimate keyboard rig and exploring the world of virtual instruments and effects. Find expert advice on gear selection and discover a curated selection of VST plugins to fuel your creativity. Let's make music magic together.",
+    "Find expert advice on gear selection and discover a curated selection of VST plugins to fuel your creativity. Let's make music magic together.",
 };
 
 const AboutPage: React.FC = () => {
