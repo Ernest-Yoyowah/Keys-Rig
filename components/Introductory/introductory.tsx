@@ -2,6 +2,11 @@ import Image from "next/image";
 import React from "react";
 import Featured from "./featured";
 
+const textContent = {
+  headText: "",
+  paragraphText: "",
+};
+
 const Introductory: React.FC = () => {
   return (
     <>
