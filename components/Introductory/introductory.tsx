@@ -13,7 +13,7 @@ const Introductory: React.FC = () => {
     <>
       <div className="pb-12 md:pb-12 mt-0">
         <div className="container mx-auto md:text-center">
-          <h2 className="head-text_1 mb-5"></h2>
+          <h2 className="head-text_1 mb-5">{textContent.headText}</h2>
           <div className="max-w-3xl mx-auto">
             <p className="paragraph-text"></p>
           </div>
