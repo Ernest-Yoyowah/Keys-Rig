@@ -15,7 +15,7 @@ const Introductory: React.FC = () => {
         <div className="container mx-auto md:text-center">
           <h2 className="head-text_1 mb-5">{textContent.headText}</h2>
           <div className="max-w-3xl mx-auto">
-            <p className="paragraph-text"></p>
+            <p className="paragraph-text">{textContent.paragraphText}</p>
           </div>
         </div>
       </div>
