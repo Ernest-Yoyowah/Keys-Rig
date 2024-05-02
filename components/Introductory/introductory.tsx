@@ -3,8 +3,9 @@ import React from "react";
 import Featured from "./featured";
 
 const textContent = {
-  headText: "",
-  paragraphText: "",
+  headText: "Unlock Your Musical Potential",
+  paragraphText:
+    "Dive into the world of music production with our collection of premium VST plugins for keys and synths. Whether you're a seasoned musician or just starting out, our plugins offer unparalleled sound quality and versatility, allowing you to create music that truly stands out.",
 };
 
 const Introductory: React.FC = () => {
@@ -12,15 +13,9 @@ const Introductory: React.FC = () => {
     <>
       <div className="pb-12 md:pb-12 mt-0">
         <div className="container mx-auto md:text-center">
-          <h2 className="head-text_1 mb-5">Unlock Your Musical Potential</h2>
+          <h2 className="head-text_1 mb-5"></h2>
           <div className="max-w-3xl mx-auto">
-            <p className="paragraph-text">
-              Dive into the world of music production with our collection of
-              premium VST plugins for keys and synths. Whether you're a seasoned
-              musician or just starting out, our plugins offer unparalleled
-              sound quality and versatility, allowing you to create music that
-              truly stands out.
-            </p>
+            <p className="paragraph-text"></p>
           </div>
         </div>
       </div>
