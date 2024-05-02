@@ -1,6 +1,7 @@
 import Link from "next/link";
 import { Button } from "../ui/button";
-import { featuredPlugins } from "@/app/lib/featuredPlugins";
+import { featuredPlugins } from "../../app/lib/featuredPlugins";
+import React from "react";
 
 const Featured: React.FC = () => {
   return (

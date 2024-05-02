@@ -1,4 +1,4 @@
-import { Button } from "@/components/ui/button";
+import { Button } from "./button";
 import React from "react";
 
 interface FeatureCardProps {
