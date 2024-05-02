@@ -13,7 +13,7 @@ export const largeBlogData = [
     author: "Ernest Nii",
     date: "April 22, 2024",
     excerpt:
-      "This is an example blog post excerpt for the large blog post. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam sit amet lorem eu mauris fermentum malesuada. Aliquam posuere auctor justo, ac sagittis enim interdum in.",
+      "This is an example blog post excerpt for the large blog post. Lorem ipsum dolor sit, consectetur adipiscing elit. Nullam sit amet lorem eu mauris fermentum malesuada. Aliquam posuere auctor justo, ac sagittis enim interdum in.",
     image: "https://wemakestuff.co/wp-content/uploads/2018/05/coffee.jpg",
   },
 ];
