@@ -1,5 +1,5 @@
 import { Button } from "@/components/ui/button";
-import React, { ReactNode } from "react";
+import React from "react";
 
 interface FeatureCardProps {
   title: string;
