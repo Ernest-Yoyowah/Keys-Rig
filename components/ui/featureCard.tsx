@@ -1,10 +1,5 @@
-<<<<<<<< HEAD:app/lib/featureCard.tsx
-import { Button } from "@/components/ui/button";
-import React, { ReactNode } from "react";
-========
 import { Button } from "./button";
 import React from "react";
->>>>>>>> dev:components/ui/featureCard.tsx
 
 interface FeatureCardProps {
   title: string;
