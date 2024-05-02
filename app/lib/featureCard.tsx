@@ -1,7 +1,17 @@
 import { Button } from "@/components/ui/button";
-import React from "react";
+import React, { ReactNode } from "react";
 
-const FeatureCard = ({ title, description, buttonText }) => {
+interface FeatureCardProps {
+  title: string;
+  description: string;
+  buttonText: string;
+}
+
+const FeatureCard: React.FC<FeatureCardProps> = ({
+  title,
+  description,
+  buttonText,
+}) => {
   return (
     <div className="text-center lg:text-left mb-8 lg:mb-0 lg:w-1/3">
       <h2 className="text-2xl font-bold mb-4">{title}</h2>
