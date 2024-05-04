@@ -118,10 +118,7 @@ const MeetInstrumentalist: React.FC = () => {
                   Genre: {instrumentalist.genre}
                 </p>
                 <div className="flex justify-start">
-                  <Button
-                    variant="default"
-                    className="bg-black text-white border border-white hover:bg-[#242424] hover:text-white hover:border-white"
-                  >
+                  <Button variant="default">
                     <Link href="/">Connect for Collaboration</Link>
                   </Button>
                 </div>
