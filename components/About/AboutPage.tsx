@@ -24,11 +24,17 @@ const AboutPage: React.FC = () => {
             {aboutContent.paragraphText}
           </p>
           <div className="flex justify-center gap-3">
-            <Button variant="default">
+            <Button
+              variant="default"
+              className="bg-white text-[#191919] hover:bg-[#e5e5e5] hover:text-black"
+            >
               <Link href="/hub/plugins">VST Plugins</Link>
             </Button>
-            <Button variant="default">
-              <Link href="/hub/keysrig/gear">Gear</Link>
+            <Button
+              variant="default"
+              className="bg-white text-[#191919] hover:bg-[#e5e5e5] hover:text-black"
+            >
+              <Link href="/hub/keysrig/gear">Gear Needwd</Link>
             </Button>
           </div>
         </div>
