@@ -27,10 +27,7 @@ const ArticlePage: React.FC = () => {
       </div>
 
       <div className="flex justify-center mt-0 mb-5">
-        <Button
-          variant="secondary"
-          className="bg-[#036aa1d2] hover:bg-[#036aa1e2] text-white font-bold py-2 px-4 rounded"
-        >
+        <Button variant="default">
           <Link href="/blog">Read All Articles</Link>
         </Button>
       </div>

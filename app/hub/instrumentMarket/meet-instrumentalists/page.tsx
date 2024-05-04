@@ -1,5 +1,7 @@
 // pages/meet-instrumentalist.tsx
 
+import { Button } from "@/components/ui/button";
+import Link from "next/link";
 import React from "react";
 
 // Sample data of instrumentalists
@@ -116,9 +118,9 @@ const MeetInstrumentalist: React.FC = () => {
                   Genre: {instrumentalist.genre}
                 </p>
                 <div className="flex justify-start">
-                  <button className="bg-blue-500 text-white px-6 py-3 rounded-md hover:bg-blue-600 transition duration-300 shadow-lg">
-                    Connect for Collaboration
-                  </button>
+                  <Button variant="default">
+                    <Link href="/">Connect for Collaboration</Link>
+                  </Button>
                 </div>
               </div>
             </div>
