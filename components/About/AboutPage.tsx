@@ -1,5 +1,6 @@
 import Link from "next/link";
 import React from "react";
+import { Button } from "../ui/button";
 
 const aboutContent = {
   headText: "About VSTs",
@@ -22,13 +23,13 @@ const AboutPage: React.FC = () => {
           <p className="text-lg mb-8 text-center">
             {aboutContent.paragraphText}
           </p>
-          <div className="flex justify-center">
-            <button className="px-4 py-2 rounded-md mr-4 bg-white text-black hover:bg-[#FAF9F6] hover:border-white">
+          <div className="flex justify-center gap-3">
+            <Button variant="default">
               <Link href="/hub/plugins">VST Plugins</Link>
-            </button>
-            <button className="bg-white text-black px-4 py-2 rounded-md hover:bg-[#FAF9F6] hover:border-white">
+            </Button>
+            <Button variant="default">
               <Link href="/hub/keysrig/gear">Gear</Link>
-            </button>
+            </Button>
           </div>
         </div>
         <div className="flex-1 relative skew-right md:flex hidden">
