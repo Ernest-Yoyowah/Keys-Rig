@@ -31,7 +31,7 @@ const instrumentalists = [
   {
     id: 3,
     name: "Ernest Nii",
-    instrument: "Keyboardist",
+    instrument: "Keyboard",
     genre: "Classical",
     imageUrl:
       "https://pbs.twimg.com/profile_images/1644130887749992448/1l0Fqur7_200x200.jpg",
