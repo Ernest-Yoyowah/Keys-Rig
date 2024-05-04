@@ -1,5 +1,3 @@
-// pages/meet-instrumentalist.tsx
-
 import { Button } from "@/components/ui/button";
 import Link from "next/link";
 import React from "react";
@@ -94,7 +92,7 @@ const MeetInstrumentalist: React.FC = () => {
       </div>
 
       {/* Main content section */}
-      <div className="container mx-auto px-48 py-8">
+      <div className="container mx-auto md:px-48 py-8">
         <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-3 gap-8">
           {/* Map through the instrumentalists array and render their profiles */}
           {instrumentalists.map((instrumentalist) => (
