@@ -46,7 +46,7 @@ const ArticleCard: React.FC<{
         {/* Article paragraph */}
         <p className="paragraph-text_3">{description}</p>
         {/* Article link */}
-        <a href={articleLink} className="text-blue-500 mt-2 block">
+        <a href={articleLink} className="text-blue-500 underline mt-2 block">
           Read more
         </a>
       </div>
