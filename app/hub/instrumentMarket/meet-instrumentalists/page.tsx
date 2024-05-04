@@ -120,9 +120,9 @@ const MeetInstrumentalist: React.FC = () => {
                 <div className="flex justify-start">
                   <Button
                     variant="default"
-                    className="bg-black text-white border border-white hover:bg-white hover:text-black hover:border-white"
+                    className="bg-black text-white border border-white hover:bg-[#242424] hover:text-white hover:border-white"
                   >
-                    <Link href="/hub/keysrig">Connect for Collaboration</Link>
+                    <Link href="/">Connect for Collaboration</Link>
                   </Button>
                 </div>
               </div>
