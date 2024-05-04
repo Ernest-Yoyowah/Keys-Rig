@@ -41,10 +41,7 @@ const BlogPage: NextPage = () => {
                   <p className="paragraph mb-2">By {blog.author}</p>
                   <p className="paragraph mb-2">Published on {blog.date}</p>
                   <p className="paragraph-text_2">{blog.excerpt}</p>
-                  <a
-                    href="#"
-                    className="text-blue-500 inline-block mt-4 hover:underline"
-                  >
+                  <a href="#" className="link_text inline-block mt-3">
                     Read More
                   </a>
                 </div>
@@ -71,10 +68,7 @@ const BlogPage: NextPage = () => {
                     Published on {blog.date}
                   </p>
                   <p className="paragraph-text_3">{blog.excerpt}</p>
-                  <a
-                    href="#"
-                    className="text-blue-500 inline-block mt-4 hover:underline"
-                  >
+                  <a href="#" className="link_text inline-block mt-4">
                     Read More
                   </a>
                 </div>

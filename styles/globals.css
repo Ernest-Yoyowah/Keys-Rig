@@ -121,5 +121,5 @@
 }
 
 .link_text {
-  @apply text-blue-500 underline text-sm;
+  @apply text-blue-500 underline;
 }

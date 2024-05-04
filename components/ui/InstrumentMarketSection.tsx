@@ -16,7 +16,7 @@ const InstrumentMarketSection: React.FC<SectionProps> = ({
         <img src={imageUrl} alt={title} className="w-1/2 md:w-1/3" />
       </div>
       <div className="flex justify-center mt-4">
-        <Link href={link} className="text-blue-500 underline">
+        <Link href={link} className="link_text">
           Explore {title}
         </Link>
       </div>
