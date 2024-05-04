@@ -68,7 +68,7 @@ const MeetInstrumentalist: React.FC = () => {
         }}
       >
         <div className="absolute inset-0 bg-black opacity-50"></div>
-        <div className="container mx-auto px-4 relative z-10 flex justify-center items-center">
+        <div className="container mx-auto px-4 relative flex justify-center items-center">
           <h1 className="text-white text-3xl font-semibold">
             Meet Instrumentalist
           </h1>
