@@ -119,3 +119,7 @@
 .color-primary {
   color: #242424;
 }
+
+.link_text {
+  @apply text-blue-500 underline text-sm;
+}
