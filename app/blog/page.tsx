@@ -14,7 +14,7 @@ const BlogPage: NextPage = () => {
   return (
     <div>
       {/* Header Section */}
-      <div className="bg-gray-800 py-12 text-center text-white">
+      <div className="bg-gray-800 py-12 text-center">
         <div className="container mx-auto">
           <h1 className="hero-text_2">{contentBlogData.headText}</h1>
           <p className="mt-4 sub-hero-text_2">{contentBlogData.subHeadText}</p>
