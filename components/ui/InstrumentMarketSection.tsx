@@ -10,7 +10,9 @@ const InstrumentMarketSection: React.FC<SectionProps> = ({
 }) => {
   return (
     <div className="mb-12">
-      <h2 className="head-text_1 text-center mb-6 pb-2">{title}</h2>
+      <h2 className="text-gray-800 text-lg font-semibold text-center mb-6 pb-2">
+        {title}
+      </h2>
       <p className="paragraph-text text-center mb-6">{description}</p>
       <div className="flex justify-center">
         <img src={imageUrl} alt={title} className="w-1/2 md:w-1/3" />
