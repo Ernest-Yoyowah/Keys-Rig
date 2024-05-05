@@ -18,7 +18,7 @@ export const marketSections = [
   {
     title: "Meet Instrumentalist",
     description:
-      "Explore VST plugins, software, and music tech setup services to enhance your music production setup. Find the latest technology and expert assistance to take your music to the next level.",
+      "Connect with talented musicians for gigs, collaborations, and more. Whether you're looking to hire a musician for your event or want to collaborate on a project, you'll find the perfect match here.",
     imageUrl:
       "https://static1.makeuseofimages.com/wordpress/wp-content/uploads/2023/07/fi-from-arturia.jpg",
     link: "/hub/instrumentMarket/meet-instrumentalists",
