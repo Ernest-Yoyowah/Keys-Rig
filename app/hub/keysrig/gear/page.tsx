@@ -108,10 +108,7 @@ const GearPage = () => {
                 />
                 <div className="p-6">
                   <h2 className="text-lg font-semibold mb-2">{item.name}</h2>
-                  <a
-                    href="#"
-                    className="text-blue-500 inline-block mt-4 hover:underline"
-                  >
+                  <a href="#" className="link_text inline-block mt-4">
                     Learn More
                   </a>
                 </div>
