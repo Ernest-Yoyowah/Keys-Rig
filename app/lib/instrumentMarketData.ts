@@ -16,7 +16,7 @@ export const marketSections = [
     link: "/hub/instrumentMarket/sound-engineering",
   },
   {
-    title: "Meet Instrumentalist",
+    title: "Collaboration",
     description:
       "Connect with talented musicians for gigs, collaborations, and more. Whether you're looking to hire a musician for your event or want to collaborate on a project, you'll find the perfect match here.",
     imageUrl:
