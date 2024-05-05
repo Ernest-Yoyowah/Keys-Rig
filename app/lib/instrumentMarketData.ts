@@ -16,7 +16,7 @@ export const marketSections = [
     link: "/hub/instrumentMarket/sound-engineering",
   },
   {
-    title: "VST and Music Tech Setup",
+    title: "Meet Instrumentalist",
     description:
       "Explore VST plugins, software, and music tech setup services to enhance your music production setup. Find the latest technology and expert assistance to take your music to the next level.",
     imageUrl:
