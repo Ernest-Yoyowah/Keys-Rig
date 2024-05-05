@@ -2,7 +2,7 @@ import React from "react";
 import Featured from "./featured";
 
 const textContent = {
-  headText: "Unlock Your Musical Potential",
+  headText: "Musical Technology",
   paragraphText:
     "Dive into the world of music production with our collection of premium VST plugins for keys and synths. Whether you're a seasoned musician or just starting out, our plugins offer unparalleled sound quality and versatility, allowing you to create music that truly stands out.",
 };
