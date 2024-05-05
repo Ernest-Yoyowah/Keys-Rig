@@ -28,7 +28,7 @@ const InstrumentMarket: NextPage = () => {
         </div>
       </div>
 
-      <div className="container mx-auto py-8 max-w-3xl md:text-center text-left">
+      <div className="container mx-auto py-8 max-w-3xl">
         {marketSections.map((section, index) => (
           <InstrumentMarketSection key={index} {...section} />
         ))}
