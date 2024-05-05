@@ -9,6 +9,7 @@ import Loading from "./blog/loading";
 import AboutPage from "@/components/About/AboutPage";
 import FeatureSection from "@/components/ui/FeatureSection";
 import ArticlePage from "@/components/About/article";
+import CollaborationSection from "@/components/ui/CollaborationSection";
 
 export default function Home() {
   return (
@@ -21,6 +22,7 @@ export default function Home() {
         <AboutPage />
         <About />
         {/* <FeatureSection /> */}
+        <CollaborationSection />
         <ArticlePage />
       </main>
     </>
