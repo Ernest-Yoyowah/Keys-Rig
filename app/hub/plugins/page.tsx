@@ -4,7 +4,6 @@ import React from "react";
 import { Metadata } from "next";
 import AppBgImg from "@/components/Header/AppBgImg";
 import ProductFinderTopMenu from "@/components/ui/ProductFinderTopMenu";
-import ProduceTech from "../instrumentMarket/page";
 import ProductFinderSubMenu from "@/components/ui/ProductFinderSubMenu";
 import ProductFinderContentSection from "@/components/ui/ProductFinderContentSection";
 
