@@ -14,7 +14,6 @@ export const metadata: Metadata = {
 const Plugins = () => {
   return (
     <>
-      {/* <AppBgImg /> */}
       <ProductFinderTopMenu />
       <ProductFinderSubMenu />
       <ProductFinderContentSection />
