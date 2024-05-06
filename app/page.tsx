@@ -20,7 +20,6 @@ export default function Home() {
         <Introductory />
         <AboutPage />
         <About />
-        {/* <FeatureSection /> */}
         <CollaborationSection />
         <ArticlePage />
       </main>
