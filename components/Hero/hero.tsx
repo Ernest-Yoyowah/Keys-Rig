@@ -23,8 +23,10 @@ const Hero = () => {
         <div className="absolute inset-0 bg-black opacity-50"></div>
         <div className="absolute inset-0 flex items-center justify-center text-white">
           <div className="text-center max-w-4xl md:p-0 px-5">
-            <h1 className="text-3xl md:text-5xl font-bold mb-4"></h1>
-            <p className="text-md md:text-lg"></p>
+            <h1 className="text-3xl md:text-5xl font-bold mb-4">
+              {textContent.headText}
+            </h1>
+            <p className="text-md md:text-lg">{textContent.paragraphText}</p>
           </div>
         </div>
       </div>
