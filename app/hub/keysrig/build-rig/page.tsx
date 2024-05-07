@@ -5,7 +5,9 @@ export const metadata: Metadata = {
   title: "Virtual Rig - build your own keys rig",
 };
 
-const buildRigTextContent = {};
+const buildRigTextContent = {
+  headText: "Virtual Worship Rig",
+};
 
 const BuildRigPage = () => {
   return (
