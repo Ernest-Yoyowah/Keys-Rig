@@ -1,6 +1,7 @@
 import React from "react";
 import { Metadata } from "next";
 import { buildRigTextContent } from "@/app/lib/buildRig";
+import YoutubeEmbed from "@/components/ui/YoutubeEmbed";
 
 export const metadata: Metadata = {
   title: "Virtual Rig - build your own keys rig",
@@ -31,7 +32,7 @@ const BuildRigPage = () => {
           <br />
           <p>{buildRigTextContent.paragraphText_2}</p>
 
-          <div className="my-10 px-10 md:h-[456px] aspect-w-16 aspect-h-9">
+          {/* <div className="my-10 px-10 md:h-[456px] aspect-w-16 aspect-h-9">
             <iframe
               width="810"
               height="456"
@@ -43,6 +44,9 @@ const BuildRigPage = () => {
               allowFullScreen
               className="w-full h-full"
             ></iframe>
+          </div> */}
+          <div>
+            <YoutubeEmbed videoId="neNbVMelMcQ" title="Worship Rig Tour" />
           </div>
 
           <p>{buildRigTextContent.paragraphText_3}</p>
