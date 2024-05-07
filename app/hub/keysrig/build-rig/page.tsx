@@ -7,8 +7,9 @@ export const metadata: Metadata = {
 
 const buildRigTextContent = {
   headText: "Virtual Worship Rig",
-  paragraphText:
+  paragraphText_1:
     "One of the hardest parts of being a worship keys player is choosing which gear to buy when building your keyboard rig.",
+  paragraphText_2: "",
 };
 
 const BuildRigPage = () => {
