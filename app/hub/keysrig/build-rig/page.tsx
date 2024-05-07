@@ -28,27 +28,11 @@ const BuildRigPage = () => {
       <div className="md:mx-auto px-5 my-auto text-slate-800 md:text-center py-8">
         <div className="max-w-3xl mx-auto">
           <p>{buildRigTextContent.paragraphText_1}</p>
-
           <br />
           <p>{buildRigTextContent.paragraphText_2}</p>
-
-          {/* <div className="my-10 px-10 md:h-[456px] aspect-w-16 aspect-h-9">
-            <iframe
-              width="810"
-              height="456"
-              src="https://www.youtube.com/embed/neNbVMelMcQ"
-              title="Worship Rig Tour - Piano &amp; Keys Gear | Sunday Keys App Setup"
-              frameBorder="0"
-              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-              referrerPolicy="strict-origin-when-cross-origin"
-              allowFullScreen
-              className="w-full h-full"
-            ></iframe>
-          </div> */}
           <div className="my-10">
             <YoutubeEmbed videoId="neNbVMelMcQ" title="Worship Rig Tour" />
           </div>
-
           <p>{buildRigTextContent.paragraphText_3}</p>
         </div>
       </div>
