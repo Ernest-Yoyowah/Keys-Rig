@@ -45,12 +45,7 @@ const BuildRigPage = () => {
             ></iframe>
           </div>
 
-          <p>
-            Keith has been performing in live worship bands and in the studio as
-            a keyboardist for many years. In this series, he will break down all
-            of the hardware and software required to achieve full, rich keys and
-            synth sounds. Watch now!
-          </p>
+          <p>{buildRigTextContent.paragraphText_3}</p>
         </div>
       </div>
     </>
