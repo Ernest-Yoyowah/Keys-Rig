@@ -1,5 +1,4 @@
-export // Sample data of instrumentalists
-const instrumentalists = [
+export const instrumentalists = [
   {
     id: 1,
     name: "John Doe",
