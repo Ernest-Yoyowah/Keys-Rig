@@ -20,13 +20,6 @@ const About: React.FC = () => {
         </div>
         <div>
           <YoutubeEmbed videoId="j09JDxQNyus" title="What Is a VST?" />
-          {/* <ExpansionItem
-            title="Epic Worship Rig Tour"
-            description="Dive into a world of curated sounds with Datsunn, our Expansion connoisseur. Discover his hand-picked favorites and watch him quickly create some beats from scratch with his top selections."
-            videoId="LMoaiV4utSE"
-            youtubeTitle="Something"
-            key={0}
-          /> */}
         </div>
       </div>
     </>
