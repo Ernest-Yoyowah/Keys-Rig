@@ -1,6 +1,7 @@
 import React from "react";
 import { Metadata } from "next";
 import { gearItems, gearTextContent } from "@/app/lib/gearItems";
+import PageHeader from "@/components/ui/PageHeader";
 
 export const metadata: Metadata = {
   title:
@@ -10,20 +11,12 @@ export const metadata: Metadata = {
 const GearPage = () => {
   return (
     <>
-      <div className="relative h-96">
-        <img
-          className="absolute inset-0 w-full h-full object-cover"
-          src="https://americansongwriter.com/wp-content/uploads/2023/01/midi-stands.jpg?fit=2000%2C800"
-          alt="Header Background"
-        />
-        <div className="absolute inset-0 bg-black opacity-50"></div>
-        <div className="absolute inset-0 flex items-center justify-center text-white">
-          <div className="text-center max-w-4xl md:p-0 px-5">
-            <h1 className="hero-text_2 mb-4">{gearTextContent.title}</h1>
-            <p className="sub-hero-text_2">{gearTextContent.subtitle}</p>
-          </div>
-        </div>
-      </div>
+      <PageHeader
+        imageUrl="https://americansongwriter.com/wp-content/uploads/2023/01/midi-stands.jpg?fit=2000%2C800"
+        altText="Header Background"
+        mainHeading={gearTextContent.title}
+        subHeading={gearTextContent.subtitle}
+      />
       <div className="md:mx-auto px-5 my-auto text-slate-800 md:text-center py-8">
         <div className="max-w-3xl mx-auto">
           {/* Display gear items */}
