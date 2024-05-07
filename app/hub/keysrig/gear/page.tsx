@@ -19,8 +19,8 @@ const GearPage = () => {
         <div className="absolute inset-0 bg-black opacity-50"></div>
         <div className="absolute inset-0 flex items-center justify-center text-white">
           <div className="text-center max-w-4xl md:p-0 px-5">
-            <h1 className="hero-text_2 mb-4">{textContent.title}</h1>
-            <p className="sub-hero-text_2">{textContent.subtitle}</p>
+            <h1 className="hero-text_2 mb-4">{gearTextContent.title}</h1>
+            <p className="sub-hero-text_2">{gearTextContent.subtitle}</p>
           </div>
         </div>
       </div>
