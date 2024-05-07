@@ -1,6 +1,6 @@
 import React from "react";
 import { Metadata } from "next";
-import { gearItems } from "@/app/lib/gearItems";
+import { gearItems, gearTextContent } from "@/app/lib/gearItems";
 
 export const metadata: Metadata = {
   title:
