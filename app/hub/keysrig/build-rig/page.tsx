@@ -29,10 +29,7 @@ const BuildRigPage = () => {
           <p>{buildRigTextContent.paragraphText_1}</p>
 
           <br />
-          <p>
-            In this 2 part video series, Keith Duell breaks down his keyboard
-            rig in full detail!
-          </p>
+          <p>{buildRigTextContent.paragraphText_2}</p>
 
           <div className="my-10 px-10 md:h-[456px] aspect-w-16 aspect-h-9">
             <iframe
