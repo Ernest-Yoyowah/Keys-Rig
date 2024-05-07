@@ -1,5 +1,6 @@
 import React from "react";
 import { Metadata } from "next";
+import { buildRigTextContent } from "@/app/lib/buildRig";
 
 export const metadata: Metadata = {
   title: "Virtual Rig - build your own keys rig",
