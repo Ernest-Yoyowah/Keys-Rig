@@ -26,12 +26,7 @@ const BuildRigPage = () => {
 
       <div className="md:mx-auto px-5 my-auto text-slate-800 md:text-center py-8">
         <div className="max-w-3xl mx-auto">
-          <p>
-            One of the hardest parts of being a worship keys player is choosing
-            which gear to buy when building your keyboard rig. Knowing what keys
-            gear is right for you and how it works together will benefit your
-            playing, as well as the entire sound of the band!
-          </p>
+          <p>{buildRigTextContent.paragraphText_1}</p>
 
           <br />
           <p>
