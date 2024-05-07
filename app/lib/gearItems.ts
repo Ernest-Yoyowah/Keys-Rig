@@ -60,3 +60,9 @@ export const gearItems = [
       "https://cdn-gajed.nitrocdn.com/xnFRynGphiHZVmaFQUenqaOUuQKzUTfS/assets/images/optimized/rev-72f06e6/cdn.digitaldjtips.com/app/uploads/2017/06/09132731/cables-back-digital-dj-tips-1204x642.jpg",
   },
 ];
+
+export const gearTextContent = {
+  title: "Gear & Software",
+  subtitle:
+    "One of the hardest parts of being a worship keys player is choosing which gear to buy when building your keyboard rig.",
+};
