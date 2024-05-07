@@ -24,7 +24,6 @@ const BuildRigPage = () => {
           </div>
         </div>
       </div>
-
       <div className="md:mx-auto px-5 my-auto text-slate-800 md:text-center py-8">
         <div className="max-w-3xl mx-auto">
           <p>{buildRigTextContent.paragraphText_1}</p>

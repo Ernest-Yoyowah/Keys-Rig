@@ -42,3 +42,10 @@ export interface YoutubeEmbedProps {
   videoId: string;
   title?: string;
 }
+
+export interface PageHeaderProps {
+  imageUrl: string;
+  altText: string;
+  mainHeading: string;
+  subHeading: string;
+}
