@@ -1,6 +1,6 @@
 export const buildRigTextContent = {
-  headText: "Virtual Worship Rig",
-  subHeadText:
+  title: "Virtual Worship Rig",
+  subtitle:
     "One of the hardest parts of being a worship keys player is choosing which gear to buy when building your keyboard rig.",
   paragraphText_1:
     "One of the hardest parts of being a worship keys player is choosing which gear to buy when building your keyboard rig. Knowing what keys gear is right for you and how it works together will benefit your playing, as well as the entire sound of the band!",
