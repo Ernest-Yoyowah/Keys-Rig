@@ -14,8 +14,8 @@ const BuildRigPage = () => {
       <PageHeader
         imageUrl="https://www.shutterstock.com/image-photo/microphone-computer-musical-equipment-guitars-260nw-1776708860.jpg"
         altText="Header Background"
-        mainHeading={buildRigTextContent.headText}
-        subHeading={buildRigTextContent.subHeadText}
+        mainHeading={buildRigTextContent.title}
+        subHeading={buildRigTextContent.subtitle}
       />
       <div className="md:mx-auto px-5 my-auto text-slate-800 md:text-center py-8">
         <div className="max-w-3xl mx-auto">
