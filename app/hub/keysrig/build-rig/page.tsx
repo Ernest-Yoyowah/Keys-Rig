@@ -45,7 +45,7 @@ const BuildRigPage = () => {
               className="w-full h-full"
             ></iframe>
           </div> */}
-          <div>
+          <div className="my-10">
             <YoutubeEmbed videoId="neNbVMelMcQ" title="Worship Rig Tour" />
           </div>
 
