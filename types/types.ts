@@ -10,42 +10,42 @@ export type instrumentMarketComponents = {
   description: string;
 }[];
 
-export interface ExpansionItemProps {
+export type ExpansionItemProps = {
   title: string;
   description: string;
   videoId: string;
   youtubeTitle: string;
-}
+};
 
-export interface ProductFinderContentProps {
+export type ProductFinderContentProps = {
   title: string;
   productName: string;
   description: string;
   price: string;
   discountedPrice: string;
   imageUrl: string;
-}
+};
 
-export interface Video {
+export type Video = {
   url: string;
   name: string;
-}
+};
 
-export interface SectionProps {
+export type SectionProps = {
   title: string;
   description: string;
   imageUrl: string;
   link: string;
-}
+};
 
-export interface YoutubeEmbedProps {
+export type YoutubeEmbedProps = {
   videoId: string;
   title?: string;
-}
+};
 
-export interface PageHeaderProps {
+export type PageHeaderProps = {
   imageUrl: string;
   altText: string;
   mainHeading: string;
   subHeading: string;
-}
+};
