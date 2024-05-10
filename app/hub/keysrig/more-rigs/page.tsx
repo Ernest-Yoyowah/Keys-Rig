@@ -68,7 +68,7 @@ const MoreRigPage = () => {
 
       <div className="container mx-auto py-8">
         <div className="max-w-5xl mx-auto grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-8">
-          {videos.map((video, index) => (
+          {rigTour.map((video, index) => (
             <VideoCard key={index} video={video} />
           ))}
         </div>
