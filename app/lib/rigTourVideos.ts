@@ -1,4 +1,4 @@
-export const videos = [
+export const rigTour = [
   {
     url: "https://www.youtube.com/embed/neNbVMelMcQ",
     name: "Worship Rig Tour - Piano & Keys Gear",
