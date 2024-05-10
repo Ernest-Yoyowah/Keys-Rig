@@ -1,6 +1,7 @@
 import React from "react";
 import { Metadata } from "next";
 import VideoCard from "@/components/ui/VideoCard";
+import { rigTour } from "@/app/lib/rigTourVideos";
 
 export const metadata: Metadata = {
   title: "Other Rigs - view more rigs from other musicians",
