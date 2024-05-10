@@ -28,7 +28,7 @@ const MeetInstrumentalist: React.FC = () => {
       {/* Animated image section with description */}
       <div className="container mx-auto px-4 py-8 flex flex-col items-center">
         <div className="max-w-3xl mx-auto text-center">
-          <h1 className="text-gray-800 text-lg font-semibold mb-4 text-center sm:text-left">
+          <h1 className="text-gray-800 text-lg font-semibold mb-4 md:text-center sm:text-left">
             Explore talented instrumentalists
           </h1>
           <p className="text-gray-700 mb-8 text-left">
