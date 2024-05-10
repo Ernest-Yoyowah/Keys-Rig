@@ -31,7 +31,7 @@ const MeetInstrumentalist: React.FC = () => {
           <h1 className="text-gray-800 text-lg font-semibold mb-4 md:text-center sm:text-left">
             Explore talented instrumentalists
           </h1>
-          <p className="text-gray-700 mb-8 text-left">
+          <p className="text-gray-700 mb-8 md:text-center sm:text-left">
             {instrumentalistsTextContent.paragraphText}
           </p>
         </div>
