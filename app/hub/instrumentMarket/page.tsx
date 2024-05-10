@@ -30,7 +30,7 @@ const InstrumentMarket: NextPage = () => {
       </div>
 
       <PageHeader
-        imageUrl="https://americansongwriter.com/wp-content/uploads/2023/01/midi-stands.jpg?fit=2000%2C800"
+        imageUrl="https://info.shimamura.co.jp/digital/img/upload/shimastaff/2016/nanoKONTROL_Studio_mac_rgb_s.jpg"
         altText="Header Background"
         mainHeading={marketTextContent.headText} //{gearTextContent.title}
         subHeading={marketTextContent.subHeadText} //{gearTextContent.subtitle}
