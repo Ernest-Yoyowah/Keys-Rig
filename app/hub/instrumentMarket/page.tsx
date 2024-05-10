@@ -5,6 +5,7 @@ import {
   marketSections,
   marketTextContent,
 } from "@/app/lib/instrumentMarketData";
+import PageHeader from "@/components/ui/PageHeader";
 
 const InstrumentMarket: NextPage = () => {
   return (
@@ -27,6 +28,13 @@ const InstrumentMarket: NextPage = () => {
           </div>
         </div>
       </div>
+
+      <PageHeader
+        imageUrl="https://americansongwriter.com/wp-content/uploads/2023/01/midi-stands.jpg?fit=2000%2C800"
+        altText="Header Background"
+        mainHeading={gearTextContent.title}
+        subHeading={gearTextContent.subtitle}
+      />
 
       <div className="container mx-auto py-8 max-w-3xl">
         {marketSections.map((section, index) => (
