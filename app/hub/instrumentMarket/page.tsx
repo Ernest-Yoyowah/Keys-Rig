@@ -13,8 +13,8 @@ const InstrumentMarket: NextPage = () => {
       <PageHeader
         imageUrl="https://info.shimamura.co.jp/digital/img/upload/shimastaff/2016/nanoKONTROL_Studio_mac_rgb_s.jpg"
         altText="Header Background"
-        mainHeading={marketTextContent.title} //{gearTextContent.title}
-        subHeading={marketTextContent.subtitle} //{gearTextContent.subtitle}
+        mainHeading={marketTextContent.title}
+        subHeading={marketTextContent.subtitle}
       />
       <div className="container mx-auto py-8 max-w-3xl">
         {marketSections.map((section, index) => (
