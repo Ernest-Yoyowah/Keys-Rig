@@ -33,7 +33,7 @@ const InstrumentMarket: NextPage = () => {
         imageUrl="https://americansongwriter.com/wp-content/uploads/2023/01/midi-stands.jpg?fit=2000%2C800"
         altText="Header Background"
         mainHeading={marketTextContent.headText} //{gearTextContent.title}
-        subHeading={gearTextContent.subtitle}
+        subHeading={marketTextContent.subHeadText} //{gearTextContent.subtitle}
       />
 
       <div className="container mx-auto py-8 max-w-3xl">
