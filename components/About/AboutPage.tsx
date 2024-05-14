@@ -34,7 +34,7 @@ const AboutPage: React.FC = () => {
               variant="default"
               className="bg-white text-[#191919] hover:bg-[#e5e5e5] hover:text-black"
             >
-              <Link href="/hub/keysrig/gear">Gear Needwd</Link>
+              <Link href="/hub/keysrig/gear">Gear Needed</Link>
             </Button>
           </div>
         </div>
