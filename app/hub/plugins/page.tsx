@@ -1,4 +1,4 @@
-import Featured from "@/components/FeaturedRig/featuredRig";
+import Featured from "@/containers/plugins-page/FeaturedRig/featuredRig";
 import React from "react";
 
 import { Metadata } from "next";
