@@ -1,5 +1,5 @@
 import About from "@/containers/home-page/About/about";
-import Header from "@/components/Header/header";
+import Header from "@/containers/home-page/Header/header";
 import Introductory from "@/containers/home-page/Introductory/introductory";
 import { Navbar } from "@/components/Navigation/navbar";
 import "../styles/globals.css";
