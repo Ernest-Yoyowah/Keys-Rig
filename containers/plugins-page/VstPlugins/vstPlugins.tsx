@@ -1,5 +1,5 @@
 import React from "react";
-import Featured from "../../containers/plugins-page/FeaturedRig/featuredRig";
+import Featured from "../FeaturedRig/featuredRig";
 
 const vstPlugins: React.FC = () => {
   return (
