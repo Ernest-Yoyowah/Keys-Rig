@@ -1,6 +1,5 @@
 import About from "@/containers/home-page/About/about";
 import Header from "@/components/Header/header";
-import Hero from "@/components/Hero/hero";
 import Introductory from "@/components/Introductory/introductory";
 import { Navbar } from "@/components/Navigation/navbar";
 import "../styles/globals.css";
