@@ -4,7 +4,6 @@ import Introductory from "@/components/Introductory/introductory";
 import { Navbar } from "@/components/Navigation/navbar";
 import "../styles/globals.css";
 import AboutPage from "@/containers/home-page/About/AboutPage";
-import FeatureSection from "@/components/ui/FeatureSection";
 import ArticlePage from "@/containers/home-page/About/article";
 import CollaborationSection from "@/components/ui/CollaborationSection";
 
