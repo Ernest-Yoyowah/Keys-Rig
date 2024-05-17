@@ -1,10 +1,10 @@
-import About from "@/containers/home-page/About/about";
+import About from "@/components/About/about";
 import Header from "@/containers/home-page/Header/header";
 import Introductory from "@/containers/home-page/Introductory/introductory";
 import { Navbar } from "@/components/Navigation/navbar";
 import "../styles/globals.css";
-import AboutPage from "@/containers/home-page/About/AboutPage";
-import ArticlePage from "@/containers/home-page/About/article";
+import AboutPage from "@/components/About/AboutPage";
+import ArticlePage from "@/components/About/article";
 import CollaborationSection from "@/components/ui/CollaborationSection";
 
 export default function Home() {
