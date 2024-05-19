@@ -4,7 +4,7 @@ import Introductory from "@/components/Introductory/introductory";
 import { Navbar } from "@/components/Navigation/navbar";
 import "../styles/globals.css";
 import AboutPage from "@/components/About/AboutPage";
-import ArticlePage from "@/components/About/article";
+import ArticlePage from "@/components/About/blogSection";
 import CollaborationSection from "@/components/ui/CollaborationSection";
 
 export default function Home() {
