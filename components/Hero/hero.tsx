@@ -1,5 +1,6 @@
 import React from "react";
 import { Metadata } from "next";
+import YoutubeEmbed from "../ui/YoutubeEmbed";
 
 export const metadata: Metadata = {
   title: "Virtual Rig - build your own keys rig",
@@ -45,21 +46,12 @@ const Hero = () => {
             In this 2 part video series, Keith Duell breaks down his keyboard
             rig in full detail!
           </p>
-
-          <div className="my-10 px-10 md:h-[456px] aspect-w-16 aspect-h-9">
-            <iframe
-              width="810"
-              height="456"
-              src="https://www.youtube.com/embed/neNbVMelMcQ"
-              title="Worship Rig Tour - Piano &amp; Keys Gear | Sunday Keys App Setup"
-              frameBorder="0"
-              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-              referrerPolicy="strict-origin-when-cross-origin"
-              allowFullScreen
-              className="w-full h-full"
-            ></iframe>
+          <div>
+            <YoutubeEmbed
+              videoId="neNbVMelMcQ"
+              title="Keys Gear | Sunday Keys App Setup"
+            />
           </div>
-
           <p>
             Keith has been performing in live worship bands and in the studio as
             a keyboardist for many years. In this series, he will break down all
