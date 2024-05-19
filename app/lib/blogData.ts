@@ -79,3 +79,30 @@ export const contentBlogData = {
   subHeadText:
     "Explore insightful articles and resources about keyboard rigs and music production.",
 };
+
+export const blogIntro = [
+  {
+    imageUrl:
+      "https://cdn.pixabay.com/photo/2020/04/15/14/45/microphone-5046876_1280.jpg",
+    topic: "Large Blog Post Title 1",
+    description:
+      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+    blogLink: "/article1",
+  },
+  {
+    imageUrl:
+      "https://e0.pxfuel.com/wallpapers/737/423/desktop-wallpaper-px-recording-studio-background-music-studio.jpg",
+    topic: "Large Blog Post Title 2",
+    description:
+      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+    blogLink: "/article2",
+  },
+  {
+    imageUrl:
+      "https://static4.depositphotos.com/1022999/351/i/450/depositphotos_3515999-Music-studio-set.jpg",
+    topic: "Large Blog Post Title 3",
+    description:
+      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+    blogLink: "/article3",
+  },
+];
