@@ -1,6 +1,6 @@
 import React from "react";
 import Image from "next/image";
-import bgImage from "@/public/header_bg2.png";
+import bgImage from "@/public/header_bg.png";
 
 const AppBgImg: React.FC = () => {
   return (
