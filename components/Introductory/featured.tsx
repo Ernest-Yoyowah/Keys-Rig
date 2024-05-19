@@ -1,5 +1,29 @@
-import Image from "next/image";
 import React from "react";
+import Logo from "../ui/Logo";
+
+const logos = [
+  {
+    src: "/ableton_logo.jpg",
+    alt: "Logo 1",
+    heightClass: "h-12",
+    width: 100,
+    height: 200,
+  },
+  {
+    src: "/FL-Studio-Hero.png",
+    alt: "Logo 2",
+    heightClass: "h-14",
+    width: 130,
+    height: 50,
+  },
+  {
+    src: "/korg.jpg",
+    alt: "Logo 3",
+    heightClass: "h-12",
+    width: 100,
+    height: 70,
+  },
+];
 
 const Featured: React.FC = () => {
   return (
@@ -9,33 +33,16 @@ const Featured: React.FC = () => {
           FEATURED IN
         </h2>
         <div className="flex md:flex-wrap justify-center items-center gap-2 md:space-x-8">
-          <div className="w-1/2 sm:w-auto mb-4 sm:mb-0">
-            <Image
-              src="/ableton_logo.jpg"
-              alt="Logo 1"
-              className="h-12"
-              width={100}
-              height={200}
+          {logos.map((logo, index) => (
+            <Logo
+              key={index}
+              src={logo.src}
+              alt={logo.alt}
+              heightClass={logo.heightClass}
+              width={logo.width}
+              height={logo.height}
             />
-          </div>
-          <div className="w-1/2 sm:w-auto mb-4 sm:mb-0">
-            <Image
-              src="/FL-Studio-Hero.png"
-              alt="Logo 2"
-              className="h-14"
-              width={130}
-              height={50}
-            />
-          </div>
-          <div className="w-1/2 sm:w-auto mb-4 sm:mb-0">
-            <Image
-              src="/korg.jpg"
-              alt="Logo 3"
-              className="h-12"
-              width={100}
-              height={70}
-            />
-          </div>
+          ))}
         </div>
       </div>
     </div>
