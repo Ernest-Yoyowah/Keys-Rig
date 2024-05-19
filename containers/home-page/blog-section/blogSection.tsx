@@ -1,9 +1,9 @@
 import Link from "next/link";
-import BlogCard from "../../../components/ui/BlogCard";
-import { Button } from "../../../components/ui/button";
+import BlogCard from "@/components/ui/BlogCard";
+import { Button } from "@/components/ui/button";
 import { blogIntro } from "@/app/lib/blogData";
 
-const BlogPage: React.FC = () => {
+const BlogSection: React.FC = () => {
   return (
     <>
       <div className="">
@@ -36,4 +36,4 @@ const BlogPage: React.FC = () => {
   );
 };
 
-export default BlogPage;
+export default BlogSection;
