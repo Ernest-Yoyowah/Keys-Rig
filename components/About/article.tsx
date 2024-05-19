@@ -1,38 +1,39 @@
 import Link from "next/link";
-import ArticleCard, { articles } from "../ui/articleCard";
+import BlogCard from "../ui/BlogCard";
 import { Button } from "../ui/button";
+import { blogIntro } from "@/app/lib/blogData";
 
-const ArticlePage: React.FC = () => {
+const BlogPage: React.FC = () => {
   return (
     <>
       <div className="">
         <div className="flex items-center justify-start md:max-w-2xl pt-10">
           <div className="w-16 h-0.5 bg-yellow-400 mr-4"></div>
-          <p className="text-sm font-normal">News Articles</p>
+          <p className="text-sm font-normal">Blog Posts</p>
         </div>
         <div>
-          <h1 className="head-text_1 mb-0 text-left">Read Latest Articles</h1>
+          <h1 className="head-text_1 mb-0 text-left">Read Latest Blogs</h1>
         </div>
       </div>
       <div className="flex justify-around flex-col md:flex-row">
-        {articles.map((article, index) => (
-          <ArticleCard
+        {blogIntro.map((blog, index) => (
+          <BlogCard
             key={index}
-            imageUrl={article.imageUrl}
-            topic={article.topic}
-            description={article.description}
-            articleLink={article.articleLink}
+            imageUrl={blog.imageUrl}
+            topic={blog.topic}
+            description={blog.description}
+            blogLink={blog.blogLink}
           />
         ))}
       </div>
 
       <div className="flex justify-center mt-0 mb-5">
         <Button variant="default">
-          <Link href="/blog">Read All Articles</Link>
+          <Link href="/blog">Read All Blogs</Link>
         </Button>
       </div>
     </>
   );
 };
 
-export default ArticlePage;
+export default BlogPage;
