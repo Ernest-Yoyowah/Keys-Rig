@@ -2,7 +2,7 @@ import About from "@/components/About/about";
 import Header from "@/components/Header/header";
 import Introductory from "@/components/Introductory/introductory";
 import { Navbar } from "@/components/Navigation/navbar";
-import "../styles/globals.css";
+import "@/styles/globals.css";
 import AboutPage from "@/components/About/AboutPage";
 import BlogSection from "@/containers/home-page/blog-section/blogSection";
 import CollaborationSection from "@/components/ui/CollaborationSection";
