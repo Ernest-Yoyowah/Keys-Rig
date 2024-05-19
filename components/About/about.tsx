@@ -1,6 +1,5 @@
 import React from "react";
 import YoutubeEmbed from "../ui/YoutubeEmbed";
-import ExpansionItem from "../ui/ExpansionItem";
 
 const aboutContent = {
   headText: "VST Plugins",
