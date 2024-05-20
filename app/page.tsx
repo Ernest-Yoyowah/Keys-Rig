@@ -6,6 +6,7 @@ import "@/styles/globals.css";
 import AboutPage from "@/components/About/AboutPage";
 import BlogSection from "@/containers/home-page/blog-section/blogSection";
 import CollaborationSection from "@/components/ui/CollaborationSection";
+import VSTs from "@/containers/plugins-page/VstPlugins/vstPlugins";
 
 export default function Home() {
   return (
@@ -16,6 +17,7 @@ export default function Home() {
         <Introductory />
         <AboutPage />
         <About />
+        {/* <VSTs /> */}
         <CollaborationSection />
         <BlogSection />
       </main>
