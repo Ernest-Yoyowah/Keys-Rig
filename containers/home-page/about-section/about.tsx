@@ -2,7 +2,7 @@ import React from "react";
 import YoutubeEmbed from "@/components/ui/YoutubeEmbed";
 
 const aboutContent = {
-  headText: "Piano & Keys Gear Setup",
+  headText: "Rig Gear & Setup",
   paragraphText:
     "Discover the tools to elevate your music production to new heights. Whether you're sculpting lush synth textures, shaping dynamic drum beats, or adding the perfect finishing touch with audio effects, our handpicked collection has something for every musician and producer.",
 };
