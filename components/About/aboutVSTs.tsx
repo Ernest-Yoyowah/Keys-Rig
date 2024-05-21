@@ -11,7 +11,7 @@ const aboutContent = {
 const AboutVSTs: React.FC = () => {
   return (
     <>
-      <div className="flex items-center justify-end max-w-2xl pt-10">
+      <div className="flex items-center justify-end max-w-2xl pt-20">
         <div className="w-16 h-0.5 bg-yellow-400 mr-4"></div>
         <p className="text-sm font-normal">Why Do Musicians Love VSTs</p>
       </div>
