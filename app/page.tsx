@@ -1,7 +1,7 @@
 import "@/styles/globals.css";
 import About from "@/containers/home-page/about-section/about";
 import Header from "@/components/Header/header";
-import Introductory from "@/components/Introductory/introductory";
+import Introductory from "@/containers/home-page/Introductory/introductory";
 import { Navbar } from "@/components/Navigation/navbar";
 import BlogSection from "@/containers/home-page/blog-section/blogSection";
 import AboutVSTs from "@/containers/home-page/about-section/aboutVSTs";
