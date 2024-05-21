@@ -1,9 +1,9 @@
-import About from "@/components/About/about";
+import About from "@/containers/home-page/about-section/about";
 import Header from "@/components/Header/header";
 import Introductory from "@/components/Introductory/introductory";
 import { Navbar } from "@/components/Navigation/navbar";
 import "@/styles/globals.css";
-import AboutPage from "@/components/About/AboutPage";
+import AboutPage from "@/containers/home-page/about-section/AboutPage";
 import BlogSection from "@/containers/home-page/blog-section/blogSection";
 import CollaborationSection from "@/components/ui/CollaborationSection";
 import VSTs from "@/containers/plugins-page/VstPlugins/vstPlugins";
