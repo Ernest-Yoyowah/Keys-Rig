@@ -1,6 +1,6 @@
 import React from "react";
 import { Metadata } from "next";
-import YoutubeEmbed from "../ui/YoutubeEmbed";
+import YoutubeEmbed from "../../../components/ui/YoutubeEmbed";
 
 export const metadata: Metadata = {
   title: "Virtual Rig - build your own keys rig",
