@@ -16,7 +16,7 @@ const About: React.FC = () => {
           <p className="paragraph-text">{aboutContent.paragraphText}</p>
         </div>
         <div>
-          <YoutubeEmbed videoId="LMoaiV4utSE&t" title="What Is a VST?" />
+          <YoutubeEmbed videoId="LMoaiV4utSE" title="What Is a VST?" />
         </div>
       </div>
     </>
