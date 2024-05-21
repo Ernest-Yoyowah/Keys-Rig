@@ -6,7 +6,6 @@ import { Navbar } from "@/components/Navigation/navbar";
 import BlogSection from "@/containers/home-page/blog-section/blogSection";
 import AboutVSTs from "@/containers/home-page/about-section/aboutVSTs";
 import CollaborationSection from "@/components/ui/CollaborationSection";
-import VSTs from "@/containers/plugins-page/VstPlugins/vstPlugins";
 
 export default function Home() {
   return (
@@ -17,7 +16,6 @@ export default function Home() {
         <Introductory />
         <AboutVSTs />
         <About />
-        {/* <VSTs /> */}
         <CollaborationSection />
         <BlogSection />
       </main>
