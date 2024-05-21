@@ -8,7 +8,7 @@ const aboutContent = {
     "Find expert advice on gear selection and discover a curated selection of VST plugins to fuel your creativity. Let's make music magic together.",
 };
 
-const AboutPage: React.FC = () => {
+const AboutVSTs: React.FC = () => {
   return (
     <>
       <div className="flex items-center justify-end max-w-2xl pt-10">
@@ -51,4 +51,4 @@ const AboutPage: React.FC = () => {
   );
 };
 
-export default AboutPage;
+export default AboutVSTs;
