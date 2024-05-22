@@ -26,7 +26,7 @@ const BlogSection: React.FC = () => {
           />
         ))}
       </div>
-      <div className="flex justify-center mt-0 mb-20">
+      <div className="flex justify-center mt-5 mb-20">
         <Button variant="default">
           <Link href="/blog">Read All Blogs</Link>
         </Button>
