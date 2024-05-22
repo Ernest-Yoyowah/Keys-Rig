@@ -19,7 +19,7 @@ const content = {
 
 const Rig: React.FC = () => {
   return (
-    <div className="blue-bg text-[#f5f5f5]">
+    <div className="blue-bg">
       <div className="text-theme md:flex md:justify-center md:items-center p-5 md:p-0">
         <div>
           <div className="max-w-5xl md:pb-6 md:pt-0 md:text-center space-y-4">
