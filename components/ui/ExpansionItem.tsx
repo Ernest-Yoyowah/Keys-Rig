@@ -16,7 +16,7 @@ const ExpansionItem: React.FC<ExpansionItemProps> = ({
           >
             <div className="col-text md:w-auto md:mt-24">
               <h2 className="md:text-4xl font-bold md:mb-4">{title}</h2>
-              <div className="py-2 md:max-w-0.5 md:mb-6">{description}</div>
+              <div className="py-2  md:mb-6">{description}</div>
             </div>
             <div className="col-image">
               <div className="mt-0 md:h-[356px] aspect-w-16">
