@@ -75,7 +75,6 @@ const Rig: React.FC = () => {
         alt="worhip rig setup image"
         style={{ minWidth: "90%", minHeight: "30vh", objectFit: "cover" }}
       />
-
       <ExpansionItem
         title="Epic Worship Rig Tour"
         description="Dive into a world of curated sounds with Datsunn, our Expansion connoisseur. Discover his hand-picked favorites and watch him quickly create some beats from scratch with his top selections."
