@@ -14,7 +14,7 @@ const ExpansionItem: React.FC<ExpansionItemProps> = ({
             key={0}
             className="grid grid-cols-1 md:grid-cols-2 gap-4 md:my-12 my-5"
           >
-            <div className="col-text md:w-96 md:mt-24">
+            <div className="col-text md:w-auto md:mt-24">
               <h2 className="md:text-4xl font-bold md:mb-4">{title}</h2>
               <div className="py-2 md:mb-6">{description}</div>
             </div>
