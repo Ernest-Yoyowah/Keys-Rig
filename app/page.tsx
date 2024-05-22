@@ -3,7 +3,7 @@ import About from "@/components/About/about";
 import Header from "@/components/Header/header";
 import Introductory from "@/components/Introductory/introductory";
 import { Navbar } from "@/components/Navigation/navbar";
-import BlogSection from "@/containers/home-page/blog-section/blogSection";
+import BlogSection from "@/components/Blog/blogSection";
 import AboutVSTs from "@/components/About/aboutVSTs";
 import CollaborationSection from "@/components/ui/CollaborationSection";
 
