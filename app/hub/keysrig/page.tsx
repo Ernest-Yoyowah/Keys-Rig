@@ -45,7 +45,7 @@ const Rig: React.FC = () => {
           </div>
         </div>
       </div>
-      <div className="">
+      <div>
         <img
           src="/setupImg.jpg"
           alt="worhip rig setup image"
