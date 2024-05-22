@@ -6,7 +6,7 @@ import { blogIntro } from "@/app/lib/blogData";
 const BlogSection: React.FC = () => {
   return (
     <>
-      <div className="">
+      <div>
         <div className="flex items-center justify-start md:max-w-2xl pt-10">
           <div className="w-16 h-0.5 bg-yellow-400 mr-4"></div>
           <p className="text-sm font-normal">Blog Posts</p>
