@@ -7,7 +7,7 @@ const BlogSection: React.FC = () => {
   return (
     <>
       <div>
-        <div className="flex items-center justify-start md:max-w-2xl pt-10">
+        <div className="flex items-center justify-start md:max-w-2xl pt-20">
           <div className="w-16 h-0.5 bg-yellow-400 mr-4"></div>
           <p className="text-sm font-normal">Blog Posts</p>
         </div>
@@ -26,7 +26,6 @@ const BlogSection: React.FC = () => {
           />
         ))}
       </div>
-
       <div className="flex justify-center mt-0 mb-5">
         <Button variant="default">
           <Link href="/blog">Read All Blogs</Link>
