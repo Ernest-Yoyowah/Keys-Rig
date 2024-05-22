@@ -79,7 +79,7 @@ const Rig: React.FC = () => {
         title="Epic Worship Rig Tour"
         description="Dive into a world of curated sounds with Datsunn, our Expansion connoisseur. Discover his hand-picked favorites and watch him quickly create some beats from scratch with his top selections."
         videoId="LMoaiV4utSE"
-        youtubeTitle="Something"
+        youtubeTitle="Worship Rig Tour"
         key={0}
       />
     </div>
