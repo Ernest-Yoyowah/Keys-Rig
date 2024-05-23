@@ -1,3 +1,4 @@
+// In your buildRig.ts file or wherever buildRigTextContent is defined
 export const buildRigTextContent = {
   title: "Virtual Rig - Build Your Own Keys Rig",
   subtitle: "Step-by-step guide to assembling your perfect keys rig.",
@@ -8,9 +9,9 @@ export const buildRigTextContent = {
   paragraphText_3:
     "From initial setup to fine-tuning, this guide covers all the essential aspects of building a virtual keys rig.",
   faq_1:
-    "Once you have your gear, start by connecting your MIDI controller to your computer and installing the necessary software.",
+    "A virtual rig is a digital setup that allows musicians to create and manage their music using software and hardware components.",
   faq_2:
-    "Key steps include configuring your DAW, setting up your MIDI mappings, and ensuring your audio interface is properly connected.",
+    "To build your own keys rig, start by connecting your MIDI controller to your computer and installing the necessary software. Then, configure your DAW and set up your MIDI mappings.",
   faq_3:
     "To optimize your rig, adjust the latency settings, organize your virtual instruments, and create templates for different setups.",
   callToAction:
