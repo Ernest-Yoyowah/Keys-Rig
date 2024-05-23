@@ -10,7 +10,7 @@ import PageHeader from "@/components/ui/PageHeader";
 import Link from "next/link";
 
 export const metadata: Metadata = {
-  title: buildRigTextContent.title,
+  title: "Virtual Rig - Build Your Own Keys Rig",
 };
 
 const BuildRigPage = () => {
@@ -78,14 +78,17 @@ const BuildRigPage = () => {
           </div>
         </div>
       </div>
-      <div className="bg-blue-500 text-white py-8">
+      <div className="bg-green-500 text-white py-8">
         <div className="max-w-3xl mx-auto text-center">
           <h2 className="text-2xl font-bold mb-4">
-            Get Started with Your Virtual Rig Today!
+            Ready to Transform Your Music Setup?
           </h2>
-          <p>{buildRigTextContent.callToAction}</p>
-          <button className="mt-4 bg-white text-blue-500 px-4 py-2 rounded">
-            Start Building Your Rig
+          <p>
+            Discover the power and flexibility of building your own virtual rig.
+            Elevate your music production and performance to the next level.
+          </p>
+          <button className="mt-4 bg-white text-green-500 px-4 py-2 rounded">
+            Learn More and Get Started
           </button>
         </div>
       </div>
