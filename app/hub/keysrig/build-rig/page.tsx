@@ -98,7 +98,7 @@ const BuildRigPage = () => {
           </div>
         </div>
       </div>
-      {/* <div className="bg-blue-500 text-white py-8">
+      <div className="bg-blue-500 text-white py-8">
         <div className="max-w-3xl mx-auto text-center">
           <h2 className="text-2xl font-bold mb-4">
             Get Started with Your Virtual Rig Today!
@@ -108,7 +108,7 @@ const BuildRigPage = () => {
             Start Building Your Rig
           </button>
         </div>
-      </div> */}
+      </div>
     </>
   );
 };
