@@ -19,3 +19,10 @@ export const buildRigTextContent = {
   callToAction:
     "Ready to take your music to the next level? Get started with your custom rig now!",
 };
+
+export const benefitsOfRig = [
+  "Won’t have to spend lots of money on a quality keyboard.",
+  "Access to a vast collection of tones.",
+  "Add technology to worship in church using loops, stems, and more.",
+  "Live recording and production capabilities.",
+];
