@@ -37,6 +37,14 @@ const BuildRigPage = () => {
       <div className="bg-gray-100 py-8">
         <div className="max-w-3xl mx-auto">
           <h2 className="text-2xl font-bold mb-4">
+            Why Build a Worship Rig or Use VSTs?
+          </h2>
+          <p>{buildRigTextContent.whyBuildRig}</p>
+        </div>
+      </div>
+      <div className="bg-gray-100 py-8">
+        <div className="max-w-3xl mx-auto">
+          <h2 className="text-2xl font-bold mb-4">
             Frequently Asked Questions
           </h2>
           <div className="space-y-4">
@@ -52,7 +60,7 @@ const BuildRigPage = () => {
             </div>
             <div>
               <h3 className="text-xl font-semibold">
-                What equipment do I need?
+                How can I optimize my rig for performance?
               </h3>
               <p>{buildRigTextContent.faq_3}</p>
             </div>
@@ -81,12 +89,12 @@ const BuildRigPage = () => {
                 "Highly recommend this to anyone looking to enhance their music
                 experience."
               </p>
-              <p className="font-semibold">- Sam K.</p>
+              <p className="font-semibold">- Ernest Keys.</p>
             </div>
           </div>
         </div>
       </div>
-      <div className="bg-blue-500 text-white py-8">
+      {/* <div className="bg-blue-500 text-white py-8">
         <div className="max-w-3xl mx-auto text-center">
           <h2 className="text-2xl font-bold mb-4">
             Get Started with Your Virtual Rig Today!
@@ -96,7 +104,7 @@ const BuildRigPage = () => {
             Start Building Your Rig
           </button>
         </div>
-      </div>
+      </div> */}
     </>
   );
 };
