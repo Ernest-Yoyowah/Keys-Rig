@@ -81,15 +81,14 @@ const BuildRigPage = () => {
       <div className="bg-green-500 text-white py-8">
         <div className="max-w-3xl mx-auto text-center">
           <h2 className="text-2xl font-bold mb-4">
-            Ready to Transform Your Music Setup?
+            Discover Top-Notch VST Plugins and Start Building Your Rig Today!
           </h2>
-          <p>
-            Discover the power and flexibility of building your own virtual rig.
-            Elevate your music production and performance to the next level.
-          </p>
-          <button className="mt-4 bg-white text-green-500 px-4 py-2 rounded">
-            Learn More and Get Started
-          </button>
+          <p>{buildRigTextContent.callToAction}</p>
+          <Link href="/hub/plugins">
+            <button className="mt-4 bg-white text-green-500 px-4 py-2 rounded">
+              Learn More and Get Started
+            </button>
+          </Link>
         </div>
       </div>
     </>
