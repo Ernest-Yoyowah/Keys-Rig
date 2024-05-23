@@ -1,3 +1,4 @@
+import Link from "next/link";
 import React from "react";
 
 const BlogCard: React.FC<{
@@ -12,9 +13,9 @@ const BlogCard: React.FC<{
       <div className="p-4">
         <h2 className="head-text_3 mb-2">{topic}</h2>
         <p className="paragraph-text_3">{description}</p>
-        <a href={blogLink} className="link_text mt-2 block">
+        <Link href={blogLink} className="link_text mt-2 block">
           Read more
-        </a>
+        </Link>
       </div>
     </div>
   );
