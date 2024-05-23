@@ -1,11 +1,18 @@
 export const buildRigTextContent = {
-  title: "Virtual Worship Rig",
-  subtitle:
-    "One of the hardest parts of being a worship keys player is choosing which gear to buy when building your keyboard rig.",
+  title: "Virtual Rig - Build Your Own Keys Rig",
+  subtitle: "Everything you need to know to build your perfect keys rig.",
   paragraphText_1:
-    "One of the hardest parts of being a worship keys player is choosing which gear to buy when building your keyboard rig. Knowing what keys gear is right for you and how it works together will benefit your playing, as well as the entire sound of the band!",
+    "Welcome to the ultimate guide on building your own virtual keys rig...",
   paragraphText_2:
-    "In this 2 part video series, Keith Duell breaks down his keyboard rig in full detail!",
+    "Here you'll find step-by-step instructions, tips, and recommendations...",
   paragraphText_3:
-    "Keith has been performing in live worship bands and in the studio as a keyboardist for many years. In this series, he will break down all of the hardware and software required to achieve full, rich keys and synth sounds. Watch now!",
+    "Whether you're a beginner or a seasoned musician, this guide will help you...",
+  faq_1:
+    "A virtual rig is a digital setup that allows musicians to create and manage their music...",
+  faq_2:
+    "To build your own keys rig, you will need a MIDI controller, a computer, and appropriate software...",
+  faq_3:
+    "Essential equipment includes a MIDI controller, DAW software, audio interface, and good quality speakers or headphones...",
+  callToAction:
+    "Ready to take your music to the next level? Get started with your custom rig now!",
 };

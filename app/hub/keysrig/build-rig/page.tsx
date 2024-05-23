@@ -5,7 +5,7 @@ import YoutubeEmbed from "@/components/ui/YoutubeEmbed";
 import PageHeader from "@/components/ui/PageHeader";
 
 export const metadata: Metadata = {
-  title: "Virtual Rig - build your own keys rig",
+  title: "Virtual Rig - Build Your Own Keys Rig",
 };
 
 const BuildRigPage = () => {
@@ -26,6 +26,69 @@ const BuildRigPage = () => {
             <YoutubeEmbed videoId="neNbVMelMcQ" title="Worship Rig Tour" />
           </div>
           <p>{buildRigTextContent.paragraphText_3}</p>
+        </div>
+      </div>
+      <div className="bg-gray-100 py-8">
+        <div className="max-w-3xl mx-auto">
+          <h2 className="text-2xl font-bold mb-4">
+            Frequently Asked Questions
+          </h2>
+          <div className="space-y-4">
+            <div>
+              <h3 className="text-xl font-semibold">What is a virtual rig?</h3>
+              <p>{buildRigTextContent.faq_1}</p>
+            </div>
+            <div>
+              <h3 className="text-xl font-semibold">
+                How do I build my own keys rig?
+              </h3>
+              <p>{buildRigTextContent.faq_2}</p>
+            </div>
+            <div>
+              <h3 className="text-xl font-semibold">
+                What equipment do I need?
+              </h3>
+              <p>{buildRigTextContent.faq_3}</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div className="py-8">
+        <div className="max-w-3xl mx-auto">
+          <h2 className="text-2xl font-bold mb-4">Testimonials</h2>
+          <div className="space-y-4">
+            <div>
+              <p className="italic">
+                "Building my own rig was a game changer for my music
+                production!"
+              </p>
+              <p className="font-semibold">- Alex M.</p>
+            </div>
+            <div>
+              <p className="italic">
+                "The virtual rig setup is incredibly versatile and easy to use."
+              </p>
+              <p className="font-semibold">- Jamie L.</p>
+            </div>
+            <div>
+              <p className="italic">
+                "Highly recommend this to anyone looking to enhance their music
+                experience."
+              </p>
+              <p className="font-semibold">- Sam K.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div className="bg-blue-500 text-white py-8">
+        <div className="max-w-3xl mx-auto text-center">
+          <h2 className="text-2xl font-bold mb-4">
+            Get Started with Your Virtual Rig Today!
+          </h2>
+          <p>{buildRigTextContent.callToAction}</p>
+          <button className="mt-4 bg-white text-blue-500 px-4 py-2 rounded">
+            Start Building Your Rig
+          </button>
         </div>
       </div>
     </>
