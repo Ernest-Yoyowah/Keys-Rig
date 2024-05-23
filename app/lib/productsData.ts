@@ -1,12 +1,12 @@
 export const products = [
   {
     id: 1,
-    name: "Kontrol S88",
+    name: "SYNTHAGE v1.4 (KONTAKT)",
     description:
       "Keyboard controller with 88 fully weighted hammer-action keys, deep software integration.",
     price: 99.0,
     imageUrl:
-      "https://www.native-instruments.com/typo3temp/pics/img-packshot-kontrol-s88-product-finder-567d15708f21fecf897559368e397a50-d.jpg",
+      "https://ntblog.net/wp-content/uploads/2024/04/SYNTHAGE-1.4-Thumb.webp",
   },
   {
     id: 2,
