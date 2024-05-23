@@ -40,7 +40,7 @@ const BuildRigPage = () => {
             Why Build a Worship Rig or Use VSTs?
           </h2>
           <ul className="list-disc list-inside">
-            {benefitsOfRig.map((benefit, index) => (
+            {benefits.map((benefit, index) => (
               <li key={index}>{benefit}</li>
             ))}
           </ul>
