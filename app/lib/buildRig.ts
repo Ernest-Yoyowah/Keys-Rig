@@ -2,6 +2,7 @@ export const buildRigTextContent = {
   title: "Virtual Rig - Build Your Own Keys Rig",
   subtitle: "Step-by-step guide to assembling your perfect keys rig.",
   faqTitle: "Frequently Asked Questions",
+  testimonialTitle: "Testimonials",
   paragraphText_1:
     "Welcome to the ultimate guide on building your own virtual keys rig. This guide will help you assemble and optimize your setup.",
   paragraphText_2:
