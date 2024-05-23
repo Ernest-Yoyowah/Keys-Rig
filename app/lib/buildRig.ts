@@ -1,4 +1,3 @@
-// In your buildRig.ts file or wherever buildRigTextContent is defined
 export const buildRigTextContent = {
   title: "Virtual Rig - Build Your Own Keys Rig",
   subtitle: "Step-by-step guide to assembling your perfect keys rig.",

@@ -24,7 +24,7 @@ const BuildRigPage = () => {
           <br />
           <p>{buildRigTextContent.paragraphText_2}</p>
           <div className="mt-4">
-            <Link href="/keysrig/gear" className="link_text">
+            <Link href="/hub/keysrig/gear" className="link_text">
               Check what gear you need to build your rig
             </Link>
           </div>
