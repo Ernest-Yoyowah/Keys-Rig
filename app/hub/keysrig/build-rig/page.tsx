@@ -1,12 +1,16 @@
 import React from "react";
 import { Metadata } from "next";
-import { benefitsOfRig, buildRigTextContent } from "@/app/lib/buildRig";
+import {
+  benefitsOfRig,
+  buildRigFAQs,
+  buildRigTextContent,
+} from "@/app/lib/buildRig";
 import YoutubeEmbed from "@/components/ui/YoutubeEmbed";
 import PageHeader from "@/components/ui/PageHeader";
 import Link from "next/link";
 
 export const metadata: Metadata = {
-  title: "Virtual Rig - Build Your Own Keys Rig",
+  title: buildRigTextContent.title,
 };
 
 const BuildRigPage = () => {
@@ -47,25 +51,15 @@ const BuildRigPage = () => {
       <div className="bg-gray-100 py-8">
         <div className="max-w-3xl mx-auto">
           <h2 className="text-2xl font-bold mb-4">
-            Frequently Asked Questions
+            {buildRigTextContent.faqTitle}
           </h2>
           <div className="space-y-4">
-            <div>
-              <h3 className="text-xl font-semibold">What is a virtual rig?</h3>
-              <p>{buildRigTextContent.faq_1}</p>
-            </div>
-            <div>
-              <h3 className="text-xl font-semibold">
-                How do I build my own keys rig?
-              </h3>
-              <p>{buildRigTextContent.faq_2}</p>
-            </div>
-            <div>
-              <h3 className="text-xl font-semibold">
-                How can I optimize my rig for performance?
-              </h3>
-              <p>{buildRigTextContent.faq_3}</p>
-            </div>
+            {buildRigFAQs.map((faq, index) => (
+              <div key={index}>
+                <h3 className="text-xl font-semibold">{faq.question}</h3>
+                <p>{faq.answer}</p>
+              </div>
+            ))}
           </div>
         </div>
       </div>
