@@ -30,13 +30,12 @@ const ProductFinderContentSection: React.FC = () => {
                 {product.name}
               </h2>
               <p className="text-sm text-gray-600">{product.description}</p>
-              <div className="mt-4">
+              {/* <div className="mt-4">
                 <span className="text-lg font-semibold text-gray-800 mr-2">
                   ${product.price.toFixed(2)}
                 </span>
-                {/* Assuming there's a discounted price */}
                 <del className="text-sm text-gray-500">$199.00</del>
-              </div>
+              </div> */}
             </div>
           </div>
         ))}

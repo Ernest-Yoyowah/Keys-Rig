@@ -4,7 +4,7 @@ export const products = [
     name: "SYNTHAGE v1.4 (KONTAKT)",
     description:
       "Keyboard controller with 88 fully weighted hammer-action keys, deep software integration.",
-    price: 99.0,
+    // price: 99.0,
     imageUrl:
       "https://ntblog.net/wp-content/uploads/2024/04/SYNTHAGE-1.4-Thumb.webp",
   },
@@ -13,7 +13,7 @@ export const products = [
     name: "Session Bassist – Upright Bass",
     description:
       "The deep, organic low end of a stunning upright bass handcrafted in Mittenwald in the 1970s.",
-    price: 74.0,
+    // price: 74.0,
     imageUrl:
       "https://2.bp.blogspot.com/-aG4UUPoqxAA/XnJH_A7gVnI/AAAAAAAAV_o/UTHMJOE5YTY2EogJTyCzvH_TrhGBQ11PwCLcBGAsYHQ/s1600/KORG%2BTRITON%2BFull%2Bversion%2Bfor%2Bfree.png",
   },
@@ -22,7 +22,7 @@ export const products = [
     name: "Action Woodwinds",
     description:
       "The true-to-life sound of a full orchestral woodwind ensemble with a vast range of phrases and articulations.",
-    price: 299.0,
+    // price: 299.0,
     imageUrl:
       "https://www.turramusic.com.au/cdn/shop/products/spectrasonics-keyscape1.jpg?v=1667978551",
   },
@@ -31,7 +31,7 @@ export const products = [
     name: "Guitar Rig 7 Pro",
     description:
       "A multi-effects rack and amp simulator with cutting-edge machine learning technology and an intuitive interface.",
-    price: 99.0,
+    // price: 0.0,
     imageUrl:
       "https://img.lazcdn.com/g/p/5c7193e6c4e234582b7a33bc9f38b160.jpg_720x720q80.jpg",
   },
