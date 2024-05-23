@@ -65,7 +65,9 @@ const BuildRigPage = () => {
       </div>
       <div className="py-8 px-5">
         <div className="max-w-3xl mx-auto">
-          <h2 className="text-2xl font-bold mb-4">Testimonials</h2>
+          <h2 className="text-2xl font-bold mb-4">
+            {buildRigTextContent.testimonialTitle}
+          </h2>
           <div className="space-y-4">
             {buildRigTextContent.testimonials.map((testimonial, index) => (
               <div key={index}>
