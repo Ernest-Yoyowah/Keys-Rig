@@ -23,7 +23,7 @@ const BuildRigPage = () => {
           <br />
           <p>{buildRigTextContent.paragraphText_2}</p>
           <div className="my-10">
-            <YoutubeEmbed videoId="neNbVMelMcQ" title="Worship Rig Tour" />
+            <YoutubeEmbed videoId="goMWSBIoWh4" title="Worship Rig Tour" />
           </div>
           <p>{buildRigTextContent.paragraphText_3}</p>
         </div>
