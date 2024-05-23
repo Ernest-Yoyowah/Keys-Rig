@@ -36,11 +36,9 @@ const BuildRigPage = () => {
       </div>
       <div className="bg-gray-100 py-8">
         <div className="max-w-3xl mx-auto">
-          <h2 className="text-2xl font-bold mb-4">
-            Why Build a Worship Rig or Use VSTs?
-          </h2>
+          <h2 className="text-2xl font-bold mb-4">Msj</h2>
           <ul className="list-disc list-inside">
-            {benefits.map((benefit, index) => (
+            {benefitsOfRig.benefits.map((benefit, index) => (
               <li key={index}>{benefit}</li>
             ))}
           </ul>
