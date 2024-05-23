@@ -3,6 +3,7 @@ import { Metadata } from "next";
 import { buildRigTextContent } from "@/app/lib/buildRig";
 import YoutubeEmbed from "@/components/ui/YoutubeEmbed";
 import PageHeader from "@/components/ui/PageHeader";
+import Link from "next/link";
 
 export const metadata: Metadata = {
   title: "Virtual Rig - Build Your Own Keys Rig",
@@ -22,6 +23,11 @@ const BuildRigPage = () => {
           <p>{buildRigTextContent.paragraphText_1}</p>
           <br />
           <p>{buildRigTextContent.paragraphText_2}</p>
+          <div className="mt-4">
+            <Link href="/gear-checklist" className="text-blue-500 underline">
+              Check what gear you need to build your rig
+            </Link>
+          </div>
           <div className="my-10">
             <YoutubeEmbed videoId="goMWSBIoWh4" title="Worship Rig Tour" />
           </div>
