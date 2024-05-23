@@ -38,7 +38,7 @@ const BuildRigPage = () => {
           <p>{buildRigTextContent.paragraphText_3}</p>
         </div>
       </div>
-      <div className="bg-gray-100 py-8">
+      <div className="bg-gray-100 py-8 px-5">
         <div className="max-w-3xl mx-auto">
           <h2 className="text-2xl font-bold mb-4">{benefitsOfRig.headText}</h2>
           <ul className="list-disc list-inside">
@@ -48,7 +48,7 @@ const BuildRigPage = () => {
           </ul>
         </div>
       </div>
-      <div className="bg-gray-100 py-8">
+      <div className="bg-gray-100 py-8 px-5">
         <div className="max-w-3xl mx-auto">
           <h2 className="text-2xl font-bold mb-4">
             {buildRigTextContent.faqTitle}
@@ -63,7 +63,7 @@ const BuildRigPage = () => {
           </div>
         </div>
       </div>
-      <div className="py-8">
+      <div className="py-8 px-5">
         <div className="max-w-3xl mx-auto">
           <h2 className="text-2xl font-bold mb-4">Testimonials</h2>
           <div className="space-y-4">
