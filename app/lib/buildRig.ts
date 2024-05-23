@@ -1,5 +1,5 @@
 export const buildRigTextContent = {
-  title: "Virtual Rig - Build Your Own Keys Rig",
+  title: "Build Your Own Keys Rig",
   subtitle: "Step-by-step guide to assembling your perfect keys rig.",
   faqTitle: "Frequently Asked Questions",
   testimonialTitle: "Testimonials",
