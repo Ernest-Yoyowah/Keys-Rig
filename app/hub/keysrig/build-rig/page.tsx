@@ -75,26 +75,12 @@ const BuildRigPage = () => {
         <div className="max-w-3xl mx-auto">
           <h2 className="text-2xl font-bold mb-4">Testimonials</h2>
           <div className="space-y-4">
-            <div>
-              <p className="italic">
-                "Building my own rig was a game changer for my music
-                production!"
-              </p>
-              <p className="font-semibold">- Alex M.</p>
-            </div>
-            <div>
-              <p className="italic">
-                "The virtual rig setup is incredibly versatile and easy to use."
-              </p>
-              <p className="font-semibold">- Jamie L.</p>
-            </div>
-            <div>
-              <p className="italic">
-                "Highly recommend this to anyone looking to enhance their music
-                experience."
-              </p>
-              <p className="font-semibold">- Ernest Keys.</p>
-            </div>
+            {buildRigTextContent.testimonials.map((testimonial, index) => (
+              <div key={index}>
+                <p className="italic">"{testimonial.quote}"</p>
+                <p className="font-semibold">- {testimonial.author}</p>
+              </div>
+            ))}
           </div>
         </div>
       </div>
