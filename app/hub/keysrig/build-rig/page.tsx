@@ -10,13 +10,6 @@ export const metadata: Metadata = {
 };
 
 const BuildRigPage = () => {
-  const benefits = [
-    "Won’t have to spend lots of money on a quality keyboard.",
-    "Access to a vast collection of tones.",
-    "Add technology to worship in church using loops, stems, and more.",
-    "Live recording and production capabilities.",
-  ];
-
   return (
     <>
       <PageHeader
@@ -47,7 +40,7 @@ const BuildRigPage = () => {
             Why Build a Worship Rig or Use VSTs?
           </h2>
           <ul className="list-disc list-inside">
-            {benefits.map((benefit, index) => (
+            {benefitsOfRig.map((benefit, index) => (
               <li key={index}>{benefit}</li>
             ))}
           </ul>
