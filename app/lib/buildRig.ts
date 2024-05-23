@@ -41,3 +41,18 @@ export const benefitsOfRig = {
     "Live recording and production capabilities.",
   ],
 };
+
+export const buildRigFAQs = [
+  {
+    question: "What is a virtual rig?",
+    answer: buildRigTextContent.faq_1,
+  },
+  {
+    question: "How do I build my own keys rig?",
+    answer: buildRigTextContent.faq_2,
+  },
+  {
+    question: "How can I optimize my rig for performance?",
+    answer: buildRigTextContent.faq_3,
+  },
+];
