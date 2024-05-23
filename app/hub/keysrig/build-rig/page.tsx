@@ -1,6 +1,6 @@
 import React from "react";
 import { Metadata } from "next";
-import { buildRigTextContent } from "@/app/lib/buildRig";
+import { benefitsOfRig, buildRigTextContent } from "@/app/lib/buildRig";
 import YoutubeEmbed from "@/components/ui/YoutubeEmbed";
 import PageHeader from "@/components/ui/PageHeader";
 import Link from "next/link";
