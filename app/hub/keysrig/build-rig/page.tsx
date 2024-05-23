@@ -36,7 +36,7 @@ const BuildRigPage = () => {
       </div>
       <div className="bg-gray-100 py-8">
         <div className="max-w-3xl mx-auto">
-          <h2 className="text-2xl font-bold mb-4">Msj</h2>
+          <h2 className="text-2xl font-bold mb-4">{benefitsOfRig.headText}</h2>
           <ul className="list-disc list-inside">
             {benefitsOfRig.benefits.map((benefit, index) => (
               <li key={index}>{benefit}</li>
