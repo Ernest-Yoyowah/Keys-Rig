@@ -15,7 +15,7 @@ export const products = [
       "The deep, organic low end of a stunning upright bass handcrafted in Mittenwald in the 1970s.",
     price: 74.0,
     imageUrl:
-      "https://www.native-instruments.com/typo3temp/pics/img-packshot-prime-bass-product-finder-791eb4feaf8fe699eca2d9779a180e10-d.jpg",
+      "https://2.bp.blogspot.com/-aG4UUPoqxAA/XnJH_A7gVnI/AAAAAAAAV_o/UTHMJOE5YTY2EogJTyCzvH_TrhGBQ11PwCLcBGAsYHQ/s1600/KORG%2BTRITON%2BFull%2Bversion%2Bfor%2Bfree.png",
   },
   {
     id: 3,
@@ -24,7 +24,7 @@ export const products = [
       "The true-to-life sound of a full orchestral woodwind ensemble with a vast range of phrases and articulations.",
     price: 299.0,
     imageUrl:
-      "https://www.native-instruments.com/typo3temp/pics/img-packshot-action-woodwinds-product-finder-86954294689a6dcd54fe6e3d9d5d5f0f-d.jpg",
+      "https://www.turramusic.com.au/cdn/shop/products/spectrasonics-keyscape1.jpg?v=1667978551",
   },
   {
     id: 4,
@@ -33,6 +33,6 @@ export const products = [
       "A multi-effects rack and amp simulator with cutting-edge machine learning technology and an intuitive interface.",
     price: 99.0,
     imageUrl:
-      "https://www.native-instruments.com/typo3temp/pics/img-packshot-guitar-rig-7-product-finder-2-a291f0dee4ca0dc08da0e04bc563ee3f-d.jpg",
+      "https://img.lazcdn.com/g/p/5c7193e6c4e234582b7a33bc9f38b160.jpg_720x720q80.jpg",
   },
 ];
