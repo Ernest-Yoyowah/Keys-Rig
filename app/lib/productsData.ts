@@ -28,9 +28,9 @@ export const products = [
   },
   {
     id: 4,
-    name: "Guitar Rig 7 Pro",
+    name: "Nord Pro Stage 3 Ultimate",
     description:
-      "A multi-effects rack and amp simulator with cutting-edge machine learning technology and an intuitive interface.",
+      "Nord Pro Stage 3 features a wide selection of Grands, Uprights, Electric Pianos, Digital Pianos, Clavinet and Harpsichord from our exclusive Piano Library...",
     // price: 0.0,
     imageUrl:
       "https://img.lazcdn.com/g/p/5c7193e6c4e234582b7a33bc9f38b160.jpg_720x720q80.jpg",
