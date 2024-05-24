@@ -12,7 +12,7 @@ export const products = [
     id: 2,
     name: "Korg Triton",
     description:
-      "The deep, organic low end of a stunning upright bass handcrafted in Mittenwald in the 1970s.",
+      "This award-winning workstation has been faithfully reproduced down to the smallest details from...",
     // price: 74.0,
     imageUrl:
       "https://2.bp.blogspot.com/-aG4UUPoqxAA/XnJH_A7gVnI/AAAAAAAAV_o/UTHMJOE5YTY2EogJTyCzvH_TrhGBQ11PwCLcBGAsYHQ/s1600/KORG%2BTRITON%2BFull%2Bversion%2Bfor%2Bfree.png",
