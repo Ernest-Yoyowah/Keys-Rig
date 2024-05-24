@@ -10,7 +10,7 @@ export const products = [
   },
   {
     id: 2,
-    name: "Korg Triton",
+    name: "TRITON / TRITON Extreme",
     description:
       "This award-winning workstation has been faithfully reproduced down to the smallest details from...",
     // price: 74.0,
@@ -19,7 +19,7 @@ export const products = [
   },
   {
     id: 3,
-    name: "Action Woodwinds",
+    name: "Keyscape® - Collector Keyboards",
     description:
       "The true-to-life sound of a full orchestral woodwind ensemble with a vast range of phrases and articulations.",
     // price: 299.0,
