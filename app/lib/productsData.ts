@@ -10,7 +10,7 @@ export const products = [
   },
   {
     id: 2,
-    name: "Session Bassist – Upright Bass",
+    name: "Korg Triton",
     description:
       "The deep, organic low end of a stunning upright bass handcrafted in Mittenwald in the 1970s.",
     // price: 74.0,
