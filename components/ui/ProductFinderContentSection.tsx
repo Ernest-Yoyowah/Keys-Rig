@@ -11,7 +11,7 @@ const ProductFinderContentSection: React.FC = () => {
       <div className="flex p-6 justify-center items-center">
         <h2 className="text-2xl color-primary font-bold">New products</h2>
       </div>
-      <div className="flex flex-wrap justify-center gap-4 md:text-center">
+      <div className="flex flex-wrap justify-center gap-4 md:text-left">
         {/* Render product cards */}
         {products.map((product) => (
           <div key={product.id} className="bg-white shadow-md p-4 w-80">
