@@ -21,7 +21,7 @@ export const products = [
     id: 3,
     name: "Keyscape® - Collector Keyboards",
     description:
-      "The true-to-life sound of a full orchestral woodwind ensemble with a vast range of phrases and articulations.",
+      "KEYSCAPE® is an extraordinary virtual instrument featuring the largest selection of collector keyboards in the world. From “holy grail” pianos to stunning keyboards you didn’t even know existed, this is a keyboardist’s dream come true.",
     // price: 299.0,
     imageUrl:
       "https://www.turramusic.com.au/cdn/shop/products/spectrasonics-keyscape1.jpg?v=1667978551",
