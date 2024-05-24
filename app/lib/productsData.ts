@@ -3,7 +3,7 @@ export const products = [
     id: 1,
     name: "SYNTHAGE v1.4 (KONTAKT)",
     description:
-      "Keyboard controller with 88 fully weighted hammer-action keys, deep software integration.",
+      "This impressive Program will let you add unique effects and instruments throughout the library supervisor...",
     // price: 99.0,
     imageUrl:
       "https://ntblog.net/wp-content/uploads/2024/04/SYNTHAGE-1.4-Thumb.webp",
@@ -30,7 +30,7 @@ export const products = [
     id: 4,
     name: "Nord Pro Stage 3 Ultimate",
     description:
-      "Nord Pro Stage 3 features a wide selection of Grands, Uprights, Electric Pianos, Digital Pianos, Clavin...",
+      "Nord Pro Stage 3 features a wide selection of Grands, Uprights, Electric Pianos, Digital Pianos, Clavinet...",
     // price: 0.0,
     imageUrl:
       "https://img.lazcdn.com/g/p/5c7193e6c4e234582b7a33bc9f38b160.jpg_720x720q80.jpg",
