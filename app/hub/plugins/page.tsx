@@ -16,7 +16,9 @@ const Plugins = () => {
       <ProductFinderTopMenu />
       <ProductFinderSubMenu />
       <ProductFinderContentSection />
-      <Featured />
+      <div className="mt-20">
+        <Featured />
+      </div>
     </>
   );
 };
