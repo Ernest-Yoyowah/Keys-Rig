@@ -5,7 +5,7 @@ import React from "react";
 
 const Featured: React.FC = () => {
   return (
-    <div className="text-image theme-default ce-3-pf text-left cols-3 cols-tiles md:p-20">
+    <div className="text-image theme-default ce-3-pf text-left cols-3 cols-tiles md:p-20 mt-20">
       <div id="plugins" className="container">
         <div className="row-text">
           <div className="flex justify-between items-center">
