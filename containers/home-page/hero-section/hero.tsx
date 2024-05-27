@@ -32,7 +32,10 @@ const Hero = () => {
         </div>
       </div>
       <div>
-        <YoutubeEmbed videoId="fMhdC4" title="" />
+        <YoutubeEmbed
+          videoId="fMhdC4"
+          title="Keys Gear | Sunday Keys App Setup"
+        />
       </div>
     </>
   );
