@@ -1,6 +1,6 @@
 import React from "react";
 import Image from "next/image";
-import bgImage from "https://thumbs.dreamstime.com/b/smiling-young-black-girl-listening-to-music-headset-closeup-portrait-happy-wireless-closed-eyes-excited-kid-enjoying-214569394.jpg";
+import bgImage from "@/public/header_bg.png";
 
 const AppBgImg: React.FC = () => {
   return (
