@@ -43,7 +43,7 @@ const AboutVSTs: React.FC = () => {
           <img
             src="https://thumbs.dreamstime.com/b/smiling-young-black-girl-listening-to-music-headset-closeup-portrait-happy-wireless-closed-eyes-excited-kid-enjoying-214569394.jpg"
             alt="Background"
-            className=""
+            className="object-cover h-full w-full"
           />
         </div>
       </div>
