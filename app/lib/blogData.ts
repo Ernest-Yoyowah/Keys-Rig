@@ -99,7 +99,7 @@ export const blogIntro = [
   },
   {
     imageUrl:
-      "https://static4.depositphotos.com/1022999/351/i/450/depositphotos_3515999-Music-studio-set.jpg",
+      "https://media.istockphoto.com/id/905516240/photo/recording-rap.jpg?s=612x612&w=0&k=20&c=Im9MqG1FIkvaUC1UDjVoW3PXG1HlA403VvWw4KzUrjI=",
     topic: "Large Blog Post Title 3",
     description:
       "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
