@@ -91,7 +91,7 @@ export const blogIntro = [
   },
   {
     imageUrl:
-      "https://e0.pxfuel.com/wallpapers/737/423/desktop-wallpaper-px-recording-studio-background-music-studio.jpg",
+      "https://media.istockphoto.com/id/1267511869/photo/african-american-female-artist-working-with-male-music-producer-on-laptop-in-music-studio.jpg?s=612x612&w=0&k=20&c=8YGxmcKsTiZGnWt3yGdFPXevl7Vk5GCHQ4Xiym6yEsY=",
     topic: "Large Blog Post Title 2",
     description:
       "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
