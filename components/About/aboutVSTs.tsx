@@ -3,23 +3,23 @@ import { Button } from "@/components/ui/button";
 import Link from "next/link";
 
 const AboutVSTs: React.FC = () => {
-  const [posts, setPosts] = useState([]);
+  const [images, setImages] = useState([]);
 
   useEffect(() => {
-    // Fetch posts from Instagram API
-    fetchInstagramPosts();
+    // Fetch images from Unsplash API
+    fetchImages();
   }, []);
 
-  const fetchInstagramPosts = async () => {
+  const fetchImages = async () => {
     try {
-      // Fetch posts from Instagram API
+      // Fetch images from Unsplash API
       const response = await fetch(
-        "https://graph.instagram.com/me/media?fields=id,caption,media_type,media_url,thumbnail_url&access_token=YOUR_ACCESS_TOKEN"
+        "https://api.unsplash.com/photos/random?count=5&client_id=YOUR_UNSPLASH_CLIENT_ID"
       );
       const data = await response.json();
-      setPosts(data.data);
+      setImages(data);
     } catch (error) {
-      console.error("Error fetching Instagram posts:", error);
+      console.error("Error fetching images:", error);
     }
   };
 
@@ -48,14 +48,14 @@ const AboutVSTs: React.FC = () => {
           </Button>
         </div>
       </div>
-      {/* Display Instagram posts */}
+      {/* Display images */}
       <div>
-        <h2>Instagram Feed</h2>
+        <h2>Test Images</h2>
         <div>
-          {posts.map((post) => (
-            <div key={post.id}>
-              <img src={post.media_url} alt={post.caption} />
-              <p>{post.caption}</p>
+          {images.map((image) => (
+            <div key={image.id}>
+              <img src={image.urls.small} alt={image.alt_description} />
+              <p>{image.alt_description}</p>
             </div>
           ))}
         </div>
