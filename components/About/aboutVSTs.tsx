@@ -16,7 +16,7 @@ const AboutVSTs: React.FC = () => {
         <p className="text-sm font-normal">Why Do Musicians Love VSTs</p>
       </div>
       <div className="md:min-h-screen flex py-7 w-full">
-        <div className="flex-1 bg-[#000000] text-primary-foreground p-8 flex flex-col justify-center skew-left">
+        {/* <div className="flex-1 bg-[#000000] text-primary-foreground p-8 flex flex-col justify-center skew-left">
           <h1 className="text-4xl font-bold mb-4 text-center">
             {aboutContent.headText}
           </h1>
@@ -37,7 +37,7 @@ const AboutVSTs: React.FC = () => {
               <Link href="/hub/keysrig/gear">Gear Needed</Link>
             </Button>
           </div>
-        </div>
+        </div> */}
         <div className="flex-1 relative skew-right md:flex hidden">
           <div className="absolute inset-0 bg-black opacity-20"></div>
           <img

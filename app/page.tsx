@@ -14,7 +14,7 @@ export default function Home() {
         <Navbar />
         <Header />
         <Introductory />
-        {/* <AboutVSTs /> */}
+        <AboutVSTs />
         <About />
         <CollaborationSection />
         <BlogSection />
