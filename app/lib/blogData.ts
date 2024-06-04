@@ -99,7 +99,7 @@ export const blogIntro = [
   },
   {
     imageUrl:
-      "https://media.istockphoto.com/id/905516240/photo/recording-rap.jpg?s=612x612&w=0&k=20&c=Im9MqG1FIkvaUC1UDjVoW3PXG1HlA403VvWw4KzUrjI=",
+      "https://www.shutterstock.com/image-photo/cheerful-young-african-american-bloggers-600nw-1335288572.jpg",
     topic: "Large Blog Post Title 3",
     description:
       "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
