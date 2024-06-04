@@ -26,7 +26,7 @@ export const smallBlogData = [
     excerpt:
       "This is an example blog post excerpt for the small blog posts. Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
     image:
-      "https://github.blog/wp-content/uploads/2024/04/keyboard-shortcuts.png?resize=800%2C425",
+      "https://img.freepik.com/premium-photo/black-woman-vocalist-recording-song-playing-guitar-home-studio_178151-934.jpg",
   },
   {
     title: "Small Blog Post Title",
@@ -52,7 +52,7 @@ export const smallBlogData = [
     excerpt:
       "This is an example blog post excerpt for the small blog posts. Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
     image:
-      "https://lh3.googleusercontent.com/proxy/czTEIp7HXPeeruxP9_eJDSY7wjThNiB3fyRVKC6qANTxFhRUh6q9HXY5rF46kEdJByA94qvrACPPE7RJxJsbczg8BLQrv_zWHJrT03HvPZ12Wx8R-oDO1JaIeUgc6e_aBK2_",
+      "https://img.freepik.com/premium-photo/happy-black-lady-buying-things-online-using-smartphone-credit-card-shopping-internet-while-sitting-home_116547-26008.jpg",
   },
   {
     title: "Small Blog Post Title",
