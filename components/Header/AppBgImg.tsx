@@ -6,7 +6,7 @@ const AppBgImg: React.FC = () => {
   return (
     <div style={{ width: "100%", height: "100vh", overflow: "hidden" }}>
       <Image
-        src={bgImage}
+        src="https://thumbs.dreamstime.com/b/smiling-young-black-girl-listening-to-music-headset-closeup-portrait-happy-wireless-closed-eyes-excited-kid-enjoying-214569394.jpg"
         placeholder="blur"
         quality={100}
         fill
