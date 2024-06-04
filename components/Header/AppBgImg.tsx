@@ -1,6 +1,6 @@
 import React from "react";
 import Image from "next/image";
-import bgImage from "@/public/header_bg.png";
+import bgImage from "@/public/black-girl.webp";
 
 const AppBgImg: React.FC = () => {
   return (
@@ -10,7 +10,7 @@ const AppBgImg: React.FC = () => {
         placeholder="blur"
         quality={100}
         fill
-        sizes="100vw"
+        sizes="10vw"
         style={{
           objectFit: "cover",
           zIndex: -1,
