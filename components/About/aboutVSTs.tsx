@@ -41,9 +41,9 @@ const AboutVSTs: React.FC = () => {
         <div className="flex-1 relative skew-right md:flex hidden">
           <div className="absolute inset-0 bg-black opacity-20"></div>
           <img
-            src="https://png.pngtree.com/png-clipart/20220719/original/pngtree-recording-studio-isometric-music-sound-png-image_8369287.png"
+            src="https://thumbs.dreamstime.com/b/smiling-young-black-girl-listening-to-music-headset-closeup-portrait-happy-wireless-closed-eyes-excited-kid-enjoying-214569394.jpg"
             alt="Background"
-            className="object-cover h-full w-full"
+            className=""
           />
         </div>
       </div>
