@@ -1,82 +1,118 @@
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import {
+  faFacebook,
+  faTwitter,
+  faInstagram,
+} from "@fortawesome/free-brands-svg-icons";
 
-const Footer: React.FC = () => {
+const Footer = () => {
   return (
-    <footer className="bg-black text-white py-8">
-      <div className="container mx-auto px-4">
-        <div className="flex flex-wrap justify-between items-center">
-          <div className="w-full md:w-auto mb-6 md:mb-0">
-            <h2 className="text-lg font-bold">LOGO</h2>
-            <p className="text-sm">SLOGAN COMPANY</p>
+    <footer
+      id="footer"
+      className="footer bg-[#2a2c2e] text-white py-10 md:py-20 text-lg font-serif"
+    >
+      <div className="footer-primary container mx-auto mb-10">
+        <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
+          <div className="column1">
+            <span className="footer-column-headline headline-shop-service">
+              Shop &amp; service
+            </span>
+            <ul className="text-base">
+              <li className="mb-2">
+                <a href="/en/shop-information/">Shop info &amp; faq</a>
+              </li>
+              <li className="mb-2">
+                <a href="https://www.native-instruments.com/en/my-account/">
+                  My account &amp; order history
+                </a>
+              </li>
+              <li className="mb-2">
+                <a href="/en/company/resellers/">Find a dealer</a>
+              </li>
+              <li className="mb-2">
+                <a href="/en/specials/native-access-2/">Native Access</a>
+              </li>
+            </ul>
+            <span>
+              <a
+                className="freeshipping country-gh"
+                href="/en/shop-information/shipping-fees-payment/"
+              >
+                <span className="freeshipping__text">Free shipping*</span>
+                <span className="freeshipping__logos"></span>
+              </a>
+            </span>
           </div>
-          <div className="flex flex-wrap justify-center md:justify-end w-full md:w-auto space-x-8">
-            <div className="space-y-2">
-              <a href="#" className="text-sm block">
-                WEEBLY THEMES
-              </a>
-              <a href="#" className="text-sm block">
-                PRE-SALE FAQS
-              </a>
-              <a href="#" className="text-sm block">
-                SUBMIT A TICKET
-              </a>
-            </div>
-            <div className="space-y-2">
-              <a href="#" className="text-sm block">
-                SERVICES
-              </a>
-              <a href="#" className="text-sm block">
-                THEME TWEAK
-              </a>
-            </div>
-            <div className="space-y-2">
-              <a href="#" className="text-sm block">
-                SHOWCASE
-              </a>
-              <a href="#" className="text-sm block">
-                WIDGETKIT
-              </a>
-              <a href="#" className="text-sm block">
-                SUPPORT
-              </a>
-            </div>
-            <div className="space-y-2">
-              <a href="#" className="text-sm block">
-                ABOUT US
-              </a>
-              <a href="#" className="text-sm block">
-                CONTACT US
-              </a>
-              <a href="#" className="text-sm block">
-                AFFILIATES
-              </a>
-              <a href="#" className="text-sm block">
-                RESOURCES
-              </a>
-            </div>
+          <div className="column2">
+            <span className="footer-column-headline hidden md:block">
+              Connect with us
+            </span>
+            <ul className="flex items-center">
+              <li className="mr-4">
+                <a href="#" className="text-white">
+                  <FontAwesomeIcon icon={faFacebook} />
+                </a>
+              </li>
+              <li className="mr-4">
+                <a href="#" className="text-white">
+                  <FontAwesomeIcon icon={faTwitter} />
+                </a>
+              </li>
+              <li>
+                <a href="#" className="text-white">
+                  <FontAwesomeIcon icon={faInstagram} />
+                </a>
+              </li>
+            </ul>
+            <span className="footer-column-headline headline-newsletter">
+              Newsletter subscription
+            </span>
+            <ul className="newsletter-container text-base">
+              <li>{/* Newsletter form goes here */}</li>
+            </ul>
+          </div>
+          <div className="column3">
+            <span className="footer-column-headline">Company</span>
+            <ul className="text-base">
+              <li className="mb-2">
+                <a href="https://blog.native-instruments.com/">Blog</a>
+              </li>
+              <li className="mb-2">
+                <a href="/en/company/">Corporate info</a>
+              </li>
+              <li className="mb-2">
+                <a href="/en/company/ni-locations/">Contact us</a>
+              </li>
+              <li className="mb-2">
+                <a href="/en/careers/">Careers</a>
+              </li>
+              <li className="mb-2">
+                <a href="/en/press-area/">Press area</a>
+              </li>
+              <li className="mb-2">
+                <a href="/en/company/education-program/">Education</a>
+              </li>
+            </ul>
           </div>
         </div>
-        <hr className="my-6 border-gray-700" />
-        <div className="flex justify-center space-x-4">
-          <a href="#" className="text-xl">
-            <FontAwesomeIcon icon={["fab", "facebook"]} />
-          </a>
-          <a href="#" className="text-xl">
-            <FontAwesomeIcon icon={["fab", "twitter"]} />
-          </a>
-          <a href="#" className="text-xl">
-            <FontAwesomeIcon icon={["fab", "rss"]} />
-          </a>
-          <a href="#" className="text-xl">
-            <FontAwesomeIcon icon={["fab", "google-plus"]} />
-          </a>
-          <a href="#" className="text-xl">
-            <FontAwesomeIcon icon="ellipsis-h" />
-          </a>
+      </div>
+
+      <div className="footer-secondary bg-[#333] pt-4 pb-2 text-sm">
+        <div className="container-fluid mx-auto">
+          <ul className="text-center">
+            <li className="inline-block mr-6">&copy; 2024 Keys Rig GmbH</li>
+            <li className="inline-block mr-6">
+              <a href="/en/company/legal-information/">Legal Information</a> |{" "}
+              <a href="/en/company/legal-information/privacy-policy/">
+                Privacy Policy
+              </a>
+              <span data-cookie-consent-toggle="" className="hide">
+                | <a href="#">Manage Cookies</a>
+              </span>{" "}
+              | <a href="/en/company/ni-locations/">Contact</a>
+            </li>
+          </ul>
         </div>
-        <p className="text-center text-sm mt-6">
-          ©Copyright. All rights reserved.
-        </p>
       </div>
     </footer>
   );
