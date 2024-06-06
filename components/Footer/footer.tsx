@@ -96,24 +96,6 @@ const Footer = () => {
           </div>
         </div>
       </div>
-
-      <div className="footer-secondary bg-[#333] pt-4 pb-2 text-sm">
-        <div className="container-fluid mx-auto">
-          <ul className="text-center">
-            <li className="inline-block mr-6">&copy; 2024 Keys Rig GmbH</li>
-            <li className="inline-block mr-6">
-              <a href="/en/company/legal-information/">Legal Information</a> |{" "}
-              <a href="/en/company/legal-information/privacy-policy/">
-                Privacy Policy
-              </a>
-              <span data-cookie-consent-toggle="" className="hide">
-                | <a href="#">Manage Cookies</a>
-              </span>{" "}
-              | <a href="/en/company/ni-locations/">Contact</a>
-            </li>
-          </ul>
-        </div>
-      </div>
     </footer>
   );
 };
