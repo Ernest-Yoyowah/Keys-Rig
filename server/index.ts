@@ -1,6 +1,6 @@
 import express from "express";
 import next from "next";
-import connectMongoDB from "./mongodb";
+import connectMongoDB from "./lib/mongodb";
 
 const dev = process.env.NODE_ENV !== "production";
 const app = next({ dev });
