@@ -4,7 +4,7 @@ import React from "react";
 
 const CollaborationSection = () => {
   return (
-    <section className="bg-gray-100 py-12 w-full">
+    <section className="bg-[#262644] py-12 w-full text-white">
       <div className="container mx-auto px-4">
         <h1 className="head-text_1 text-center mb-8">
           Join Our Collaborative Community
