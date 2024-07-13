@@ -3,6 +3,7 @@ import {
   faFacebook,
   faTwitter,
   faInstagram,
+  faYoutube,
 } from "@fortawesome/free-brands-svg-icons";
 
 const Footer = () => {
@@ -15,37 +16,35 @@ const Footer = () => {
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
           <div className="column1">
             <span className="footer-column-headline headline-shop-service">
-              Shop &amp; service
+              Shop &amp; Service
             </span>
             <ul className="text-base">
               <li className="mb-2">
-                <a href="/en/shop-information/">Shop info &amp; faq</a>
+                <a href="/shop-information/">Shop Info &amp; FAQ</a>
               </li>
               <li className="mb-2">
-                <a href="https://www.native-instruments.com/en/my-account/">
-                  My account &amp; order history
-                </a>
+                <a href="/my-account/">My Account &amp; Order History</a>
               </li>
               <li className="mb-2">
-                <a href="/en/company/resellers/">Find a dealer</a>
+                <a href="/dealers/">Find a Dealer</a>
               </li>
               <li className="mb-2">
-                <a href="/en/specials/native-access-2/">Native Access</a>
+                <a href="/native-access/">Native Access</a>
               </li>
             </ul>
             <span>
               <a
                 className="freeshipping country-gh"
-                href="/en/shop-information/shipping-fees-payment/"
+                href="/shipping-fees-payment/"
               >
-                <span className="freeshipping__text">Free shipping*</span>
+                <span className="freeshipping__text">Free Shipping*</span>
                 <span className="freeshipping__logos"></span>
               </a>
             </span>
           </div>
           <div className="column2">
             <span className="footer-column-headline hidden md:block">
-              Connect with us
+              Connect with Us
             </span>
             <ul className="flex items-center">
               <li className="mr-4">
@@ -58,14 +57,19 @@ const Footer = () => {
                   <FontAwesomeIcon icon={faTwitter} />
                 </a>
               </li>
-              <li>
+              <li className="mr-4">
                 <a href="#" className="text-white">
                   <FontAwesomeIcon icon={faInstagram} />
                 </a>
               </li>
+              <li>
+                <a href="#" className="text-white">
+                  <FontAwesomeIcon icon={faYoutube} />
+                </a>
+              </li>
             </ul>
             <span className="footer-column-headline headline-newsletter">
-              Newsletter subscription
+              Newsletter Subscription
             </span>
             <ul className="newsletter-container text-base">
               <li>{/* Newsletter form goes here */}</li>
@@ -75,22 +79,22 @@ const Footer = () => {
             <span className="footer-column-headline">Company</span>
             <ul className="text-base">
               <li className="mb-2">
-                <a href="https://blog.native-instruments.com/">Blog</a>
+                <a href="/blog/">Blog</a>
               </li>
               <li className="mb-2">
-                <a href="/en/company/">Corporate info</a>
+                <a href="/company/">Corporate Info</a>
               </li>
               <li className="mb-2">
-                <a href="/en/company/ni-locations/">Contact us</a>
+                <a href="/contact/">Contact Us</a>
               </li>
               <li className="mb-2">
-                <a href="/en/careers/">Careers</a>
+                <a href="/careers/">Careers</a>
               </li>
               <li className="mb-2">
-                <a href="/en/press-area/">Press area</a>
+                <a href="/press/">Press Area</a>
               </li>
               <li className="mb-2">
-                <a href="/en/company/education-program/">Education</a>
+                <a href="/education/">Education</a>
               </li>
             </ul>
           </div>
@@ -100,16 +104,14 @@ const Footer = () => {
       <div className="footer-secondary bg-[#333] pt-4 pb-2 text-sm">
         <div className="container-fluid mx-auto">
           <ul className="text-center">
-            <li className="inline-block mr-6">&copy; 2024 Keys Rig GmbH</li>
+            <li className="inline-block mr-6">&copy; 2024 Music Tech</li>
             <li className="inline-block mr-6">
-              <a href="/en/company/legal-information/">Legal Information</a> |{" "}
-              <a href="/en/company/legal-information/privacy-policy/">
-                Privacy Policy
-              </a>
+              <a href="/legal-information/">Legal Information</a> |{" "}
+              <a href="/privacy-policy/">Privacy Policy</a>
               <span data-cookie-consent-toggle="" className="hide">
                 | <a href="#">Manage Cookies</a>
               </span>{" "}
-              | <a href="/en/company/ni-locations/">Contact</a>
+              | <a href="/contact/">Contact</a>
             </li>
           </ul>
         </div>
