@@ -6,7 +6,7 @@ const CollaborationSection = () => {
   return (
     <section className="bg-[#262644] py-12 w-full text-white">
       <div className="container mx-auto px-4">
-        <h1 className="head-text_1 text-center mb-8 text-white">
+        <h1 className="font-bold text-4xl text-center mb-8 text-white">
           Join Our Collaborative Community
         </h1>
         <div className="flex justify-center items-center pb-10">
@@ -16,7 +16,7 @@ const CollaborationSection = () => {
           />
         </div>
         <div className="max-w-3xl mx-auto">
-          <p className="text-gray-700 mb-8 text-center">
+          <p className="text-white mb-8 text-center">
             {instrumentalistsTextContent.paragraphText}
           </p>
           <div className="link_text text-center">
