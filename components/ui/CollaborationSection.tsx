@@ -19,7 +19,7 @@ const CollaborationSection = () => {
           <p className="text-white mb-8 text-center">
             {instrumentalistsTextContent.paragraphText}
           </p>
-          <div className="text-[#66b2ff] text-center">
+          <div className="link_text text-center">
             <Link href="/hub/instrumentMarket/meet-instrumentalists">
               Meet Instrumentalists
             </Link>
