@@ -135,7 +135,7 @@ const Footer = () => {
         </div>
 
         <div className="border-t border-gray-700 pt-6 text-center text-sm text-gray-400">
-          <p>&copy; 2024 Music Tech. All rights reserved.</p>
+          <p>&copy; 2024 Keys Rig GmbH. All rights reserved.</p>
           <p>
             <a href="/legal-information/" className="hover:underline">
               Legal Information
