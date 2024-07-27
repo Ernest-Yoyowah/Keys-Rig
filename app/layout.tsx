@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import "@/styles/globals.css";
 import { inter } from "./ui/fonts";
+import { ThemeProvider } from "@/components/theme-provider";
 import Footer from "@/components/Footer/footer";
 
 export const metadata: Metadata = {
@@ -23,7 +24,14 @@ export default function RootLayout({
         <link rel="icon" href="/favicon.ico" sizes="any" />
       </head>
       <body className={`${inter.className} antialiased`}>
+        {/* <ThemeProvider
+          attribute="class"
+          defaultTheme="light"
+          enableSystem
+          disableTransitionOnChange
+        > */}
         {children}
+        {/* </ThemeProvider> */}
         <Footer />
       </body>
     </html>
