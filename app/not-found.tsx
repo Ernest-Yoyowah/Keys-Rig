@@ -5,6 +5,7 @@ import Link from "next/link";
 export default function NotFound() {
   return (
     <>
+      <Navbar />
       <div className="bg-gray-800 py-12 text-center text-white">
         <div className="container mx-auto">
           <h1 className="text-3xl font-semibold">Not Found</h1>

@@ -24,14 +24,7 @@ export default function RootLayout({
         <link rel="icon" href="/favicon.ico" sizes="any" />
       </head>
       <body className={`${inter.className} antialiased`}>
-        {/* <ThemeProvider
-          attribute="class"
-          defaultTheme="light"
-          enableSystem
-          disableTransitionOnChange
-        > */}
         {children}
-        {/* </ThemeProvider> */}
         <Footer />
       </body>
     </html>
