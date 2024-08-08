@@ -1,7 +1,5 @@
 "use client";
-
 import * as React from "react";
-
 import { AlignRight, X } from "lucide-react";
 import SideNav from "@/app/ui/navbar/sidenav";
 import DesktopNav from "@/app/ui/navbar/desktop-nav";
