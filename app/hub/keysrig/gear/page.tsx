@@ -12,7 +12,7 @@ const GearPage = () => {
   return (
     <>
       <PageHeader
-        imageUrl="https://americansongwriter.com/wp-content/uploads/2023/01/midi-stands.jpg?fit=2000%2C800"
+        imageUrl="https://flypaper.soundfly.com/wp-content/uploads/2018/04/roli-seaboard-facebook.jpg"
         altText="Header Background"
         mainHeading={gearTextContent.title}
         subHeading={gearTextContent.subtitle}
