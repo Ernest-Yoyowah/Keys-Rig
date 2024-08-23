@@ -3,7 +3,6 @@ import { NextPage } from "next";
 import { Metadata } from "next";
 import Loading from "./loading";
 import { smallBlogData, contentBlogData, largeBlogData } from "../lib/blogData";
-// import {  } from "../lib/blogData";
 
 export const metadata: Metadata = {
   title:
