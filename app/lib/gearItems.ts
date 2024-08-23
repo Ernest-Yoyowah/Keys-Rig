@@ -1,4 +1,4 @@
-export const gearItems = [
+const gearItems = [
   {
     name: "Laptop",
     image:
@@ -61,8 +61,10 @@ export const gearItems = [
   },
 ];
 
-export const gearTextContent = {
+const gearTextContent = {
   title: "Gear & Software",
   subtitle:
     "One of the hardest parts of being a worship keys player is choosing which gear to buy when building your keyboard rig.",
 };
+
+export { gearItems, gearTextContent };
