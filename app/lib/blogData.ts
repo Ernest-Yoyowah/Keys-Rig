@@ -1,4 +1,4 @@
-export const largeBlogData = [
+const largeBlogData = [
   {
     title: "Large Blog Post Title 1",
     author: "John Doe",
@@ -14,11 +14,12 @@ export const largeBlogData = [
     date: "April 22, 2024",
     excerpt:
       "This is an example blog post excerpt for the large blog post. Lorem ipsum dolor sit, consectetur adipiscing elit. Nullam sit amet lorem eu mauris fermentum malesuada. Aliquam posuere auctor justo, ac sagittis enim interdum in.",
-    image: "https://wemakestuff.co/wp-content/uploads/2018/05/coffee.jpg",
+    image:
+      "https://www.hubspot.com/hs-fs/hubfs/how-to-start-coding-1.jpg?width=595&height=400&name=how-to-start-coding-1.jpg",
   },
 ];
 
-export const smallBlogData = [
+const smallBlogData = [
   {
     title: "Small Blog Post Title",
     author: "John Doe",
@@ -74,13 +75,13 @@ export const smallBlogData = [
   },
 ];
 
-export const contentBlogData = {
+const contentBlogData = {
   headText: "Welcome to the Blog",
   subHeadText:
     "Explore insightful articles and resources about keyboard rigs and music production.",
 };
 
-export const blogIntro = [
+const blogIntro = [
   {
     imageUrl:
       "https://cdn.pixabay.com/photo/2020/04/15/14/45/microphone-5046876_1280.jpg",
@@ -106,3 +107,5 @@ export const blogIntro = [
     blogLink: "/article3",
   },
 ];
+
+export { largeBlogData, smallBlogData, contentBlogData, blogIntro };
