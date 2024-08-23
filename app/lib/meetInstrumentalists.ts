@@ -1,4 +1,4 @@
-export const instrumentalists = [
+const instrumentalists = [
   {
     id: 1,
     name: "John Doe",
@@ -49,8 +49,10 @@ export const instrumentalists = [
   },
 ];
 
-export const instrumentalistsTextContent = {
+const instrumentalistsTextContent = {
   headText: "Meet Instrumentalist",
   paragraphText:
     "Connect with talented musicians for gigs, collaborations, and more. Whether you're looking to hire a musician for your event or want to collaborate on a project, you'll find the perfect match here.",
 };
+
+export { instrumentalists, instrumentalistsTextContent };
