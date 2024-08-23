@@ -1,4 +1,4 @@
-export const products = [
+const products = [
   {
     id: 1,
     name: "SYNTHAGE v1.4 (KONTAKT)",
@@ -36,3 +36,5 @@ export const products = [
       "https://img.lazcdn.com/g/p/5c7193e6c4e234582b7a33bc9f38b160.jpg_720x720q80.jpg",
   },
 ];
+
+export { products };
