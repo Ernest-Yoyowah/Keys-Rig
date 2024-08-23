@@ -1,4 +1,4 @@
-export const buildRigTextContent = {
+const buildRigTextContent = {
   title: "Build Your Own Keys Rig",
   subtitle: "Step-by-step guide to assembling your perfect keys rig.",
   faqTitle: "Frequently Asked Questions",
@@ -34,7 +34,7 @@ export const buildRigTextContent = {
   ],
 };
 
-export const benefitsOfRig = {
+const benefitsOfRig = {
   headText: "Why Build a Worship Rig or Use VSTs?  ",
   benefits: [
     "Won’t have to spend lots of money on a quality keyboard.",
@@ -44,7 +44,7 @@ export const benefitsOfRig = {
   ],
 };
 
-export const buildRigFAQs = [
+const buildRigFAQs = [
   {
     question: "What is a virtual rig?",
     answer: buildRigTextContent.faq_1,
@@ -58,3 +58,5 @@ export const buildRigFAQs = [
     answer: buildRigTextContent.faq_3,
   },
 ];
+
+export { buildRigTextContent, benefitsOfRig, buildRigFAQs };
