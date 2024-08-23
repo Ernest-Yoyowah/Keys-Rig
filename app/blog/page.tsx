@@ -2,8 +2,8 @@ import React, { Suspense } from "react";
 import { NextPage } from "next";
 import { Metadata } from "next";
 import Loading from "./loading";
-import { contentBlogData, largeBlogData } from "../lib/blogData";
-import { smallBlogData } from "../lib/blogData";
+import { smallBlogData, contentBlogData, largeBlogData } from "../lib/blogData";
+// import {  } from "../lib/blogData";
 
 export const metadata: Metadata = {
   title:
