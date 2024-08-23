@@ -1,4 +1,4 @@
-export const rigTour = [
+const rigTour = [
   {
     url: "https://www.youtube.com/embed/neNbVMelMcQ",
     name: "Worship Rig Tour - Piano & Keys Gear",
@@ -32,3 +32,5 @@ export const rigTour = [
     name: "Sunday Keys - Piano & Keys Gear",
   },
 ];
+
+export { rigTour };
