@@ -1,4 +1,4 @@
-export const marketSections = [
+const marketSections = [
   {
     title: "Rentals",
     description:
@@ -25,8 +25,9 @@ export const marketSections = [
   },
 ];
 
-export const marketTextContent = {
+const marketTextContent = {
   title: "Instrument Market",
   subtitle:
     "Welcome to our instrument market! Browse through listings to buy or sell musical instruments and equipment. Connect with other musicians, collaborate on projects, and find your next favorite gear!",
 };
+export { marketSections, marketTextContent };
