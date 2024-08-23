@@ -1,5 +1,5 @@
 // Sample data for featured plugins
-export const featuredPlugins = [
+const featuredPlugins = [
   {
     id: 1,
     name: "KOMPLETE bundles",
@@ -55,3 +55,5 @@ export const featuredPlugins = [
       "https://www.native-instruments.com/typo3temp/pics/img-tile-homepage-featured-products-kontakt-7-2-4f3a319d293692e1fa1d6fe06dcf7792-d.jpg",
   },
 ];
+
+export { featuredPlugins };
