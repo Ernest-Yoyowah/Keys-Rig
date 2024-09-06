@@ -29,7 +29,7 @@ const Featured: React.FC = () => {
                 <div className="col-image">
                   <Link
                     href={`/en/catalog/${plugin.name
-                      .toLowerCase()
+                      
                   >
                     <div className="image-container">
                       <img
