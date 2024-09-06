@@ -4,7 +4,7 @@ import Featured from "../FeaturedRig/featuredRig";
 const vstPlugins: React.FC = () => {
   return (
     <>
-      <h1>vst Plugins</h1>
+      <h1>Vst Plugins</h1>
       <Featured />
     </>
   );
