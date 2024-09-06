@@ -28,7 +28,7 @@ const Featured: React.FC = () => {
               <div className="col-container">
                 <div className="col-image">
                   <Link
-                    href={`/en/catalog`}
+                    href="/"
                   >
                     <div className="image-container">
                       <img
