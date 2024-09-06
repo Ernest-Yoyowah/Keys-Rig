@@ -28,8 +28,7 @@ const Featured: React.FC = () => {
               <div className="col-container">
                 <div className="col-image">
                   <Link
-                    href={`/en/catalog/${plugin.name
-                      
+                    href={`/en/catalog
                   >
                     <div className="image-container">
                       <img
