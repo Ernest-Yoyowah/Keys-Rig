@@ -30,7 +30,6 @@ const Featured: React.FC = () => {
                   <Link
                     href={`/en/catalog/${plugin.name
                       .toLowerCase()
-                      .replace(/ /g, "-")}/`}
                   >
                     <div className="image-container">
                       <img
