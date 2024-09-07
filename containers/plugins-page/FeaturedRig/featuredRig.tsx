@@ -2,7 +2,6 @@ import Link from "next/link";
 import { Button } from "../../../components/ui/button";
 import { featuredPlugins } from "../../../app/lib/featuredPlugins";
 import React from "react";
-
 const Featured: React.FC = () => {
   return (
     <div className="text-image theme-default ce-3-pf text-left cols-3 cols-tiles md:p-20">
