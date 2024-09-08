@@ -15,7 +15,6 @@ const BlogSection: React.FC = () => {
           <h1 className="head-text_1 mb-0 text-left">Read Latest Blogs</h1>
         </div>
       </div>
-      
       <div className="flex justify-around flex-col md:flex-row">
         {blogIntro.map((blog, index) => (
           <BlogCard
