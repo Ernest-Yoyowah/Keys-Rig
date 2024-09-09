@@ -42,7 +42,6 @@ const Footer = () => {
               Free Shipping*
             </a>
           </div>
-
           <div>
             <h3 className="text-xl font-semibold mb-4">Connect with Us</h3>
             <ul className="flex space-x-4">
