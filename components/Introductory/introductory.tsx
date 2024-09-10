@@ -24,3 +24,14 @@ const Introductory: React.FC = () => {
 };
 
 export default Introductory;
+
+
+
+{
+  /* <Image
+src="background-image.svg" // Replace with the path to your image
+alt="Music Production" // Replace with appropriate alt text
+width={400} // Adjust width as needed
+height={300} // Adjust height as needed
+/> */
+}
