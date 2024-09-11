@@ -1,4 +1,4 @@
-import React from "react";
+
 import { Metadata } from "next";
 import { gearItems, gearTextContent } from "@/app/lib/gearItems";
 import PageHeader from "@/components/ui/PageHeader";
