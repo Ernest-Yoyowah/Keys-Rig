@@ -34,7 +34,7 @@ const Hero = () => {
       <div>
         <YoutubeEmbed
           videoId="neNbVMelMcQ"
-          title="Keys Gear | Sunday Keys App Setup"
+          title="Keys Rig Gear | Sunday Keys App Setup"
         />
       </div>
     </>
